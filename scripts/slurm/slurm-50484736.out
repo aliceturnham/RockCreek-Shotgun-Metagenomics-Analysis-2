@@ -1,0 +1,679 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=226349] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+Started analysis of 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Analysis complete for 20190709-RC1-AM-BOTTOM_1.fastq
+Started analysis of 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Analysis complete for 20190709-RC1-AM-BOTTOM_2.fastq
+Started analysis of 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Analysis complete for 20190709-RC7-AM-BOTTOM_1.fastq
+Started analysis of 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Analysis complete for 20190709-RC7-AM-BOTTOM_2.fastq
+Started analysis of 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Analysis complete for 20190716-RC1-AM-BOTTOM_1.fastq
+Started analysis of 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Analysis complete for 20190716-RC1-AM-BOTTOM_2.fastq
+Started analysis of 20190716-RC1-AM-TOP_1.fastq
+Approx 5% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 10% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 15% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 20% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 25% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 30% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 35% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 40% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 45% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 50% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 55% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 60% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 65% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 70% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 75% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 80% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 85% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 90% complete for 20190716-RC1-AM-TOP_1.fastq
+Approx 95% complete for 20190716-RC1-AM-TOP_1.fastq
+Analysis complete for 20190716-RC1-AM-TOP_1.fastq
+Started analysis of 20190716-RC1-AM-TOP_2.fastq
+Approx 5% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 10% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 15% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 20% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 25% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 30% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 35% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 40% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 45% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 50% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 55% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 60% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 65% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 70% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 75% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 80% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 85% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 90% complete for 20190716-RC1-AM-TOP_2.fastq
+Approx 95% complete for 20190716-RC1-AM-TOP_2.fastq
+Analysis complete for 20190716-RC1-AM-TOP_2.fastq
+Started analysis of 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Analysis complete for 20190716-RC2-AM-BOTTOM_1.fastq
+Started analysis of 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Analysis complete for 20190716-RC2-AM-BOTTOM_2.fastq
+Started analysis of 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Analysis complete for 20190716-RC7-AM-BOTTOM_1.fastq
+Started analysis of 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Analysis complete for 20190716-RC7-AM-BOTTOM_2.fastq
+Started analysis of 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Approx 100% complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Analysis complete for 20190716-RC9-AM-BOTTOM_1.fastq
+Started analysis of 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Approx 100% complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Analysis complete for 20190716-RC9-AM-BOTTOM_2.fastq
+Started analysis of 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Analysis complete for 20190723-RC1-AM-BOTTOM_1.fastq
+Started analysis of 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Analysis complete for 20190723-RC1-AM-BOTTOM_2.fastq
+Started analysis of 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Analysis complete for 20190723-RC2-AM-BOTTOM_1.fastq
+Started analysis of 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Analysis complete for 20190723-RC2-AM-BOTTOM_2.fastq
+Started analysis of 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Analysis complete for 20190723-RC7-AM-BOTTOM_1.fastq
+Started analysis of 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Analysis complete for 20190723-RC7-AM-BOTTOM_2.fastq
+Started analysis of 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Analysis complete for 20190723-RC9-AM-BOTTOM_1.fastq
+Started analysis of 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Analysis complete for 20190723-RC9-AM-BOTTOM_2.fastq
+Started analysis of 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Approx 100% complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Analysis complete for 20190730-RC1-AM-BOTTOM_1.fastq
+Started analysis of 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Approx 100% complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Analysis complete for 20190730-RC1-AM-BOTTOM_2.fastq
+Started analysis of 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 5% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 10% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 15% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 20% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 25% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 30% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 35% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 40% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 45% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 50% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 55% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 60% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 65% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 70% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 75% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 80% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 85% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 90% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Approx 95% complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Analysis complete for 20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+Started analysis of 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 5% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 10% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 15% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 20% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 25% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 30% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 35% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 40% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 45% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 50% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 55% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 60% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 65% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 70% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 75% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 80% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 85% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 90% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Approx 95% complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Analysis complete for 20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+Started analysis of 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Analysis complete for 20190730-RC7-AM-BOTTOM_1.fastq
+Started analysis of 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Analysis complete for 20190730-RC7-AM-BOTTOM_2.fastq
+Started analysis of 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 5% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 10% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 15% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 20% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 25% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 30% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 35% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 40% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 45% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 50% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 55% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 60% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 65% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 70% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 75% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 80% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 85% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 90% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Approx 95% complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Analysis complete for 20190730-RC9-AM-BOTTOM_1.fastq
+Started analysis of 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 5% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 10% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 15% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 20% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 25% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 30% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 35% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 40% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 45% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 50% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 55% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 60% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 65% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 70% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 75% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 80% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 85% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 90% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Approx 95% complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Analysis complete for 20190730-RC9-AM-BOTTOM_2.fastq
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq

@@ -9,7 +9,7 @@
 module load trimmomatic/0.38
 
 #import run specific variables
-source /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/config_files/trimmer.config
+source /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/config_files/trimmer_zymo.config
 
 #choose the fastq file to work on
 FWD_FQ=`awk "NR==$SLURM_ARRAY_TASK_ID" $sample`

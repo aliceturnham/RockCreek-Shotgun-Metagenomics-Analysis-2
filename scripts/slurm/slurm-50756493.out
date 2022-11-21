@@ -1,0 +1,833 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=424120] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+metawrap read_qc -1 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq -2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq -t 24 -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC --skip-bmtagger
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC already exists.
+
+########################################################################################################################
+#####                                             MAKING PRE-QC REPORT                                             #####
+########################################################################################################################
+
+mkdir: cannot create directory ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/pre-QC_report’: File exists
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            pre-qc report saved to:                                           -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/pre-QC_report-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                              RUNNING TRIM-GALORE                                             #####
+########################################################################################################################
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.18
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	868870	CTGTCTCTTATA	1000000	86.89
+smallRNA	9	TGGAATTCTCGG	1000000	0.00
+Illumina	9	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 868870). Second best hit was smallRNA (count: 9)
+
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to 20190709-RC1-AM-BOTTOM_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 27.82 s (16 us/read; 3.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               1,721,566
+Reads with adapters:                 1,602,490 (93.1%)
+Reads written (passing filters):     1,721,566 (100.0%)
+
+Total basepairs processed:   516,469,800 bp
+Quality-trimmed:             158,416,073 bp (30.7%)
+Total written (filtered):    235,231,727 bp (45.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1602490 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 10.6%
+  C: 44.0%
+  G: 24.9%
+  T: 20.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	42365	430391.5	0	42365
+2	10302	107597.9	0	10302
+3	2881	26899.5	0	2881
+4	1787	6724.9	0	1787
+5	1810	1681.2	0	1810
+6	954	420.3	0	954
+7	866	105.1	0	866
+8	1142	26.3	0	1142
+9	2798	6.6	0	2773 25
+10	2447	1.6	1	2107 340
+11	2160	0.4	1	1790 370
+12	2936	0.1	1	2530 406
+13	1933	0.1	1	1601 332
+14	3674	0.1	1	3071 603
+15	1249	0.1	1	1023 226
+16	7024	0.1	1	5909 1115
+17	2425	0.1	1	2005 420
+18	2217	0.1	1	1774 443
+19	1669	0.1	1	1432 237
+20	1725	0.1	1	1466 259
+21	8398	0.1	1	6932 1466
+22	3246	0.1	1	2897 349
+23	8509	0.1	1	7702 807
+24	941	0.1	1	800 141
+25	1172	0.1	1	1012 160
+26	2888	0.1	1	2503 385
+27	6271	0.1	1	5480 791
+28	8438	0.1	1	7715 723
+29	8455	0.1	1	7312 1143
+30	1498	0.1	1	1235 263
+31	4540	0.1	1	4022 518
+32	773	0.1	1	668 105
+33	1991	0.1	1	1766 225
+34	2040	0.1	1	1792 248
+35	1791	0.1	1	1579 212
+36	2166	0.1	1	1824 342
+37	4252	0.1	1	3823 429
+38	3579	0.1	1	3214 365
+39	894	0.1	1	771 123
+40	1431	0.1	1	1250 181
+41	5363	0.1	1	4722 641
+42	2673	0.1	1	2317 356
+43	10570	0.1	1	9877 693
+44	1328	0.1	1	1164 164
+45	1055	0.1	1	940 115
+46	1002	0.1	1	864 138
+47	2953	0.1	1	2615 338
+48	1248	0.1	1	1102 146
+49	2379	0.1	1	2165 214
+50	2069	0.1	1	1878 191
+51	2899	0.1	1	2565 334
+52	1036	0.1	1	891 145
+53	1328	0.1	1	1150 178
+54	4139	0.1	1	3670 469
+55	2397	0.1	1	2072 325
+56	1549	0.1	1	1334 215
+57	1876	0.1	1	1670 206
+58	1709	0.1	1	1510 199
+59	2833	0.1	1	2531 302
+60	2865	0.1	1	2565 300
+61	4192	0.1	1	3742 450
+62	1385	0.1	1	1222 163
+63	2076	0.1	1	1849 227
+64	2423	0.1	1	2169 254
+65	6152	0.1	1	5661 491
+66	2706	0.1	1	2496 210
+67	1868	0.1	1	1723 145
+68	2354	0.1	1	2146 208
+69	3807	0.1	1	3402 405
+70	4845	0.1	1	4357 488
+71	5111	0.1	1	4685 426
+72	7245	0.1	1	6764 481
+73	10691	0.1	1	10073 618
+74	19070	0.1	1	18158 912
+75	37500	0.1	1	35954 1546
+76	436476	0.1	1	429769 6707
+77	283202	0.1	1	279023 4179
+78	105496	0.1	1	103674 1822
+79	55753	0.1	1	54722 1031
+80	33532	0.1	1	32855 677
+81	28286	0.1	1	27703 583
+82	25311	0.1	1	24836 475
+83	21613	0.1	1	21154 459
+84	19656	0.1	1	19275 381
+85	18995	0.1	1	18680 315
+86	18138	0.1	1	17840 298
+87	16025	0.1	1	15740 285
+88	14051	0.1	1	13800 251
+89	12281	0.1	1	12074 207
+90	9773	0.1	1	9581 192
+91	9390	0.1	1	9194 196
+92	8822	0.1	1	8632 190
+93	7728	0.1	1	7578 150
+94	6564	0.1	1	6425 139
+95	5881	0.1	1	5772 109
+96	5040	0.1	1	4919 121
+97	4231	0.1	1	4134 97
+98	3968	0.1	1	3872 96
+99	3470	0.1	1	3394 76
+100	3224	0.1	1	3143 81
+101	2874	0.1	1	2807 67
+102	2492	0.1	1	2429 63
+103	2258	0.1	1	2216 42
+104	2037	0.1	1	1989 48
+105	2103	0.1	1	2056 47
+106	4118	0.1	1	4070 48
+107	3200	0.1	1	3155 45
+108	1890	0.1	1	1843 47
+109	1571	0.1	1	1528 43
+110	1421	0.1	1	1376 45
+111	1410	0.1	1	1376 34
+112	1288	0.1	1	1244 44
+113	1308	0.1	1	1273 35
+114	1124	0.1	1	1084 40
+115	1140	0.1	1	1096 44
+116	1021	0.1	1	981 40
+117	1057	0.1	1	1026 31
+118	1036	0.1	1	1000 36
+119	1081	0.1	1	1049 32
+120	1028	0.1	1	982 46
+121	1117	0.1	1	1088 29
+122	1029	0.1	1	1000 29
+123	965	0.1	1	937 28
+124	1000	0.1	1	964 36
+125	910	0.1	1	887 23
+126	949	0.1	1	922 27
+127	867	0.1	1	836 31
+128	805	0.1	1	776 29
+129	836	0.1	1	816 20
+130	839	0.1	1	814 25
+131	853	0.1	1	821 32
+132	785	0.1	1	755 30
+133	786	0.1	1	759 27
+134	782	0.1	1	755 27
+135	701	0.1	1	677 24
+136	633	0.1	1	606 27
+137	640	0.1	1	621 19
+138	680	0.1	1	658 22
+139	635	0.1	1	610 25
+140	697	0.1	1	672 25
+141	728	0.1	1	703 25
+142	678	0.1	1	657 21
+143	619	0.1	1	598 21
+144	695	0.1	1	675 20
+145	646	0.1	1	623 23
+146	606	0.1	1	583 23
+147	580	0.1	1	555 25
+148	577	0.1	1	556 21
+149	561	0.1	1	542 19
+150	592	0.1	1	572 20
+151	608	0.1	1	585 23
+152	601	0.1	1	580 21
+153	625	0.1	1	605 20
+154	629	0.1	1	612 17
+155	610	0.1	1	590 20
+156	539	0.1	1	519 20
+157	550	0.1	1	532 18
+158	485	0.1	1	468 17
+159	502	0.1	1	486 16
+160	474	0.1	1	457 17
+161	560	0.1	1	551 9
+162	592	0.1	1	582 10
+163	587	0.1	1	566 21
+164	570	0.1	1	552 18
+165	597	0.1	1	578 19
+166	525	0.1	1	509 16
+167	473	0.1	1	460 13
+168	474	0.1	1	459 15
+169	467	0.1	1	455 12
+170	487	0.1	1	473 14
+171	515	0.1	1	501 14
+172	520	0.1	1	504 16
+173	520	0.1	1	504 16
+174	558	0.1	1	543 15
+175	546	0.1	1	521 25
+176	541	0.1	1	530 11
+177	503	0.1	1	486 17
+178	436	0.1	1	423 13
+179	411	0.1	1	399 12
+180	477	0.1	1	463 14
+181	435	0.1	1	420 15
+182	526	0.1	1	507 19
+183	540	0.1	1	518 22
+184	567	0.1	1	550 17
+185	586	0.1	1	572 14
+186	503	0.1	1	488 15
+187	487	0.1	1	476 11
+188	437	0.1	1	421 16
+189	417	0.1	1	409 8
+190	448	0.1	1	440 8
+191	421	0.1	1	404 17
+192	519	0.1	1	502 17
+193	523	0.1	1	507 16
+194	531	0.1	1	517 14
+195	600	0.1	1	580 20
+196	518	0.1	1	507 11
+197	498	0.1	1	481 17
+198	497	0.1	1	483 14
+199	427	0.1	1	416 11
+200	411	0.1	1	398 13
+201	425	0.1	1	412 13
+202	469	0.1	1	454 15
+203	518	0.1	1	506 12
+204	492	0.1	1	475 17
+205	584	0.1	1	573 11
+206	567	0.1	1	550 17
+207	541	0.1	1	530 11
+208	475	0.1	1	468 7
+209	402	0.1	1	393 9
+210	386	0.1	1	377 9
+211	395	0.1	1	381 14
+212	451	0.1	1	439 12
+213	490	0.1	1	478 12
+214	507	0.1	1	495 12
+215	568	0.1	1	555 13
+216	553	0.1	1	533 20
+217	542	0.1	1	527 15
+218	545	0.1	1	530 15
+219	409	0.1	1	399 10
+220	388	0.1	1	381 7
+221	414	0.1	1	405 9
+222	391	0.1	1	384 7
+223	433	0.1	1	427 6
+224	495	0.1	1	485 10
+225	573	0.1	1	561 12
+226	574	0.1	1	563 11
+227	579	0.1	1	567 12
+228	573	0.1	1	558 15
+229	487	0.1	1	472 15
+230	422	0.1	1	412 10
+231	353	0.1	1	347 6
+232	350	0.1	1	342 8
+233	409	0.1	1	396 13
+234	480	0.1	1	466 14
+235	533	0.1	1	522 11
+236	566	0.1	1	558 8
+237	536	0.1	1	524 12
+238	518	0.1	1	507 11
+239	458	0.1	1	449 9
+240	419	0.1	1	404 15
+241	340	0.1	1	329 11
+242	314	0.1	1	302 12
+243	371	0.1	1	358 13
+244	497	0.1	1	478 19
+245	515	0.1	1	501 14
+246	484	0.1	1	470 14
+247	495	0.1	1	485 10
+248	441	0.1	1	431 10
+249	402	0.1	1	390 12
+250	353	0.1	1	343 10
+251	314	0.1	1	305 9
+252	305	0.1	1	293 12
+253	292	0.1	1	290 2
+254	362	0.1	1	354 8
+255	418	0.1	1	402 16
+256	413	0.1	1	403 10
+257	356	0.1	1	349 7
+258	330	0.1	1	314 16
+259	311	0.1	1	302 9
+260	268	0.1	1	261 7
+261	236	0.1	1	223 13
+262	196	0.1	1	186 10
+263	192	0.1	1	183 9
+264	225	0.1	1	215 10
+265	251	0.1	1	243 8
+266	199	0.1	1	195 4
+267	171	0.1	1	166 5
+268	144	0.1	1	137 7
+269	110	0.1	1	106 4
+270	120	0.1	1	118 2
+271	137	0.1	1	137
+272	129	0.1	1	125 4
+273	87	0.1	1	85 2
+274	21	0.1	1	19 2
+275	12	0.1	1	12
+276	19	0.1	1	18 1
+277	7	0.1	1	7
+278	2	0.1	1	2
+279	2	0.1	1	2
+280	3	0.1	1	3
+281	1	0.1	1	1
+283	1	0.1	1	1
+284	1	0.1	1	1
+285	3	0.1	1	3
+286	3	0.1	1	0 3
+290	1	0.1	1	0 1
+291	1	0.1	1	0 1
+292	1	0.1	1	0 1
+295	1	0.1	1	0 1
+296	1	0.1	1	0 1
+298	1	0.1	1	0 1
+299	1	0.1	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq
+=============================================
+1721566 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Writing final adapter and quality trimmed output to 20190709-RC1-AM-BOTTOM_2_trimmed.fq
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 28.21 s (16 us/read; 3.66 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               1,721,566
+Reads with adapters:                 1,566,120 (91.0%)
+Reads written (passing filters):     1,721,566 (100.0%)
+
+Total basepairs processed:   516,469,800 bp
+Quality-trimmed:             188,193,282 bp (36.4%)
+Total written (filtered):    228,523,279 bp (44.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1566120 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 11.0%
+  C: 43.3%
+  G: 25.0%
+  T: 20.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	83533	430391.5	0	83533
+2	13202	107597.9	0	13202
+3	5317	26899.5	0	5317
+4	2205	6724.9	0	2205
+5	3153	1681.2	0	3153
+6	638	420.3	0	638
+7	928	105.1	0	928
+8	1146	26.3	0	1146
+9	2687	6.6	0	2661 26
+10	3753	1.6	1	2975 778
+11	3512	0.4	1	3120 392
+12	2963	0.1	1	2402 561
+13	3171	0.1	1	2637 534
+14	4027	0.1	1	3118 909
+15	2904	0.1	1	2193 711
+16	13145	0.1	1	10056 3089
+17	2277	0.1	1	1765 512
+18	4490	0.1	1	3454 1036
+19	4887	0.1	1	3951 936
+20	2358	0.1	1	1915 443
+21	3240	0.1	1	2600 640
+22	7156	0.1	1	5759 1397
+23	2603	0.1	1	2084 519
+24	5111	0.1	1	4097 1014
+25	4152	0.1	1	3443 709
+26	1804	0.1	1	1421 383
+27	2622	0.1	1	2116 506
+28	7707	0.1	1	6487 1220
+29	8663	0.1	1	7091 1572
+30	7698	0.1	1	6584 1114
+31	18851	0.1	1	16478 2373
+32	11011	0.1	1	9236 1775
+33	11989	0.1	1	10585 1404
+34	38929	0.1	1	35352 3577
+35	1936	0.1	1	1568 368
+36	3569	0.1	1	2998 571
+37	19401	0.1	1	17394 2007
+38	13487	0.1	1	12312 1175
+39	7842	0.1	1	7053 789
+40	7727	0.1	1	7124 603
+41	20477	0.1	1	19154 1323
+42	16457	0.1	1	15245 1212
+43	28963	0.1	1	27385 1578
+44	9799	0.1	1	9040 759
+45	10940	0.1	1	10041 899
+46	30684	0.1	1	29196 1488
+47	9599	0.1	1	8838 761
+48	25849	0.1	1	24717 1132
+49	14078	0.1	1	13284 794
+50	15054	0.1	1	14372 682
+51	7087	0.1	1	6610 477
+52	11774	0.1	1	11227 547
+53	10457	0.1	1	9955 502
+54	12504	0.1	1	11913 591
+55	8490	0.1	1	8081 409
+56	7780	0.1	1	7300 480
+57	10396	0.1	1	9792 604
+58	6786	0.1	1	6405 381
+59	5802	0.1	1	5581 221
+60	3798	0.1	1	3586 212
+61	3839	0.1	1	3613 226
+62	5917	0.1	1	5679 238
+63	8444	0.1	1	8103 341
+64	3712	0.1	1	3531 181
+65	2995	0.1	1	2851 144
+66	1332	0.1	1	1256 76
+67	1691	0.1	1	1602 89
+68	1719	0.1	1	1617 102
+69	1495	0.1	1	1410 85
+70	2073	0.1	1	1912 161
+71	1264	0.1	1	1182 82
+72	1486	0.1	1	1397 89
+73	2001	0.1	1	1885 116
+74	3117	0.1	1	2944 173
+75	5592	0.1	1	5351 241
+76	8903	0.1	1	8597 306
+77	15423	0.1	1	14992 431
+78	31955	0.1	1	31248 707
+79	57057	0.1	1	55912 1145
+80	251592	0.1	1	248587 3005
+81	202664	0.1	1	200346 2318
+82	111491	0.1	1	110138 1353
+83	60213	0.1	1	59416 797
+84	34579	0.1	1	34053 526
+85	23479	0.1	1	23134 345
+86	16771	0.1	1	16536 235
+87	11826	0.1	1	11640 186
+88	10177	0.1	1	10019 158
+89	7766	0.1	1	7640 126
+90	6751	0.1	1	6637 114
+91	5590	0.1	1	5486 104
+92	4609	0.1	1	4529 80
+93	3702	0.1	1	3630 72
+94	3085	0.1	1	3024 61
+95	2446	0.1	1	2397 49
+96	1972	0.1	1	1936 36
+97	1538	0.1	1	1505 33
+98	1281	0.1	1	1247 34
+99	978	0.1	1	940 38
+100	822	0.1	1	796 26
+101	710	0.1	1	685 25
+102	624	0.1	1	597 27
+103	526	0.1	1	506 20
+104	460	0.1	1	439 21
+105	409	0.1	1	388 21
+106	369	0.1	1	345 24
+107	364	0.1	1	334 30
+108	309	0.1	1	285 24
+109	354	0.1	1	332 22
+110	341	0.1	1	307 34
+111	299	0.1	1	269 30
+112	282	0.1	1	257 25
+113	244	0.1	1	231 13
+114	237	0.1	1	218 19
+115	222	0.1	1	207 15
+116	228	0.1	1	210 18
+117	232	0.1	1	219 13
+118	247	0.1	1	235 12
+119	192	0.1	1	177 15
+120	237	0.1	1	223 14
+121	228	0.1	1	209 19
+122	226	0.1	1	211 15
+123	216	0.1	1	197 19
+124	212	0.1	1	197 15
+125	190	0.1	1	179 11
+126	168	0.1	1	154 14
+127	184	0.1	1	172 12
+128	172	0.1	1	161 11
+129	199	0.1	1	186 13
+130	201	0.1	1	194 7
+131	172	0.1	1	164 8
+132	211	0.1	1	197 14
+133	181	0.1	1	168 13
+134	162	0.1	1	145 17
+135	180	0.1	1	167 13
+136	148	0.1	1	137 11
+137	151	0.1	1	142 9
+138	152	0.1	1	135 17
+139	135	0.1	1	126 9
+140	171	0.1	1	161 10
+141	202	0.1	1	188 14
+142	171	0.1	1	162 9
+143	189	0.1	1	180 9
+144	157	0.1	1	149 8
+145	177	0.1	1	166 11
+146	152	0.1	1	143 9
+147	154	0.1	1	143 11
+148	154	0.1	1	148 6
+149	157	0.1	1	145 12
+150	162	0.1	1	156 6
+151	146	0.1	1	137 9
+152	156	0.1	1	143 13
+153	164	0.1	1	153 11
+154	158	0.1	1	145 13
+155	130	0.1	1	125 5
+156	142	0.1	1	131 11
+157	151	0.1	1	148 3
+158	126	0.1	1	116 10
+159	112	0.1	1	107 5
+160	169	0.1	1	159 10
+161	143	0.1	1	137 6
+162	154	0.1	1	149 5
+163	191	0.1	1	179 12
+164	157	0.1	1	150 7
+165	159	0.1	1	147 12
+166	171	0.1	1	162 9
+167	142	0.1	1	134 8
+168	140	0.1	1	135 5
+169	122	0.1	1	117 5
+170	131	0.1	1	130 1
+171	150	0.1	1	141 9
+172	166	0.1	1	157 9
+173	176	0.1	1	169 7
+174	162	0.1	1	152 10
+175	152	0.1	1	140 12
+176	136	0.1	1	131 5
+177	143	0.1	1	133 10
+178	131	0.1	1	126 5
+179	129	0.1	1	124 5
+180	104	0.1	1	99 5
+181	128	0.1	1	120 8
+182	151	0.1	1	142 9
+183	189	0.1	1	181 8
+184	178	0.1	1	166 12
+185	148	0.1	1	140 8
+186	143	0.1	1	134 9
+187	175	0.1	1	167 8
+188	144	0.1	1	137 7
+189	111	0.1	1	106 5
+190	130	0.1	1	126 4
+191	125	0.1	1	120 5
+192	154	0.1	1	150 4
+193	150	0.1	1	146 4
+194	164	0.1	1	154 10
+195	204	0.1	1	196 8
+196	190	0.1	1	178 12
+197	181	0.1	1	170 11
+198	136	0.1	1	132 4
+199	134	0.1	1	132 2
+200	126	0.1	1	120 6
+201	140	0.1	1	131 9
+202	157	0.1	1	151 6
+203	188	0.1	1	185 3
+204	185	0.1	1	180 5
+205	177	0.1	1	169 8
+206	214	0.1	1	205 9
+207	169	0.1	1	157 12
+208	151	0.1	1	140 11
+209	135	0.1	1	130 5
+210	130	0.1	1	122 8
+211	155	0.1	1	148 7
+212	150	0.1	1	145 5
+213	180	0.1	1	173 7
+214	189	0.1	1	183 6
+215	180	0.1	1	173 7
+216	203	0.1	1	190 13
+217	174	0.1	1	167 7
+218	154	0.1	1	151 3
+219	155	0.1	1	148 7
+220	166	0.1	1	153 13
+221	122	0.1	1	118 4
+222	141	0.1	1	132 9
+223	157	0.1	1	152 5
+224	205	0.1	1	200 5
+225	221	0.1	1	211 10
+226	189	0.1	1	181 8
+227	191	0.1	1	183 8
+228	198	0.1	1	193 5
+229	152	0.1	1	144 8
+230	143	0.1	1	135 8
+231	120	0.1	1	117 3
+232	137	0.1	1	129 8
+233	156	0.1	1	144 12
+234	183	0.1	1	174 9
+235	200	0.1	1	187 13
+236	174	0.1	1	166 8
+237	188	0.1	1	182 6
+238	216	0.1	1	206 10
+239	173	0.1	1	165 8
+240	132	0.1	1	131 1
+241	104	0.1	1	100 4
+242	122	0.1	1	117 5
+243	149	0.1	1	144 5
+244	166	0.1	1	160 6
+245	169	0.1	1	165 4
+246	172	0.1	1	162 10
+247	162	0.1	1	153 9
+248	169	0.1	1	160 9
+249	146	0.1	1	140 6
+250	129	0.1	1	126 3
+251	102	0.1	1	94 8
+252	112	0.1	1	110 2
+253	113	0.1	1	106 7
+254	154	0.1	1	148 6
+255	184	0.1	1	172 12
+256	157	0.1	1	152 5
+257	157	0.1	1	150 7
+258	124	0.1	1	120 4
+259	104	0.1	1	100 4
+260	105	0.1	1	101 4
+261	80	0.1	1	77 3
+262	86	0.1	1	82 4
+263	98	0.1	1	94 4
+264	105	0.1	1	97 8
+265	101	0.1	1	95 6
+266	80	0.1	1	75 5
+267	80	0.1	1	77 3
+268	56	0.1	1	51 5
+269	49	0.1	1	48 1
+270	52	0.1	1	50 2
+271	48	0.1	1	46 2
+272	52	0.1	1	49 3
+273	34	0.1	1	33 1
+274	15	0.1	1	14 1
+275	3	0.1	1	3
+276	4	0.1	1	4
+277	4	0.1	1	4
+278	4	0.1	1	3 1
+279	1	0.1	1	1
+280	1	0.1	1	0 1
+281	2	0.1	1	1 1
+282	3	0.1	1	2 1
+285	1	0.1	1	1
+287	1	0.1	1	0 1
+292	1	0.1	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq
+=============================================
+1721566 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 20190709-RC1-AM-BOTTOM_1_trimmed.fq and 20190709-RC1-AM-BOTTOM_2_trimmed.fq
+file_1: 20190709-RC1-AM-BOTTOM_1_trimmed.fq, file_2: 20190709-RC1-AM-BOTTOM_2_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 20190709-RC1-AM-BOTTOM_1_trimmed.fq and 20190709-RC1-AM-BOTTOM_2_trimmed.fq <<<<<
+Writing validated paired-end read 1 reads to 20190709-RC1-AM-BOTTOM_1_val_1.fq
+Writing validated paired-end read 2 reads to 20190709-RC1-AM-BOTTOM_2_val_2.fq
+
+Total number of sequences analysed: 1721566
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 6362 (0.37%)
+
+Deleting both intermediate output files 20190709-RC1-AM-BOTTOM_1_trimmed.fq and 20190709-RC1-AM-BOTTOM_2_trimmed.fq
+
+====================================================================================================
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Trimmed reads saved to:                                           -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/trimmed_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/trimmed_2.fastq-----
+------------------------------------------------------------------------------------------------------------------------
+
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/20190709-RC1-AM-BOTTOM_1_trimmed.fq’: No such file or directory
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/20190709-RC1-AM-BOTTOM_2_trimmed.fq’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              Contamination-free and trimmed reads are stored in:                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/final_pure_reads_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/final_pure_reads_2.fastq-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                             MAKING POST-QC REPORT                                            #####
+########################################################################################################################
+
+Skipping 'and' which didn't exist, or couldn't be read
+Started analysis of final_pure_reads_1.fastq
+Started analysis of final_pure_reads_2.fastq
+Approx 5% complete for final_pure_reads_1.fastq
+Approx 5% complete for final_pure_reads_2.fastq
+Approx 10% complete for final_pure_reads_1.fastq
+Approx 10% complete for final_pure_reads_2.fastq
+Approx 15% complete for final_pure_reads_1.fastq
+Approx 15% complete for final_pure_reads_2.fastq
+Approx 20% complete for final_pure_reads_1.fastq
+Approx 20% complete for final_pure_reads_2.fastq
+Approx 25% complete for final_pure_reads_1.fastq
+Approx 25% complete for final_pure_reads_2.fastq
+Approx 30% complete for final_pure_reads_2.fastq
+Approx 30% complete for final_pure_reads_1.fastq
+Approx 35% complete for final_pure_reads_2.fastq
+Approx 35% complete for final_pure_reads_1.fastq
+Approx 40% complete for final_pure_reads_2.fastq
+Approx 40% complete for final_pure_reads_1.fastq
+Approx 45% complete for final_pure_reads_2.fastq
+Approx 45% complete for final_pure_reads_1.fastq
+Approx 50% complete for final_pure_reads_2.fastq
+Approx 50% complete for final_pure_reads_1.fastq
+Approx 55% complete for final_pure_reads_2.fastq
+Approx 55% complete for final_pure_reads_1.fastq
+Approx 60% complete for final_pure_reads_2.fastq
+Approx 60% complete for final_pure_reads_1.fastq
+Approx 65% complete for final_pure_reads_2.fastq
+Approx 65% complete for final_pure_reads_1.fastq
+Approx 70% complete for final_pure_reads_2.fastq
+Approx 70% complete for final_pure_reads_1.fastq
+Approx 75% complete for final_pure_reads_2.fastq
+Approx 75% complete for final_pure_reads_1.fastq
+Approx 80% complete for final_pure_reads_2.fastq
+Approx 80% complete for final_pure_reads_1.fastq
+Approx 85% complete for final_pure_reads_2.fastq
+Approx 85% complete for final_pure_reads_1.fastq
+Approx 90% complete for final_pure_reads_2.fastq
+Approx 90% complete for final_pure_reads_1.fastq
+Approx 95% complete for final_pure_reads_2.fastq
+Approx 95% complete for final_pure_reads_1.fastq
+Analysis complete for final_pure_reads_2.fastq
+Analysis complete for final_pure_reads_1.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           post-qc report saved to:                                           -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC/post-QC_report-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                         READ QC PIPELINE COMPLETE!!!                                         #####
+########################################################################################################################
+
+
+real	2m38.222s
+user	2m15.607s
+sys	0m18.518s

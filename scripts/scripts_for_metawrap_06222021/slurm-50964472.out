@@ -1,0 +1,1745 @@
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC1-AM-BOTTOM/logs
+[2021-06-28 13:16:01.161] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:01.161] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:01.161] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:01.161] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:01.161] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:01.161] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:01.334] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:01.365] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 349.48 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 20.062 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 26.747 ms
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 441.96 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 302.97 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 117.51 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 564.66 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 120.02 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 166.43 ms
+-----------------------------------------
+[2021-06-28 13:16:03.512] [jointLog] [info] done
+[2021-06-28 13:16:03.512] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:03.524] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 85,371, hits per frag:  0.19498[2021-06-28 13:16:05.436] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 170,356, hits per frag:  0.184771[A[32mprocessed[31m 1,000,132 [32mfragments[0m
+hits: 170,369, hits per frag:  0.201135[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 254,779, hits per frag:  0.188865
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:08.736] [jointLog] [info] Computed 19,149 rich equivalence classes for further processing
+[2021-06-28 13:16:08.736] [jointLog] [info] Counted 289,511 total reads in the equivalence classes 
+[2021-06-28 13:16:08.757] [jointLog] [warning] 0.831388% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:08.757] [jointLog] [info] Number of mappings discarded because of alignment score : 3,199,399
+[2021-06-28 13:16:08.757] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 35,123
+[2021-06-28 13:16:08.757] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:08.757] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 8,310
+[2021-06-28 13:16:08.761] [jointLog] [warning] Only 289511 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:08.761] [jointLog] [info] Mapping rate = 16.8791%
+
+[2021-06-28 13:16:08.761] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:08.762] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:08.775] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:08.777] [jointLog] [info] iteration = 0 | max rel diff. = 350.66
+[2021-06-28 13:16:08.913] [jointLog] [info] iteration = 100 | max rel diff. = 0.000264088
+[2021-06-28 13:16:08.915] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:08.915] [jointLog] [info] writing output 
+
+20190709-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC7-AM-BOTTOM/logs
+[2021-06-28 13:16:09.665] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:09.665] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:09.665] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:09.665] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:09.665] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:09.665] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:09.800] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:09.800] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.332 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 525.15 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 93.548 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 54.463 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.98 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 23.059 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 259.98 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 21.694 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 189.77 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:10.397] [jointLog] [info] done
+[2021-06-28 13:16:10.397] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:10.409] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:12.131] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 104,105, hits per frag:  0.327381[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 208,031, hits per frag:  0.208775[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 312,633, hits per frag:  0.220887[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 416,336, hits per frag:  0.220389[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 520,114, hits per frag:  0.214662
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:18.516] [jointLog] [info] Computed 21,206 rich equivalence classes for further processing
+[2021-06-28 13:16:18.516] [jointLog] [info] Counted 597,681 total reads in the equivalence classes 
+[2021-06-28 13:16:18.537] [jointLog] [warning] 1.11227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:18.537] [jointLog] [info] Number of mappings discarded because of alignment score : 7,825,248
+[2021-06-28 13:16:18.537] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 64,983
+[2021-06-28 13:16:18.537] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:18.537] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 17,293
+[2021-06-28 13:16:18.542] [jointLog] [warning] Only 597681 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:18.542] [jointLog] [info] Mapping rate = 20.6705%
+
+[2021-06-28 13:16:18.542] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:18.543] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:18.555] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:18.557] [jointLog] [info] iteration = 0 | max rel diff. = 849.697
+[2021-06-28 13:16:18.695] [jointLog] [info] iteration = 100 | max rel diff. = 0.000330495
+[2021-06-28 13:16:18.696] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:18.696] [jointLog] [info] writing output 
+
+20190709-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-BOTTOM/logs
+[2021-06-28 13:16:19.671] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:19.671] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:19.671] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:19.671] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:19.671] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:19.671] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 14.377 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 520.15 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 85.955 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 50.202 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 218.96 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.684 ms
+-----------------------------------------
+size = 109148549
+[2021-06-28 13:16:19.979] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:19.979] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading positions | Time = 245.87 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.839 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 184.2 us
+-----------------------------------------
+[2021-06-28 13:16:20.555] [jointLog] [info] done
+[2021-06-28 13:16:20.555] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:20.566] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[2021-06-28 13:16:22.037] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 128,240, hits per frag:  0.433315
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:23.411] [jointLog] [info] Computed 17,239 rich equivalence classes for further processing
+[2021-06-28 13:16:23.411] [jointLog] [info] Counted 201,652 total reads in the equivalence classes 
+[2021-06-28 13:16:23.435] [jointLog] [warning] 2.36319% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:23.435] [jointLog] [info] Number of mappings discarded because of alignment score : 1,869,615
+[2021-06-28 13:16:23.435] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 14,739
+[2021-06-28 13:16:23.435] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:23.435] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 4,126
+[2021-06-28 13:16:23.439] [jointLog] [warning] Only 201652 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:23.439] [jointLog] [info] Mapping rate = 25.4808%
+
+[2021-06-28 13:16:23.439] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:23.440] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:23.452] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:23.459] [jointLog] [info] iteration = 0 | max rel diff. = 219.465
+[2021-06-28 13:16:23.596] [jointLog] [info] iteration = 100 | max rel diff. = 0.000110034
+[2021-06-28 13:16:23.597] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:23.598] [jointLog] [info] writing output 
+
+20190716-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-TOP }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-TOP/logs
+[2021-06-28 13:16:23.978] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:23.978] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:23.978] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:23.978] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:23.978] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:23.978] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:24.118] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:24.118] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.365 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 509.31 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 89.955 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 50.282 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 218.83 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.576 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 242.92 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.721 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 182.87 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:24.690] [jointLog] [info] done
+[2021-06-28 13:16:24.690] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:24.702] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:26.130] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 139,504, hits per frag:  0.419797[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 278,667, hits per frag:  0.297355
+
+
+
+[2021-06-28 13:16:28.701] [jointLog] [info] Computed 18,419 rich equivalence classes for further processing
+[2021-06-28 13:16:28.701] [jointLog] [info] Counted 333,193 total reads in the equivalence classes 
+
+
+
+
+
+
+[2021-06-28 13:16:28.729] [jointLog] [warning] 1.30818% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:28.729] [jointLog] [info] Number of mappings discarded because of alignment score : 1,491,014
+[2021-06-28 13:16:28.729] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 25,785
+[2021-06-28 13:16:28.729] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:28.729] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 4,576
+[2021-06-28 13:16:28.733] [jointLog] [warning] Only 333193 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:28.733] [jointLog] [info] Mapping rate = 27.7576%
+
+[2021-06-28 13:16:28.733] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:28.735] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:28.747] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:28.749] [jointLog] [info] iteration = 0 | max rel diff. = 807.193
+[2021-06-28 13:16:28.886] [jointLog] [info] iteration = 100 | max rel diff. = 0.000563007
+[2021-06-28 13:16:28.887] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:28.887] [jointLog] [info] writing output 
+
+20190716-RC1-AM-TOP processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC2-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC2-AM-BOTTOM/logs
+[2021-06-28 13:16:29.303] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:29.303] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:29.303] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:29.303] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:29.303] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:29.303] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:29.431] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:29.432] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.734 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 516.08 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 85.808 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 50.493 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 218.87 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.505 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 242.9 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.315 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 192.38 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:30.004] [jointLog] [info] done
+[2021-06-28 13:16:30.004] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:30.016] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:31.821] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 86,447, hits per frag:  0.175489[A[32mprocessed[31m 500,149 [32mfragments[0m
+hits: 86,464, hits per frag:  0.193731[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 172,553, hits per frag:  0.173658[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 258,275, hits per frag:  0.191139[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 344,719, hits per frag:  0.18951
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:36.834] [jointLog] [info] Computed 20,167 rich equivalence classes for further processing
+[2021-06-28 13:16:36.834] [jointLog] [info] Counted 423,078 total reads in the equivalence classes 
+[2021-06-28 13:16:36.856] [jointLog] [warning] 1.80946% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:36.856] [jointLog] [info] Number of mappings discarded because of alignment score : 7,486,359
+[2021-06-28 13:16:36.856] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 51,775
+[2021-06-28 13:16:36.856] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:36.856] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 15,167
+[2021-06-28 13:16:36.860] [jointLog] [warning] Only 423078 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:36.860] [jointLog] [info] Mapping rate = 17.0846%
+
+[2021-06-28 13:16:36.860] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:36.861] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:36.874] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:36.882] [jointLog] [info] iteration = 0 | max rel diff. = 653.751
+[2021-06-28 13:16:37.021] [jointLog] [info] iteration = 100 | max rel diff. = 3.77733e-07
+[2021-06-28 13:16:37.023] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:37.023] [jointLog] [info] writing output 
+
+20190716-RC2-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC7-AM-BOTTOM/logs
+[2021-06-28 13:16:37.821] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:37.821] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:37.821] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:37.821] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:37.821] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:37.821] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 14.386 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 498.93 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 84.212 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 50.439 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.07 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.518 ms
+-----------------------------------------
+size = 109148549
+[2021-06-28 13:16:38.032] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:38.032] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading positions | Time = 242.92 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.44 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 202.89 us
+-----------------------------------------
+[2021-06-28 13:16:38.604] [jointLog] [info] done
+[2021-06-28 13:16:38.604] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:38.616] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[2021-06-28 13:16:40.041] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 128,816, hits per frag:  0.430254[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 257,537, hits per frag:  0.261252
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:42.544] [jointLog] [info] Computed 19,117 rich equivalence classes for further processing
+[2021-06-28 13:16:42.544] [jointLog] [info] Counted 320,521 total reads in the equivalence classes 
+[2021-06-28 13:16:42.605] [jointLog] [warning] 1.68633% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:42.605] [jointLog] [info] Number of mappings discarded because of alignment score : 2,665,535
+[2021-06-28 13:16:42.605] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 26,431
+[2021-06-28 13:16:42.605] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:42.605] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 6,208
+[2021-06-28 13:16:42.610] [jointLog] [warning] Only 320521 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:42.610] [jointLog] [info] Mapping rate = 25.5678%
+
+[2021-06-28 13:16:42.610] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:42.611] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:42.623] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:42.625] [jointLog] [info] iteration = 0 | max rel diff. = 774.091
+[2021-06-28 13:16:42.761] [jointLog] [info] iteration = 100 | max rel diff. = 0.000209477
+[2021-06-28 13:16:42.763] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:42.763] [jointLog] [info] writing output 
+
+20190716-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC9-AM-BOTTOM/logs
+[2021-06-28 13:16:43.823] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:43.823] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:43.823] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:43.823] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:43.823] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:43.823] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:43.950] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:43.950] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 13.853 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 522.54 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.892 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 49.821 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 218.74 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.582 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 243.61 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.606 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 183.66 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:44.522] [jointLog] [info] done
+[2021-06-28 13:16:44.522] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:44.534] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:46.155] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 134,399, hits per frag:  0.283343
+
+
+
+[2021-06-28 13:16:48.065] [jointLog] [info] Computed 18,616 rich equivalence classes for further processing
+[2021-06-28 13:16:48.065] [jointLog] [info] Counted 263,283 total reads in the equivalence classes 
+
+
+
+
+
+
+[2021-06-28 13:16:48.089] [jointLog] [warning] 1.47831% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:48.089] [jointLog] [info] Number of mappings discarded because of alignment score : 2,379,909
+[2021-06-28 13:16:48.089] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 22,466
+[2021-06-28 13:16:48.089] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:48.089] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 5,369
+[2021-06-28 13:16:48.093] [jointLog] [warning] Only 263283 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:48.093] [jointLog] [info] Mapping rate = 26.6093%
+
+[2021-06-28 13:16:48.093] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:48.094] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:48.106] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:48.114] [jointLog] [info] iteration = 0 | max rel diff. = 612.222
+[2021-06-28 13:16:48.252] [jointLog] [info] iteration = 100 | max rel diff. = 0.000103218
+[2021-06-28 13:16:48.254] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:48.254] [jointLog] [info] writing output 
+
+20190716-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC1-AM-BOTTOM/logs
+[2021-06-28 13:16:48.622] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:48.623] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:48.623] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:48.623] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:48.623] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:48.623] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 14.349 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 502.82 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 98.427 us
+-----------------------------------------
+[2021-06-28 13:16:48.764] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:48.764] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 51.221 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.04 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.242 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 239.55 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.421 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 186.46 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:49.334] [jointLog] [info] done
+[2021-06-28 13:16:49.334] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:49.346] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:50.936] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 108,239, hits per frag:  0.256574[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 215,723, hits per frag:  0.233581
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:16:53.131] [jointLog] [info] Computed 18,562 rich equivalence classes for further processing
+[2021-06-28 13:16:53.131] [jointLog] [info] Counted 246,068 total reads in the equivalence classes 
+[2021-06-28 13:16:53.153] [jointLog] [warning] 1.01331% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:16:53.153] [jointLog] [info] Number of mappings discarded because of alignment score : 2,302,753
+[2021-06-28 13:16:53.153] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 23,572
+[2021-06-28 13:16:53.153] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:16:53.153] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 5,373
+[2021-06-28 13:16:53.158] [jointLog] [warning] Only 246068 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:16:53.158] [jointLog] [info] Mapping rate = 21.4543%
+
+[2021-06-28 13:16:53.158] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:16:53.159] [jointLog] [info] Starting optimizer
+[2021-06-28 13:16:53.171] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:16:53.173] [jointLog] [info] iteration = 0 | max rel diff. = 199.183
+[2021-06-28 13:16:53.312] [jointLog] [info] iteration = 100 | max rel diff. = 3.58654e-16
+[2021-06-28 13:16:53.313] [jointLog] [info] Finished optimizer
+[2021-06-28 13:16:53.313] [jointLog] [info] writing output 
+
+20190723-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC2-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC2-AM-BOTTOM/logs
+[2021-06-28 13:16:54.126] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:16:54.126] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:16:54.126] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:16:54.126] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:16:54.126] [jointLog] [info] parsing read library format
+[2021-06-28 13:16:54.126] [jointLog] [info] There is 1 library.
+[2021-06-28 13:16:54.276] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:16:54.276] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 13.69 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 489.74 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 45.083 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 49.163 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 218.82 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 20.943 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 240.6 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.465 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 182.06 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:16:54.843] [jointLog] [info] done
+[2021-06-28 13:16:54.843] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:16:54.855] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:16:56.780] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 130,240, hits per frag:  0.382919[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 260,975, hits per frag:  0.32026[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 390,168, hits per frag:  0.26991
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:00.405] [jointLog] [info] Computed 20,595 rich equivalence classes for further processing
+[2021-06-28 13:17:00.405] [jointLog] [info] Counted 456,261 total reads in the equivalence classes 
+[2021-06-28 13:17:00.430] [jointLog] [warning] 1.18175% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:00.430] [jointLog] [info] Number of mappings discarded because of alignment score : 3,253,679
+[2021-06-28 13:17:00.430] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 35,719
+[2021-06-28 13:17:00.430] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:00.430] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 7,614
+[2021-06-28 13:17:00.435] [jointLog] [warning] Only 456261 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:00.435] [jointLog] [info] Mapping rate = 25.9037%
+
+[2021-06-28 13:17:00.435] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:00.436] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:00.448] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:00.452] [jointLog] [info] iteration = 0 | max rel diff. = 67.6727
+[2021-06-28 13:17:00.593] [jointLog] [info] iteration = 100 | max rel diff. = 0.000209695
+[2021-06-28 13:17:00.595] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:00.595] [jointLog] [info] writing output 
+
+20190723-RC2-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC7-AM-BOTTOM/logs
+[2021-06-28 13:17:01.634] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:01.634] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:01.634] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:01.634] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:01.634] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:01.634] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:01.831] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:01.832] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.38 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 541.5 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 88.288 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 51.384 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.42 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.737 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 248.56 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.863 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 193.39 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:02.411] [jointLog] [info] done
+[2021-06-28 13:17:02.411] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:02.423] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 121,107, hits per frag:  0.390801[2021-06-28 13:17:04.272] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 242,372, hits per frag:  0.296726[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 364,802, hits per frag:  0.244154[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 485,712, hits per frag:  0.254324
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:10.159] [jointLog] [info] Computed 22,310 rich equivalence classes for further processing
+[2021-06-28 13:17:10.159] [jointLog] [info] Counted 590,099 total reads in the equivalence classes 
+[2021-06-28 13:17:10.183] [jointLog] [warning] 1.37179% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:10.183] [jointLog] [info] Number of mappings discarded because of alignment score : 9,691,386
+[2021-06-28 13:17:10.183] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 59,253
+[2021-06-28 13:17:10.183] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:10.183] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 17,281
+[2021-06-28 13:17:10.187] [jointLog] [warning] Only 590099 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:10.187] [jointLog] [info] Mapping rate = 24.1078%
+
+[2021-06-28 13:17:10.187] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:10.188] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:10.201] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:10.203] [jointLog] [info] iteration = 0 | max rel diff. = 974.255
+[2021-06-28 13:17:10.343] [jointLog] [info] iteration = 100 | max rel diff. = 0.000181835
+[2021-06-28 13:17:10.345] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:10.345] [jointLog] [info] writing output 
+
+20190723-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC9-AM-BOTTOM/logs
+[2021-06-28 13:17:11.144] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:11.144] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:11.144] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:11.144] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:11.144] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:11.144] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:11.324] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:11.325] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.34 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 520.78 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 87.465 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 49.918 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.04 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.553 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 241.13 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.812 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 188.23 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:11.895] [jointLog] [info] done
+[2021-06-28 13:17:11.895] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:11.907] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:14.028] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 114,897, hits per frag:  0.333447[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 230,598, hits per frag:  0.242584[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 345,914, hits per frag:  0.251168[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 459,935, hits per frag:  0.240413
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:18.783] [jointLog] [info] Computed 21,574 rich equivalence classes for further processing
+[2021-06-28 13:17:18.783] [jointLog] [info] Counted 496,367 total reads in the equivalence classes 
+[2021-06-28 13:17:18.806] [jointLog] [warning] 1.22862% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:18.806] [jointLog] [info] Number of mappings discarded because of alignment score : 6,068,294
+[2021-06-28 13:17:18.806] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 49,426
+[2021-06-28 13:17:18.806] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:18.806] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 12,459
+[2021-06-28 13:17:18.810] [jointLog] [warning] Only 496367 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:18.810] [jointLog] [info] Mapping rate = 22.9059%
+
+[2021-06-28 13:17:18.810] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:18.812] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:18.824] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:18.826] [jointLog] [info] iteration = 0 | max rel diff. = 1178.77
+[2021-06-28 13:17:18.963] [jointLog] [info] iteration = 100 | max rel diff. = 0.000284879
+[2021-06-28 13:17:18.965] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:18.965] [jointLog] [info] writing output 
+
+20190723-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC1-AM-BOTTOM/logs
+[2021-06-28 13:17:19.646] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:19.646] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:19.646] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:19.646] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:19.646] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:19.646] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 13.897 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 503.83 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 45.676 us
+-----------------------------------------
+[2021-06-28 13:17:19.772] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:19.772] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 50.438 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.49 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 22.085 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 247.86 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 21.045 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 180.24 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:20.350] [jointLog] [info] done
+[2021-06-28 13:17:20.350] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:20.362] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:22.569] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 94,143, hits per frag:  0.221517[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 188,412, hits per frag:  0.202394
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:25.633] [jointLog] [info] Computed 19,238 rich equivalence classes for further processing
+[2021-06-28 13:17:25.633] [jointLog] [info] Counted 276,994 total reads in the equivalence classes 
+[2021-06-28 13:17:25.654] [jointLog] [warning] 1.09801% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:25.654] [jointLog] [info] Number of mappings discarded because of alignment score : 3,435,860
+[2021-06-28 13:17:25.654] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 33,991
+[2021-06-28 13:17:25.654] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:25.654] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 9,006
+[2021-06-28 13:17:25.658] [jointLog] [warning] Only 276994 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:25.658] [jointLog] [info] Mapping rate = 18.6739%
+
+[2021-06-28 13:17:25.658] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:25.660] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:25.672] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:25.679] [jointLog] [info] iteration = 0 | max rel diff. = 43.0777
+[2021-06-28 13:17:25.819] [jointLog] [info] iteration = 100 | max rel diff. = 7.19874e-05
+[2021-06-28 13:17:25.821] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:25.821] [jointLog] [info] writing output 
+
+20190730-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC2-AM-BOTTOM-BUOY }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC2-AM-BOTTOM-BUOY/logs
+[2021-06-28 13:17:26.650] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:26.650] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:26.650] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:26.650] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:26.650] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:26.650] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:26.798] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:26.799] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.447 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 503.48 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 88.922 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 51.15 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.17 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.645 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 243.22 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.441 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 183.04 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:27.372] [jointLog] [info] done
+[2021-06-28 13:17:27.372] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:27.384] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:29.083] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 91,399, hits per frag:  0.333115[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 182,248, hits per frag:  0.205663[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 272,991, hits per frag:  0.195308
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:32.379] [jointLog] [info] Computed 19,838 rich equivalence classes for further processing
+[2021-06-28 13:17:32.379] [jointLog] [info] Counted 307,265 total reads in the equivalence classes 
+[2021-06-28 13:17:32.400] [jointLog] [warning] 1.57178% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:32.400] [jointLog] [info] Number of mappings discarded because of alignment score : 3,392,437
+[2021-06-28 13:17:32.400] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 36,147
+[2021-06-28 13:17:32.400] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:32.400] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10,003
+[2021-06-28 13:17:32.405] [jointLog] [warning] Only 307265 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:32.405] [jointLog] [info] Mapping rate = 18.0658%
+
+[2021-06-28 13:17:32.405] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:32.406] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:32.418] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:32.420] [jointLog] [info] iteration = 0 | max rel diff. = 945.03
+[2021-06-28 13:17:32.556] [jointLog] [info] iteration = 100 | max rel diff. = 2.5925e-07
+[2021-06-28 13:17:32.557] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:32.557] [jointLog] [info] writing output 
+
+20190730-RC2-AM-BOTTOM-BUOY processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC7-AM-BOTTOM/logs
+[2021-06-28 13:17:32.950] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:32.951] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:32.951] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:32.951] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:32.951] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:32.951] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:33.099] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:33.099] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.33 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 489.1 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 87.818 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 51.092 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.11 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.169 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 238.43 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.044 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 183.18 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:33.667] [jointLog] [info] done
+[2021-06-28 13:17:33.667] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:33.678] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:35.208] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 111,747, hits per frag:  0.283848[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 222,988, hits per frag:  0.233081[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 334,810, hits per frag:  0.230571[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 445,877, hits per frag:  0.231982
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:40.127] [jointLog] [info] Computed 21,947 rich equivalence classes for further processing
+[2021-06-28 13:17:40.127] [jointLog] [info] Counted 517,309 total reads in the equivalence classes 
+[2021-06-28 13:17:40.149] [jointLog] [warning] 1.12227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:40.149] [jointLog] [info] Number of mappings discarded because of alignment score : 5,394,063
+[2021-06-28 13:17:40.149] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 52,788
+[2021-06-28 13:17:40.149] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:40.149] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 14,409
+[2021-06-28 13:17:40.153] [jointLog] [warning] Only 517309 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:40.153] [jointLog] [info] Mapping rate = 22.136%
+
+[2021-06-28 13:17:40.153] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:40.155] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:40.168] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:40.170] [jointLog] [info] iteration = 0 | max rel diff. = 725.214
+[2021-06-28 13:17:40.309] [jointLog] [info] iteration = 100 | max rel diff. = 0.00567582
+[2021-06-28 13:17:40.311] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:40.311] [jointLog] [info] writing output 
+
+20190730-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC9-AM-BOTTOM/logs
+[2021-06-28 13:17:40.947] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:40.947] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:40.947] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:40.947] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:40.947] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:40.947] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:41.094] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:41.094] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 14.305 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 497.36 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 88.237 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 51.138 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.25 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.68 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 243.04 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.438 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 184.25 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:41.667] [jointLog] [info] done
+[2021-06-28 13:17:41.667] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:41.679] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:43.893] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 114,366, hits per frag:  0.303585[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 229,099, hits per frag:  0.27036[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 342,970, hits per frag:  0.244104
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:17:47.633] [jointLog] [info] Computed 20,663 rich equivalence classes for further processing
+[2021-06-28 13:17:47.633] [jointLog] [info] Counted 374,812 total reads in the equivalence classes 
+[2021-06-28 13:17:47.656] [jointLog] [warning] 1.02397% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-28 13:17:47.656] [jointLog] [info] Number of mappings discarded because of alignment score : 3,319,414
+[2021-06-28 13:17:47.656] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 36,854
+[2021-06-28 13:17:47.656] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:17:47.656] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 8,496
+[2021-06-28 13:17:47.660] [jointLog] [warning] Only 374812 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:17:47.660] [jointLog] [info] Mapping rate = 22.7193%
+
+[2021-06-28 13:17:47.660] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:17:47.661] [jointLog] [info] Starting optimizer
+[2021-06-28 13:17:47.674] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:17:47.677] [jointLog] [info] iteration = 0 | max rel diff. = 984.909
+[2021-06-28 13:17:47.814] [jointLog] [info] iteration = 100 | max rel diff. = 0.0154788
+[2021-06-28 13:17:47.881] [jointLog] [info] iteration = 150 | max rel diff. = 0.000196124
+[2021-06-28 13:17:47.883] [jointLog] [info] Finished optimizer
+[2021-06-28 13:17:47.883] [jointLog] [info] writing output 
+
+20190730-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-cellular }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-cellular/logs
+[2021-06-28 13:17:48.452] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:17:48.452] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:17:48.452] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:17:48.452] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:17:48.452] [jointLog] [info] parsing read library format
+[2021-06-28 13:17:48.452] [jointLog] [info] There is 1 library.
+[2021-06-28 13:17:48.580] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:17:48.581] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 13.821 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 534.56 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 42.884 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 50.404 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.1 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 21.61 ms
+-----------------------------------------
+size = 109148549
+-----------------------------------------
+| Loading positions | Time = 243.38 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 20.412 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 193.86 us
+-----------------------------------------
+
+
+
+
+[2021-06-28 13:17:49.152] [jointLog] [info] done
+[2021-06-28 13:17:49.152] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:17:49.164] [jointLog] [info] Number of decoys : 0
+[2021-06-28 13:17:49.748] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 479,847, hits per frag:  1.45377[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 959,711, hits per frag:  1.00257[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 1,439,565, hits per frag:  0.975907[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,919,358, hits per frag:  1.0059[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 2,399,133, hits per frag:  0.998243[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 2,879,166, hits per frag:  0.983357[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 3,359,124, hits per frag:  1.04682[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 3,838,783, hits per frag:  1.02027[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 4,318,050, hits per frag:  1.2316[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 4,797,798, hits per frag:  0.967801[A[32mprocessed[31m 5,500,001 [32mfragments[0m
+hits: 5,277,487, hits per frag:  1.09737[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 5,757,031, hits per frag:  0.979173[A[32mprocessed[31m 6,500,001 [32mfragments[0m
+hits: 6,236,590, hits per frag:  0.966025[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 6,716,458, hits per frag:  0.966844[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 7,196,356, hits per frag:  0.964297
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:18:09.573] [jointLog] [info] Computed 3,931 rich equivalence classes for further processing
+[2021-06-28 13:18:09.573] [jointLog] [info] Counted 7,281,260 total reads in the equivalence classes 
+[2021-06-28 13:18:09.658] [jointLog] [warning] 0.0370844% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-06-28 13:18:09.658] [jointLog] [info] Number of mappings discarded because of alignment score : 207,205
+[2021-06-28 13:18:09.658] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 91,491
+[2021-06-28 13:18:09.658] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:18:09.658] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 20,088
+[2021-06-28 13:18:09.658] [jointLog] [info] Mapping rate = 95.6166%
+
+[2021-06-28 13:18:09.658] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:18:09.660] [jointLog] [info] Starting optimizer
+[2021-06-28 13:18:09.673] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:18:09.675] [jointLog] [info] iteration = 0 | max rel diff. = 1929.05
+[2021-06-28 13:18:09.796] [jointLog] [info] iteration = 100 | max rel diff. = 3.48248e-16
+[2021-06-28 13:18:09.798] [jointLog] [info] Finished optimizer
+[2021-06-28 13:18:09.798] [jointLog] [info] writing output 
+
+zymo-cellular processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-dna }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-dna/logs
+[2021-06-28 13:18:10.458] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-28 13:18:10.458] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-28 13:18:10.458] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-28 13:18:10.458] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-28 13:18:10.458] [jointLog] [info] parsing read library format
+[2021-06-28 13:18:10.458] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 14.403 ms
+-----------------------------------------
+size = 83536
+-----------------------------------------
+| Loading contig offsets | Time = 518.54 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 91.403 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 51.004 ms
+-----------------------------------------
+size = 111654599
+Number of ones: 83535
+Number of ones per inventory item: 512
+Inventory entries filled: 164
+-----------------------------------------
+| Loading contig boundaries | Time = 219.32 ms
+-----------------------------------------
+size = 111654599
+-----------------------------------------
+| Loading sequence | Time = 22.07 ms
+-----------------------------------------
+size = 109148549
+[2021-06-28 13:18:10.699] [jointLog] [info] Loading pufferfish index
+[2021-06-28 13:18:10.699] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading positions | Time = 249.06 ms
+-----------------------------------------
+size = 110392031
+-----------------------------------------
+| Loading reference sequence | Time = 21.079 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 194.96 us
+-----------------------------------------
+[2021-06-28 13:18:11.279] [jointLog] [info] done
+[2021-06-28 13:18:11.279] [jointLog] [info] Index contained 26,890 targets
+[2021-06-28 13:18:11.291] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[2021-06-28 13:18:11.998] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 474,872, hits per frag:  1.00846[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 949,735, hits per frag:  1.40781[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,424,528, hits per frag:  1.02657[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,899,054, hits per frag:  1.3291
+
+
+
+
+
+
+
+
+
+[2021-06-28 13:18:17.946] [jointLog] [info] Computed 3,734 rich equivalence classes for further processing
+[2021-06-28 13:18:17.946] [jointLog] [info] Counted 2,159,810 total reads in the equivalence classes 
+[2021-06-28 13:18:18.041] [jointLog] [warning] 0.060137% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-06-28 13:18:18.041] [jointLog] [info] Number of mappings discarded because of alignment score : 67,020
+[2021-06-28 13:18:18.041] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 29,318
+[2021-06-28 13:18:18.041] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-28 13:18:18.041] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 5,499
+[2021-06-28 13:18:18.047] [jointLog] [warning] Only 2159810 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-28 13:18:18.047] [jointLog] [info] Mapping rate = 94.737%
+
+[2021-06-28 13:18:18.047] [jointLog] [info] finished quantifyLibrary()
+[2021-06-28 13:18:18.049] [jointLog] [info] Starting optimizer
+[2021-06-28 13:18:18.059] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-28 13:18:18.061] [jointLog] [info] iteration = 0 | max rel diff. = 4586.73
+[2021-06-28 13:18:18.181] [jointLog] [info] iteration = 100 | max rel diff. = 4.24701e-16
+[2021-06-28 13:18:18.182] [jointLog] [info] Finished optimizer
+[2021-06-28 13:18:18.182] [jointLog] [info] writing output 
+
+zymo-dna processed

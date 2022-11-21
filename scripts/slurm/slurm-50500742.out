@@ -1,0 +1,27 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=292613] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_10 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_12 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_14 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_16 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_18 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_20 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_22 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_24 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_26 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_28 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_30 done
+Skipping 'IN/*.fastq' which didn't exist, or couldn't be read
+SW_32 done

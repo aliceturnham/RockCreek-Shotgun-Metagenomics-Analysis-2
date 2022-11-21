@@ -1,0 +1,87 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=264677] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+Started analysis of zymo-cellular_1.fastq
+Approx 5% complete for zymo-cellular_1.fastq
+Approx 10% complete for zymo-cellular_1.fastq
+Approx 15% complete for zymo-cellular_1.fastq
+Approx 20% complete for zymo-cellular_1.fastq
+Approx 25% complete for zymo-cellular_1.fastq
+Approx 30% complete for zymo-cellular_1.fastq
+Approx 35% complete for zymo-cellular_1.fastq
+Approx 40% complete for zymo-cellular_1.fastq
+Approx 45% complete for zymo-cellular_1.fastq
+Approx 50% complete for zymo-cellular_1.fastq
+Approx 55% complete for zymo-cellular_1.fastq
+Approx 60% complete for zymo-cellular_1.fastq
+Approx 65% complete for zymo-cellular_1.fastq
+Approx 70% complete for zymo-cellular_1.fastq
+Approx 75% complete for zymo-cellular_1.fastq
+Approx 80% complete for zymo-cellular_1.fastq
+Approx 85% complete for zymo-cellular_1.fastq
+Approx 90% complete for zymo-cellular_1.fastq
+Approx 95% complete for zymo-cellular_1.fastq
+Analysis complete for zymo-cellular_1.fastq
+Started analysis of zymo-cellular_2.fastq
+Approx 5% complete for zymo-cellular_2.fastq
+Approx 10% complete for zymo-cellular_2.fastq
+Approx 15% complete for zymo-cellular_2.fastq
+Approx 20% complete for zymo-cellular_2.fastq
+Approx 25% complete for zymo-cellular_2.fastq
+Approx 30% complete for zymo-cellular_2.fastq
+Approx 35% complete for zymo-cellular_2.fastq
+Approx 40% complete for zymo-cellular_2.fastq
+Approx 45% complete for zymo-cellular_2.fastq
+Approx 50% complete for zymo-cellular_2.fastq
+Approx 55% complete for zymo-cellular_2.fastq
+Approx 60% complete for zymo-cellular_2.fastq
+Approx 65% complete for zymo-cellular_2.fastq
+Approx 70% complete for zymo-cellular_2.fastq
+Approx 75% complete for zymo-cellular_2.fastq
+Approx 80% complete for zymo-cellular_2.fastq
+Approx 85% complete for zymo-cellular_2.fastq
+Approx 90% complete for zymo-cellular_2.fastq
+Approx 95% complete for zymo-cellular_2.fastq
+Analysis complete for zymo-cellular_2.fastq
+Started analysis of zymo-dna_1.fastq
+Approx 5% complete for zymo-dna_1.fastq
+Approx 10% complete for zymo-dna_1.fastq
+Approx 15% complete for zymo-dna_1.fastq
+Approx 20% complete for zymo-dna_1.fastq
+Approx 25% complete for zymo-dna_1.fastq
+Approx 30% complete for zymo-dna_1.fastq
+Approx 35% complete for zymo-dna_1.fastq
+Approx 40% complete for zymo-dna_1.fastq
+Approx 45% complete for zymo-dna_1.fastq
+Approx 50% complete for zymo-dna_1.fastq
+Approx 55% complete for zymo-dna_1.fastq
+Approx 60% complete for zymo-dna_1.fastq
+Approx 65% complete for zymo-dna_1.fastq
+Approx 70% complete for zymo-dna_1.fastq
+Approx 75% complete for zymo-dna_1.fastq
+Approx 80% complete for zymo-dna_1.fastq
+Approx 85% complete for zymo-dna_1.fastq
+Approx 90% complete for zymo-dna_1.fastq
+Approx 95% complete for zymo-dna_1.fastq
+Analysis complete for zymo-dna_1.fastq
+Started analysis of zymo-dna_2.fastq
+Approx 5% complete for zymo-dna_2.fastq
+Approx 10% complete for zymo-dna_2.fastq
+Approx 15% complete for zymo-dna_2.fastq
+Approx 20% complete for zymo-dna_2.fastq
+Approx 25% complete for zymo-dna_2.fastq
+Approx 30% complete for zymo-dna_2.fastq
+Approx 35% complete for zymo-dna_2.fastq
+Approx 40% complete for zymo-dna_2.fastq
+Approx 45% complete for zymo-dna_2.fastq
+Approx 50% complete for zymo-dna_2.fastq
+Approx 55% complete for zymo-dna_2.fastq
+Approx 60% complete for zymo-dna_2.fastq
+Approx 65% complete for zymo-dna_2.fastq
+Approx 70% complete for zymo-dna_2.fastq
+Approx 75% complete for zymo-dna_2.fastq
+Approx 80% complete for zymo-dna_2.fastq
+Approx 85% complete for zymo-dna_2.fastq
+Approx 90% complete for zymo-dna_2.fastq
+Approx 95% complete for zymo-dna_2.fastq
+Analysis complete for zymo-dna_2.fastq

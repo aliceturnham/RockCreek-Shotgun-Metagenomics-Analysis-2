@@ -1,0 +1,292 @@
+metawrap quant_bins -b /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/BIN_REFINEMENT/metawrap_70_5_bins -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/ASSEMBLY/final_assembly.fasta /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                    SETTING UP OUTPUT AND INDEXING ASSEMBLY                                   #####
+########################################################################################################################
+
+mkdir: cannot create directory ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS’: File exists
+
+------------------------------------------------------------------------------------------------------------------------
+-----                            Indexing assembly file with salmon. Ignore any warnings                           -----
+------------------------------------------------------------------------------------------------------------------------
+
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+index ["/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/assembly_index"] did not previously exist  . . . creating it
+[2021-06-25 04:43:53.853] [jLog] [info] building index
+[2021-06-25 04:43:53.855] [jointLog] [info] [Step 1 of 4] : counting k-mers
+[2021-06-25 04:43:54.358] [jointLog] [warning] Entry with header [NODE_1_length_1204867_cov_37.047160] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.377] [jointLog] [warning] Entry with header [NODE_2_length_768405_cov_83.611443] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.393] [jointLog] [warning] Entry with header [NODE_3_length_693972_cov_28.065612] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.406] [jointLog] [warning] Entry with header [NODE_4_length_552050_cov_75.426073] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.420] [jointLog] [warning] Entry with header [NODE_5_length_542707_cov_40.509590] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.431] [jointLog] [warning] Entry with header [NODE_6_length_474288_cov_83.653375] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.444] [jointLog] [warning] Entry with header [NODE_7_length_429278_cov_69.584079] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.453] [jointLog] [warning] Entry with header [NODE_8_length_398916_cov_27.923234] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.461] [jointLog] [warning] Entry with header [NODE_9_length_377889_cov_65.524918] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.470] [jointLog] [warning] Entry with header [NODE_10_length_350826_cov_73.559616] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.477] [jointLog] [warning] Entry with header [NODE_11_length_336220_cov_40.321568] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.489] [jointLog] [warning] Entry with header [NODE_12_length_334083_cov_61.457605] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.496] [jointLog] [warning] Entry with header [NODE_13_length_315046_cov_73.857990] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.503] [jointLog] [warning] Entry with header [NODE_14_length_313648_cov_77.731961] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.510] [jointLog] [warning] Entry with header [NODE_15_length_294377_cov_72.049775] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.517] [jointLog] [warning] Entry with header [NODE_16_length_292336_cov_69.520205] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.524] [jointLog] [warning] Entry with header [NODE_17_length_289108_cov_82.005736] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.530] [jointLog] [warning] Entry with header [NODE_18_length_283620_cov_39.386645] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.536] [jointLog] [warning] Entry with header [NODE_19_length_263192_cov_75.119075] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.542] [jointLog] [warning] Entry with header [NODE_20_length_257131_cov_76.643288] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.548] [jointLog] [warning] Entry with header [NODE_21_length_255048_cov_38.642982] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.554] [jointLog] [warning] Entry with header [NODE_22_length_253082_cov_25.988752] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.566] [jointLog] [warning] Entry with header [NODE_23_length_252233_cov_67.065600] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.572] [jointLog] [warning] Entry with header [NODE_24_length_247247_cov_60.983207] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.578] [jointLog] [warning] Entry with header [NODE_25_length_245530_cov_54.566013] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.583] [jointLog] [warning] Entry with header [NODE_26_length_244971_cov_77.389219] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.589] [jointLog] [warning] Entry with header [NODE_27_length_242452_cov_84.442555] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.595] [jointLog] [warning] Entry with header [NODE_28_length_242279_cov_26.461102] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.600] [jointLog] [warning] Entry with header [NODE_29_length_232663_cov_40.186421] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.605] [jointLog] [warning] Entry with header [NODE_30_length_230139_cov_30.493902] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.610] [jointLog] [warning] Entry with header [NODE_31_length_229761_cov_24.493318] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.616] [jointLog] [warning] Entry with header [NODE_32_length_226004_cov_82.725951] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.621] [jointLog] [warning] Entry with header [NODE_33_length_224969_cov_19.155788] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.626] [jointLog] [warning] Entry with header [NODE_34_length_223916_cov_77.867016] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.631] [jointLog] [warning] Entry with header [NODE_35_length_219684_cov_76.031831] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.636] [jointLog] [warning] Entry with header [NODE_36_length_213593_cov_80.070929] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.641] [jointLog] [warning] Entry with header [NODE_37_length_211337_cov_67.233673] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.646] [jointLog] [warning] Entry with header [NODE_38_length_210864_cov_36.064020] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.650] [jointLog] [warning] Entry with header [NODE_39_length_203448_cov_27.776330] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.657] [jointLog] [warning] Entry with header [NODE_40_length_202314_cov_74.668188] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-25 04:43:54.662] [jointLog] [warning] Entry with header [NODE_41_length_200630_cov_58.202453] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+counted k-mers for 10,000 transcriptscounted k-mers for 20,000 transcriptsElapsed time: 3.36839s
+
+[2021-06-25 04:43:57.226] [jointLog] [info] Replaced 78,710 non-ATCG nucleotides
+[2021-06-25 04:43:57.226] [jointLog] [info] Clipped poly-A tails from 21 transcripts
+[2021-06-25 04:43:57.233] [jointLog] [info] Building rank-select dictionary and saving to disk
+[2021-06-25 04:43:57.248] [jointLog] [info] done
+Elapsed time: 0.0155039s
+[2021-06-25 04:43:57.249] [jointLog] [info] Writing sequence data to file . . . 
+[2021-06-25 04:43:57.365] [jointLog] [info] done
+Elapsed time: 0.116614s
+[2021-06-25 04:43:57.367] [jointLog] [info] Building 32-bit suffix array (length of generalized text is 110,418,921)
+[2021-06-25 04:43:57.591] [jointLog] [info] Building suffix array . . . 
+success
+saving to disk . . . done
+Elapsed time: 0.438148s
+done
+Elapsed time: 17.1188s
+processed 0 positionsprocessed 1,000,000 positionsprocessed 2,000,000 positionsprocessed 3,000,000 positionsprocessed 4,000,000 positionsprocessed 5,000,000 positionsprocessed 6,000,000 positionsprocessed 7,000,000 positionsprocessed 8,000,000 positionsprocessed 9,000,000 positionsprocessed 10,000,000 positionsprocessed 11,000,000 positionsprocessed 12,000,000 positionsprocessed 13,000,000 positionsprocessed 14,000,000 positionsprocessed 15,000,000 positionsprocessed 16,000,000 positionsprocessed 17,000,000 positionsprocessed 18,000,000 positionsprocessed 19,000,000 positionsprocessed 20,000,000 positionsprocessed 21,000,000 positionsprocessed 22,000,000 positionsprocessed 23,000,000 positionsprocessed 24,000,000 positionsprocessed 25,000,000 positionsprocessed 26,000,000 positionsprocessed 27,000,000 positionsprocessed 28,000,000 positionsprocessed 29,000,000 positionsprocessed 30,000,000 positionsprocessed 31,000,000 positionsprocessed 32,000,000 positionsprocessed 33,000,000 positionsprocessed 34,000,000 positionsprocessed 35,000,000 positionsprocessed 36,000,000 positionsprocessed 37,000,000 positionsprocessed 38,000,000 positionsprocessed 39,000,000 positionsprocessed 40,000,000 positionsprocessed 41,000,000 positionsprocessed 42,000,000 positionsprocessed 43,000,000 positionsprocessed 44,000,000 positionsprocessed 45,000,000 positionsprocessed 46,000,000 positionsprocessed 47,000,000 positionsprocessed 48,000,000 positionsprocessed 49,000,000 positionsprocessed 50,000,000 positionsprocessed 51,000,000 positionsprocessed 52,000,000 positionsprocessed 53,000,000 positionsprocessed 54,000,000 positionsprocessed 55,000,000 positionsprocessed 56,000,000 positionsprocessed 57,000,000 positionsprocessed 58,000,000 positionsprocessed 59,000,000 positionsprocessed 60,000,000 positionsprocessed 61,000,000 positionsprocessed 62,000,000 positionsprocessed 63,000,000 positionsprocessed 64,000,000 positionsprocessed 65,000,000 positionsprocessed 66,000,000 positionsprocessed 67,000,000 positionsprocessed 68,000,000 positionsprocessed 69,000,000 positionsprocessed 70,000,000 positionsprocessed 71,000,000 positionsprocessed 72,000,000 positionsprocessed 73,000,000 positionsprocessed 74,000,000 positionsprocessed 75,000,000 positionsprocessed 76,000,000 positionsprocessed 77,000,000 positionsprocessed 78,000,000 positionsprocessed 79,000,000 positionsprocessed 80,000,000 positionsprocessed 81,000,000 positionsprocessed 82,000,000 positionsprocessed 83,000,000 positionsprocessed 84,000,000 positionsprocessed 85,000,000 positionsprocessed 86,000,000 positionsprocessed 87,000,000 positionsprocessed 88,000,000 positionsprocessed 89,000,000 positionsprocessed 90,000,000 positionsprocessed 91,000,000 positionsprocessed 92,000,000 positionsprocessed 93,000,000 positionsprocessed 94,000,000 positionsprocessed 95,000,000 positionsprocessed 96,000,000 positionsprocessed 97,000,000 positionsprocessed 98,000,000 positionsprocessed 99,000,000 positionsprocessed 100,000,000 positionsprocessed 101,000,000 positionsprocessed 102,000,000 positionsprocessed 103,000,000 positionsprocessed 104,000,000 positionsprocessed 105,000,000 positionsprocessed 106,000,000 positionsprocessed 107,000,000 positionsprocessed 108,000,000 positionsprocessed 109,000,000 positionsprocessed 110,000,000 positions[2021-06-25 04:45:52.096] [jointLog] [info] khash had 109,309,317 keys
+[2021-06-25 04:45:52.104] [jointLog] [info] saving hash to disk . . . 
+[2021-06-25 04:46:11.935] [jointLog] [info] done
+Elapsed time: 19.8313s
+[2021-06-25 04:46:13.425] [jLog] [info] done building index
+
+########################################################################################################################
+#####                           ALIGNING READS FROM ALL SAMPLES BACK TO BINS WITH SALMON                           #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       processing sample all with reads                                       -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/alignment_files/all.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/alignment_files/all.quant/logs
+[2021-06-25 04:46:13.961] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-25 04:46:13.961] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-25 04:46:13.961] [jointLog] [info] parsing read library format
+[2021-06-25 04:46:13.961] [jointLog] [info] There is 1 library.
+[2021-06-25 04:46:14.121] [jointLog] [info] Loading Quasi index
+[2021-06-25 04:46:14.122] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-25 04:46:14.123] [stderrLog] [info] Loading Suffix Array 
+[2021-06-25 04:46:14.501] [stderrLog] [info] Loading Transcript Info 
+[2021-06-25 04:46:14.599] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-25 04:46:14.607] [stderrLog] [info] There were 26,890 set bits in the bit array
+[2021-06-25 04:46:14.613] [stderrLog] [info] Computing transcript lengths
+[2021-06-25 04:46:14.614] [stderrLog] [info] Waiting to finish loading hash
+
+
+
+
+[2021-06-25 04:46:22.898] [stderrLog] [info] Done loading index
+[2021-06-25 04:46:22.898] [jointLog] [info] done
+[2021-06-25 04:46:22.898] [jointLog] [info] Index contained 26,890 targets
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 93,689, hits per frag:  0.189271[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 187,574, hits per frag:  0.188517[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 280,208, hits per frag:  0.18743[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 385,406, hits per frag:  0.193186[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 499,652, hits per frag:  0.200261[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 613,109, hits per frag:  0.204711[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 727,085, hits per frag:  0.208036[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 840,224, hits per frag:  0.210319[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 953,676, hits per frag:  0.212164[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 1,085,585, hits per frag:  0.217334[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 1,223,697, hits per frag:  0.222693[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 1,372,556, hits per frag:  0.22895[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 1,520,140, hits per frag:  0.234048[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 1,625,720, hits per frag:  0.232412[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 1,720,647, hits per frag:  0.229573[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 1,815,171, hits per frag:  0.227038[A[32mprocessed[31m 8,500,000 [32mfragments[0m
+hits: 1,909,639, hits per frag:  0.224796[A[32mprocessed[31m 9,000,000 [32mfragments[0m
+hits: 2,004,807, hits per frag:  0.22288[A[32mprocessed[31m 9,500,000 [32mfragments[0m
+hits: 2,136,487, hits per frag:  0.225012[A[32mprocessed[31m 10,000,000 [32mfragments[0m
+hits: 2,274,333, hits per frag:  0.227547[A[32mprocessed[31m 10,500,000 [32mfragments[0m
+hits: 2,414,120, hits per frag:  0.230026[A[32mprocessed[31m 11,000,000 [32mfragments[0m
+hits: 2,557,530, hits per frag:  0.232608[A[32mprocessed[31m 11,500,000 [32mfragments[0m
+hits: 2,690,386, hits per frag:  0.234048[A[32mprocessed[31m 12,000,000 [32mfragments[0m
+hits: 2,807,525, hits per frag:  0.234058[A[32mprocessed[31m 12,500,000 [32mfragments[0m
+hits: 2,924,582, hits per frag:  0.23406[A[32mprocessed[31m 13,000,000 [32mfragments[0m
+hits: 3,062,672, hits per frag:  0.235681[A[32mprocessed[31m 13,500,000 [32mfragments[0m
+hits: 3,201,101, hits per frag:  0.237206[A[32mprocessed[31m 14,000,000 [32mfragments[0m
+hits: 3,338,295, hits per frag:  0.238535[A[32mprocessed[31m 14,500,000 [32mfragments[0m
+hits: 3,472,531, hits per frag:  0.239568[A[32mprocessed[31m 15,000,000 [32mfragments[0m
+hits: 3,603,901, hits per frag:  0.24034[A[32mprocessed[31m 15,500,000 [32mfragments[0m
+hits: 3,735,501, hits per frag:  0.241078[A[32mprocessed[31m 16,000,000 [32mfragments[0m
+hits: 3,866,867, hits per frag:  0.241755[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 3,997,311, hits per frag:  0.242335[A[32mprocessed[31m 17,000,000 [32mfragments[0m
+hits: 4,124,915, hits per frag:  0.242713[A[32mprocessed[31m 17,500,000 [32mfragments[0m
+hits: 4,249,219, hits per frag:  0.242882[A[32mprocessed[31m 18,000,000 [32mfragments[0m
+hits: 4,374,655, hits per frag:  0.243104[A[32mprocessed[31m 18,500,000 [32mfragments[0m
+hits: 4,497,787, hits per frag:  0.243189[A[32mprocessed[31m 19,000,000 [32mfragments[0m
+hits: 4,616,706, hits per frag:  0.243048[A[32mprocessed[31m 19,500,000 [32mfragments[0m
+hits: 4,720,359, hits per frag:  0.242132[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 4,824,044, hits per frag:  0.241263[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 4,926,790, hits per frag:  0.24039[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 5,026,909, hits per frag:  0.239434[A[32mprocessed[31m 21,500,000 [32mfragments[0m
+hits: 5,126,997, hits per frag:  0.23852[A[32mprocessed[31m 22,000,000 [32mfragments[0m
+hits: 5,226,965, hits per frag:  0.237643[A[32mprocessed[31m 22,500,000 [32mfragments[0m
+hits: 5,347,257, hits per frag:  0.237709[A[32mprocessed[31m 23,000,000 [32mfragments[0m
+hits: 5,468,473, hits per frag:  0.237811[A[32mprocessed[31m 23,500,000 [32mfragments[0m
+hits: 5,590,199, hits per frag:  0.237931[A[32mprocessed[31m 24,000,000 [32mfragments[0m
+hits: 5,710,751, hits per frag:  0.237998[A[32mprocessed[31m 24,500,000 [32mfragments[0m
+hits: 5,832,663, hits per frag:  0.238116[A[32mprocessed[31m 25,000,000 [32mfragments[0m
+hits: 5,956,892, hits per frag:  0.238323[A[32mprocessed[31m 25,500,000 [32mfragments[0m
+hits: 6,081,241, hits per frag:  0.238527[A[32mprocessed[31m 26,000,000 [32mfragments[0m
+hits: 6,204,656, hits per frag:  0.238687[A[32mprocessed[31m 26,500,000 [32mfragments[0m
+hits: 6,679,278, hits per frag:  0.252096[A[32mprocessed[31m 27,000,000 [32mfragments[0m
+hits: 7,162,139, hits per frag:  0.265314[A[32mprocessed[31m 27,500,000 [32mfragments[0m
+hits: 7,645,111, hits per frag:  0.278055[A[32mprocessed[31m 28,000,000 [32mfragments[0m
+hits: 8,127,453, hits per frag:  0.290318[A[32mprocessed[31m 28,500,000 [32mfragments[0m
+hits: 8,610,251, hits per frag:  0.302167[A[32mprocessed[31m 29,000,000 [32mfragments[0m
+hits: 9,093,153, hits per frag:  0.313611[A[32mprocessed[31m 29,500,000 [32mfragments[0m
+hits: 9,575,801, hits per frag:  0.324658[A[32mprocessed[31m 30,000,000 [32mfragments[0m
+hits: 10,057,973, hits per frag:  0.335322[A[32mprocessed[31m 30,500,000 [32mfragments[0m
+hits: 10,539,724, hits per frag:  0.345621[A[32mprocessed[31m 31,000,000 [32mfragments[0m
+hits: 11,022,045, hits per frag:  0.355607[A[32mprocessed[31m 31,500,000 [32mfragments[0m
+hits: 11,504,708, hits per frag:  0.365287[A[32mprocessed[31m 32,000,000 [32mfragments[0m
+hits: 11,986,950, hits per frag:  0.374651[A[32mprocessed[31m 32,500,000 [32mfragments[0m
+hits: 12,469,635, hits per frag:  0.38374[A[32mprocessed[31m 33,000,000 [32mfragments[0m
+hits: 12,952,357, hits per frag:  0.392555[A[32mprocessed[31m 33,500,000 [32mfragments[0m
+hits: 13,435,070, hits per frag:  0.401107[A[32mprocessed[31m 34,000,000 [32mfragments[0m
+hits: 13,913,285, hits per frag:  0.409274[A[32mprocessed[31m 34,500,000 [32mfragments[0m
+hits: 14,390,172, hits per frag:  0.417167[A[32mprocessed[31m 35,000,000 [32mfragments[0m
+hits: 14,866,856, hits per frag:  0.424828[A[32mprocessed[31m 35,500,000 [32mfragments[0m
+hits: 15,343,531, hits per frag:  0.432273
+
+
+
+
+
+
+
+
+
+[2021-06-25 05:11:07.912] [jointLog] [info] Computed 30,248 rich equivalence classes for further processing
+[2021-06-25 05:11:07.912] [jointLog] [info] Counted 15,580,954 total reads in the equivalence classes 
+[2021-06-25 05:11:07.913] [jointLog] [warning] 0.959088% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-25 05:11:07.913] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 44,156
+[2021-06-25 05:11:07.913] [jointLog] [info] Mapping rate = 43.393%
+
+[2021-06-25 05:11:07.913] [jointLog] [info] finished quantifyLibrary()
+[2021-06-25 05:11:07.931] [jointLog] [info] Starting optimizer
+[2021-06-25 05:11:07.944] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-25 05:11:07.945] [jointLog] [info] iteration = 0 | max rel diff. = 1203.31
+[2021-06-25 05:11:08.000] [jointLog] [info] iteration = 100 | max rel diff. = 0.000708466
+[2021-06-25 05:11:08.000] [jointLog] [info] Finished optimizer
+[2021-06-25 05:11:08.000] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           summarize salmon files...                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+Starting in: /scratch/groups/sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/alignment_files
+Loading counts from: ./all.quant quant.sf
+"all.quant.counts"
+
+########################################################################################################################
+#####                                   EXTRACTING AVERAGE ABUNDANCE OF EACH BIN                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                            There were 1 samples detected. Making abundance table!                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Average bin abundance table stored in                                    -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS/abundance_table.tab-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+************************************************************************************************************************
+*****                    Cannot make clustered heatmap with just one sample... Skipping heatmap                    *****
+************************************************************************************************************************
+
+
+########################################################################################################################
+#####                                 QUANT_BINS PIPELINE SUCCESSFULLY FINISHED!!!                                 #####
+########################################################################################################################
+
+
+real	27m21.516s
+user	27m36.510s
+sys	0m57.402s

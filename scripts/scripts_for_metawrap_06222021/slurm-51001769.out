@@ -1,0 +1,1834 @@
+Version Server Response: Not Found
+[2021-06-29 13:34:08.839] [jLog] [warning] The salmon index is being built without any decoy sequences.  It is recommended that decoy sequence (either computed auxiliary decoy sequence or the genome of the organism) be provided during indexing. Further details can be found at https://salmon.readthedocs.io/en/latest/salmon.html#preparing-transcriptome-indices-mapping-based-mode.
+[2021-06-29 13:34:08.839] [jLog] [info] building index
+out : /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index
+[2021-06-29 13:34:08.840] [puff::index::jointLog] [info] Running fixFasta
+
+[Step 1 of 4] : counting k-mers
+[2021-06-29 13:34:09.063] [puff::index::jointLog] [warning] Entry with header [NODE_1_length_1204867_cov_37.047160] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.082] [puff::index::jointLog] [warning] Entry with header [NODE_5_length_542707_cov_40.509590] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.266] [puff::index::jointLog] [warning] Entry with header [NODE_6_length_474288_cov_83.653375] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.816] [puff::index::jointLog] [warning] Entry with header [NODE_2_length_768405_cov_83.611443] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.830] [puff::index::jointLog] [warning] Entry with header [NODE_4_length_552050_cov_75.426073] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.840] [puff::index::jointLog] [warning] Entry with header [NODE_7_length_429278_cov_69.584079] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+[2021-06-29 13:34:09.912] [puff::index::jointLog] [warning] Entry with header [NODE_3_length_693972_cov_28.065612] was longer than 400000 nucleotides.  This is probably a chromosome instead of a transcript.
+
+[2021-06-29 13:34:10.397] [puff::index::jointLog] [info] Replaced 44,210 non-ATCG nucleotides
+[2021-06-29 13:34:10.397] [puff::index::jointLog] [info] Clipped poly-A tails from 1 transcripts
+wrote 3863 cleaned references
+[2021-06-29 13:34:10.643] [puff::index::jointLog] [info] Filter size not provided; estimating from number of distinct k-mers
+[2021-06-29 13:34:11.138] [puff::index::jointLog] [info] ntHll estimated 56547645 distinct k-mers, setting filter size to 2^30
+Threads = 1
+Vertex length = 31
+Hash functions = 5
+Filter size = 1073741824
+Capacity = 2
+Files: 
+/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index/ref_k31_fixed.fa
+--------------------------------------------------------------------------------
+Round 0, 0:1073741824
+Pass	Filling	Filtering
+1	23	42	
+2	1	0
+True junctions count = 16499
+False junctions count = 318812
+Hash table size = 335311
+Candidate marks count = 358449
+--------------------------------------------------------------------------------
+Reallocating bifurcations time: 0
+True marks count: 43263
+Edges construction time: 2
+--------------------------------------------------------------------------------
+Distinct junctions = 16499
+
+allowedIn: 37
+Max Junction ID: 22448
+seen.size():179593 kmerInfo.size():22449
+approximateContigTotalLength: 28846806
+counters for complex kmers:
+(prec>1 & succ>1)=518 | (succ>1 & isStart)=9 | (prec>1 & isEnd)=9 | (isStart & isEnd)=9
+contig count: 27698 element count: 57360400 complex nodes: 545
+# of ones in rank vector: 27697
+[2021-06-29 13:35:24.004] [puff::index::jointLog] [info] Starting the Pufferfish indexing by reading the GFA binary file.
+[2021-06-29 13:35:24.004] [puff::index::jointLog] [info] Setting the index/BinaryGfa directory /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index
+size = 57360400
+-----------------------------------------
+| Loading contigs | Time = 10.67 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading contig boundaries | Time = 5.686 ms
+-----------------------------------------
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+27697
+[2021-06-29 13:35:24.130] [puff::index::jointLog] [info] Done wrapping the rank vector with a rank9sel structure.
+[2021-06-29 13:35:24.130] [puff::index::jointLog] [info] contig count for validation: 27,697
+[2021-06-29 13:35:24.136] [puff::index::jointLog] [info] Total # of Contigs : 27,697
+[2021-06-29 13:35:24.136] [puff::index::jointLog] [info] Total # of numerical Contigs : 27,697
+[2021-06-29 13:35:24.136] [puff::index::jointLog] [info] Total # of contig vec entries: 40,665
+[2021-06-29 13:35:24.136] [puff::index::jointLog] [info] bits per offset entry 16
+[2021-06-29 13:35:24.137] [puff::index::jointLog] [info] Done constructing the contig vector. 27698
+[2021-06-29 13:35:24.144] [puff::index::jointLog] [info] # segments = 27,697
+[2021-06-29 13:35:24.144] [puff::index::jointLog] [info] total length = 57,360,400
+[2021-06-29 13:35:24.153] [puff::index::jointLog] [info] Reading the reference files ...
+[2021-06-29 13:35:24.329] [puff::index::jointLog] [info] positional integer width = 26
+[2021-06-29 13:35:24.329] [puff::index::jointLog] [info] seqSize = 57,360,400
+[2021-06-29 13:35:24.329] [puff::index::jointLog] [info] rankSize = 57,360,400
+[2021-06-29 13:35:24.329] [puff::index::jointLog] [info] edgeVecSize = 0
+[2021-06-29 13:35:24.329] [puff::index::jointLog] [info] num keys = 56,529,490
+[Building BooPHF]  0.1  %   elapsed:   0 min 0  sec   remaining:   0 min 24 sec[Building BooPHF]  0.201%   elapsed:   0 min 0  sec   remaining:   0 min 15 sec[Building BooPHF]  0.3  %   elapsed:   0 min 0  sec   remaining:   0 min 11 sec[Building BooPHF]  0.4  %   elapsed:   0 min 0  sec   remaining:   0 min 10 sec[Building BooPHF]  0.501%   elapsed:   0 min 0  sec   remaining:   0 min 9  sec[Building BooPHF]  0.6  %   elapsed:   0 min 0  sec   remaining:   0 min 9  sec[Building BooPHF]  0.7  %   elapsed:   0 min 0  sec   remaining:   0 min 8  sec[Building BooPHF]  0.801%   elapsed:   0 min 0  sec   remaining:   0 min 8  sec[Building BooPHF]  0.9  %   elapsed:   0 min 0  sec   remaining:   0 min 8  sec[Building BooPHF]  1    %   elapsed:   0 min 0  sec   remaining:   0 min 8  sec[Building BooPHF]  1.1  %   elapsed:   0 min 0  sec   remaining:   0 min 8  sec[Building BooPHF]  1.2  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.3  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.4  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.5  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.6  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.7  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.8  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  1.9  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2    %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2.1  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2.2  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2.3  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2.4  %   elapsed:   0 min 0  sec   remaining:   0 min 7  sec[Building BooPHF]  2.5  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  2.6  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  2.7  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  2.8  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  2.9  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3    %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.1  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.2  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.3  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.4  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.5  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.6  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.7  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.8  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  3.9  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  4    %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  4.1  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  4.2  %   elapsed:   0 min 0  sec   remaining:   0 min 6  sec[Building BooPHF]  4.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.5  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.6  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.7  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.8  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  4.9  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5    %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.1  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.2  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.5  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.6  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.7  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.8  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  5.9  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6    %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.1  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.2  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.5  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.6  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.7  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.8  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  6.9  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7    %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.1  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.2  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.5  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.6  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.7  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.8  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  7.9  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8    %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.1  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.2  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.5  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.6  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.7  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.8  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  8.9  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9    %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9.1  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9.2  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9.3  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9.4  %   elapsed:   0 min 0  sec   remaining:   0 min 5  sec[Building BooPHF]  9.5  %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  9.6  %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  9.7  %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  9.8  %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  9.9  %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  10.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  11.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  12.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  13.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  14.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  15.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  16.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.7 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.8 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  17.9 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18   %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.1 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.2 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.3 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.4 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.5 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.6 %   elapsed:   0 min 1  sec   remaining:   0 min 5  sec[Building BooPHF]  18.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  18.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  18.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  19.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  20.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  21.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  22.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  23.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.8 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  24.9 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25   %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.1 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.2 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.3 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.4 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.5 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.6 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.7 %   elapsed:   0 min 1  sec   remaining:   0 min 4  sec[Building BooPHF]  25.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  25.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  26.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  27.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  28.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  29.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  30.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  31.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  32.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  33.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  34.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  35.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  36.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  37.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.3 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.4 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.5 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.6 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.7 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.8 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  38.9 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  39   %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  39.1 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  39.2 %   elapsed:   0 min 2  sec   remaining:   0 min 4  sec[Building BooPHF]  39.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  39.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  40.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  41.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  42.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  43.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  44.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  45.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  46.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  47.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  48.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49   %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.1 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.2 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.3 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.4 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.5 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.6 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.7 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.8 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  49.9 %   elapsed:   0 min 3  sec   remaining:   0 min 4  sec[Building BooPHF]  50   %   elapsed:   0 min 3  sec   remaining:   0 min 3  sec[Building BooPHF]  50.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  50.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  51.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  52.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  53.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  54.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  55.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  56.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  57.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  58.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  59.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.3 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.4 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.5 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.6 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.7 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.8 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  60.9 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  61   %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  61.1 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  61.2 %   elapsed:   0 min 4  sec   remaining:   0 min 3  sec[Building BooPHF]  61.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.5 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.6 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.7 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.8 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  61.9 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62   %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.1 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.2 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.5 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.6 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.7 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.8 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  62.9 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63   %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.1 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.2 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.5 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.6 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.7 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.8 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  63.9 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64   %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.1 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.2 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.5 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.6 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.7 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.8 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  64.9 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65   %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.1 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.2 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.5 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.6 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.7 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.8 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  65.9 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66   %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66.1 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66.2 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66.3 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66.4 %   elapsed:   0 min 5  sec   remaining:   0 min 3  sec[Building BooPHF]  66.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  66.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  66.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  66.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  66.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  67.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  68.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  69.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  70.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  71.9 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72   %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.1 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.2 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.3 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.4 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.5 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.6 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.7 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.8 %   elapsed:   0 min 5  sec   remaining:   0 min 2  sec[Building BooPHF]  72.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  73.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  74.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  75.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  76.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  77.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  78.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.5 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.6 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.7 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.8 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  79.9 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80   %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80.1 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80.2 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80.3 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80.4 %   elapsed:   0 min 6  sec   remaining:   0 min 2  sec[Building BooPHF]  80.5 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  80.6 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  80.7 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  80.8 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  80.9 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81   %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.1 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.2 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.3 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.4 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.5 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.6 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.7 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.8 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  81.9 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82   %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.1 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.2 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.3 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.4 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.5 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.6 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.7 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.8 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  82.9 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83   %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.1 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.2 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.3 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.4 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.5 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.6 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.7 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.8 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  83.9 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  84   %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  84.1 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  84.2 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  84.3 %   elapsed:   0 min 6  sec   remaining:   0 min 1  sec[Building BooPHF]  84.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  84.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  84.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  84.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  84.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  84.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  85.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  86.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  87.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  88.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  89.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  90.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  91.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.4 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.5 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.6 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.7 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.8 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  92.9 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  93   %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  93.1 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  93.2 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  93.3 %   elapsed:   0 min 7  sec   remaining:   0 min 1  sec[Building BooPHF]  93.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  93.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  93.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  93.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  93.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  93.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  94.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  95.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  96.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  97.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  98.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99   %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.1 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.2 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.3 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.4 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.5 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.6 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.7 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.8 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  99.9 %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec[Building BooPHF]  100  %   elapsed:   0 min 7  sec   remaining:   0 min 0  sec
+[2021-06-29 13:35:31.827] [puff::index::jointLog] [info] mphf size = 35.3101 MB
+[2021-06-29 13:35:31.921] [puff::index::jointLog] [info] chunk size = 57,360,400
+[2021-06-29 13:35:31.922] [puff::index::jointLog] [info] chunk 0 = [0, 57,360,370)
+[2021-06-29 13:35:46.864] [puff::index::jointLog] [info] finished populating pos vector
+[2021-06-29 13:35:46.864] [puff::index::jointLog] [info] writing index components
+[2021-06-29 13:35:47.110] [puff::index::jointLog] [info] finished writing dense pufferfish index
+[2021-06-29 13:35:47.158] [jLog] [info] done building index
+for info, total work write each  : 2.331    total work inram from level 3 : 4.322  total work raw : 25.000 
+Bitarray       296202176  bits (100.00 %)   (array + ranks )
+final hash             0  bits (0.00 %) (nb in final hash 0)
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC1-AM-BOTTOM/logs
+[2021-06-29 13:35:50.360] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:35:50.360] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:35:50.360] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:35:50.360] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:35:50.360] [jointLog] [info] parsing read library format
+[2021-06-29 13:35:50.360] [jointLog] [info] There is 1 library.
+[2021-06-29 13:35:50.537] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:35:50.538] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.6782 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 512.24 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 26.497 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 26.011 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.65 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.57 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 151.88 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 12.057 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 49.967 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:35:50.864] [jointLog] [info] done
+[2021-06-29 13:35:50.864] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:35:50.866] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 48,491, hits per frag:  0.10744[2021-06-29 13:35:52.977] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 96,550, hits per frag:  0.100759[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 144,493, hits per frag:  0.107154
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:35:56.017] [jointLog] [info] Computed 3,511 rich equivalence classes for further processing
+[2021-06-29 13:35:56.017] [jointLog] [info] Counted 164,918 total reads in the equivalence classes 
+[2021-06-29 13:35:56.042] [jointLog] [warning] 0.831388% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:35:56.042] [jointLog] [info] Number of mappings discarded because of alignment score : 325,900
+[2021-06-29 13:35:56.042] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 15,137
+[2021-06-29 13:35:56.042] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:35:56.042] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 2,372
+[2021-06-29 13:35:56.044] [jointLog] [warning] Only 164918 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:35:56.044] [jointLog] [info] Mapping rate = 9.61507%
+
+[2021-06-29 13:35:56.044] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:35:56.045] [jointLog] [info] Starting optimizer
+[2021-06-29 13:35:56.048] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:35:56.049] [jointLog] [info] iteration = 0 | max rel diff. = 41.5542
+[2021-06-29 13:35:56.086] [jointLog] [info] iteration = 100 | max rel diff. = 0.000265531
+[2021-06-29 13:35:56.086] [jointLog] [info] Finished optimizer
+[2021-06-29 13:35:56.086] [jointLog] [info] writing output 
+
+20190709-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190709-RC7-AM-BOTTOM/logs
+[2021-06-29 13:35:56.926] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:35:56.926] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:35:56.926] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:35:56.926] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:35:56.927] [jointLog] [info] parsing read library format
+[2021-06-29 13:35:56.927] [jointLog] [info] There is 1 library.
+[2021-06-29 13:35:57.087] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:35:57.087] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2522 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 451.31 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 24.151 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 24.703 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.42 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.167 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 141.61 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.254 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 51.397 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:35:57.400] [jointLog] [info] done
+[2021-06-29 13:35:57.400] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:35:57.402] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 59,564, hits per frag:  0.200863[2021-06-29 13:35:59.185] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 119,333, hits per frag:  0.123594[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 179,349, hits per frag:  0.125002[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 238,966, hits per frag:  0.123697[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 298,498, hits per frag:  0.119927
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:05.090] [jointLog] [info] Computed 3,535 rich equivalence classes for further processing
+[2021-06-29 13:36:05.090] [jointLog] [info] Counted 344,715 total reads in the equivalence classes 
+[2021-06-29 13:36:05.117] [jointLog] [warning] 1.11227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:05.117] [jointLog] [info] Number of mappings discarded because of alignment score : 814,022
+[2021-06-29 13:36:05.117] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 24,890
+[2021-06-29 13:36:05.117] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:05.117] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 4,326
+[2021-06-29 13:36:05.118] [jointLog] [warning] Only 344715 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:05.118] [jointLog] [info] Mapping rate = 11.9218%
+
+[2021-06-29 13:36:05.118] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:05.119] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:05.123] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:05.124] [jointLog] [info] iteration = 0 | max rel diff. = 3133.1
+[2021-06-29 13:36:05.156] [jointLog] [info] iteration = 100 | max rel diff. = 4.43014e-08
+[2021-06-29 13:36:05.156] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:05.156] [jointLog] [info] writing output 
+
+20190709-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-BOTTOM/logs
+[2021-06-29 13:36:06.170] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:06.170] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:06.170] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:06.170] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:06.170] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:06.170] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.221 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 460.81 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 24.806 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 24.785 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.61 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.571 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 143.3 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.351 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 50.025 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:06.443] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:06.443] [jointLog] [info] Loading dense pufferfish index.
+[2021-06-29 13:36:06.758] [jointLog] [info] done
+[2021-06-29 13:36:06.758] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:06.760] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 83,437, hits per frag:  0.175229[2021-06-29 13:36:08.245] [jointLog] [info] Automatically detected most likely library type as IU
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:09.372] [jointLog] [info] Computed 3,402 rich equivalence classes for further processing
+[2021-06-29 13:36:09.372] [jointLog] [info] Counted 131,656 total reads in the equivalence classes 
+[2021-06-29 13:36:09.411] [jointLog] [warning] 2.36319% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:09.411] [jointLog] [info] Number of mappings discarded because of alignment score : 89,971
+[2021-06-29 13:36:09.411] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 5,732
+[2021-06-29 13:36:09.411] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:09.411] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 915
+[2021-06-29 13:36:09.412] [jointLog] [warning] Only 131656 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:09.412] [jointLog] [info] Mapping rate = 16.6361%
+
+[2021-06-29 13:36:09.412] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:09.413] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:09.417] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:09.417] [jointLog] [info] iteration = 0 | max rel diff. = 83.061
+[2021-06-29 13:36:09.449] [jointLog] [info] iteration = 100 | max rel diff. = 1.27172e-16
+[2021-06-29 13:36:09.450] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:09.450] [jointLog] [info] writing output 
+
+20190716-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-TOP }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC1-AM-TOP/logs
+[2021-06-29 13:36:10.053] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:10.053] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:10.053] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:10.054] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:10.054] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:10.054] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:10.193] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:10.193] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2834 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 454.35 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 28.144 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.343 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.53 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.365 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 141.55 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.202 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 62.794 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:10.506] [jointLog] [info] done
+[2021-06-29 13:36:10.506] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:10.508] [jointLog] [info] Number of decoys : 0
+[2021-06-29 13:36:11.993] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 90,333, hits per frag:  0.197692[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 180,774, hits per frag:  0.204855
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:14.394] [jointLog] [info] Computed 3,436 rich equivalence classes for further processing
+[2021-06-29 13:36:14.394] [jointLog] [info] Counted 216,576 total reads in the equivalence classes 
+[2021-06-29 13:36:14.415] [jointLog] [warning] 1.30818% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:14.415] [jointLog] [info] Number of mappings discarded because of alignment score : 167,863
+[2021-06-29 13:36:14.415] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 13,704
+[2021-06-29 13:36:14.415] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:14.415] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,700
+[2021-06-29 13:36:14.417] [jointLog] [warning] Only 216576 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:14.417] [jointLog] [info] Mapping rate = 18.0425%
+
+[2021-06-29 13:36:14.417] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:14.418] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:14.421] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:14.422] [jointLog] [info] iteration = 0 | max rel diff. = 54.8257
+[2021-06-29 13:36:14.454] [jointLog] [info] iteration = 100 | max rel diff. = 0.00022325
+[2021-06-29 13:36:14.455] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:14.455] [jointLog] [info] writing output 
+
+20190716-RC1-AM-TOP processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC2-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC2-AM-BOTTOM/logs
+[2021-06-29 13:36:15.707] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:15.707] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:15.707] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:15.707] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:15.707] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:15.707] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:15.826] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:15.827] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.3095 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 470.75 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 24.858 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 26.12 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.7 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.483 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.39 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.373 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 51.957 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:16.142] [jointLog] [info] done
+[2021-06-29 13:36:16.142] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:16.144] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 46,832, hits per frag:  0.0997036[2021-06-29 13:36:18.154] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 93,517, hits per frag:  0.102153[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 140,080, hits per frag:  0.120037[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 186,821, hits per frag:  0.108759
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:22.980] [jointLog] [info] Computed 3,453 rich equivalence classes for further processing
+[2021-06-29 13:36:22.980] [jointLog] [info] Counted 231,111 total reads in the equivalence classes 
+[2021-06-29 13:36:23.002] [jointLog] [warning] 1.80946% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:23.002] [jointLog] [info] Number of mappings discarded because of alignment score : 381,332
+[2021-06-29 13:36:23.002] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 17,087
+[2021-06-29 13:36:23.002] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:23.002] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 2,186
+[2021-06-29 13:36:23.004] [jointLog] [warning] Only 231111 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:23.004] [jointLog] [info] Mapping rate = 9.33263%
+
+[2021-06-29 13:36:23.004] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:23.005] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:23.009] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:23.010] [jointLog] [info] iteration = 0 | max rel diff. = 591.222
+[2021-06-29 13:36:23.048] [jointLog] [info] iteration = 100 | max rel diff. = 3.825e-07
+[2021-06-29 13:36:23.048] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:23.048] [jointLog] [info] writing output 
+
+20190716-RC2-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC7-AM-BOTTOM/logs
+[2021-06-29 13:36:24.354] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:24.354] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:24.354] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:24.354] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:24.354] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:24.354] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:24.514] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:24.515] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.263 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 457.96 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 21.531 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.334 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.62 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.401 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.83 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.226 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 49.665 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:24.829] [jointLog] [info] done
+[2021-06-29 13:36:24.829] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:24.831] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 83,342, hits per frag:  0.270907[2021-06-29 13:36:26.541] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 166,643, hits per frag:  0.178306
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:28.775] [jointLog] [info] Computed 3,413 rich equivalence classes for further processing
+[2021-06-29 13:36:28.775] [jointLog] [info] Counted 208,225 total reads in the equivalence classes 
+[2021-06-29 13:36:28.796] [jointLog] [warning] 1.68633% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:28.796] [jointLog] [info] Number of mappings discarded because of alignment score : 58,044
+[2021-06-29 13:36:28.796] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 11,031
+[2021-06-29 13:36:28.796] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:28.796] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,254
+[2021-06-29 13:36:28.797] [jointLog] [warning] Only 208225 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:28.797] [jointLog] [info] Mapping rate = 16.61%
+
+[2021-06-29 13:36:28.797] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:28.798] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:28.801] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:28.802] [jointLog] [info] iteration = 0 | max rel diff. = 52.6821
+[2021-06-29 13:36:28.834] [jointLog] [info] iteration = 100 | max rel diff. = 8.99797e-08
+[2021-06-29 13:36:28.834] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:28.834] [jointLog] [info] writing output 
+
+20190716-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190716-RC9-AM-BOTTOM/logs
+[2021-06-29 13:36:29.926] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:29.926] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:29.926] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:29.926] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:29.926] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:29.926] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.261 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 447.47 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 25.225 us
+-----------------------------------------
+[2021-06-29 13:36:30.080] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:30.080] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 26.002 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.5 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.287 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.15 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.293 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 54.334 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:30.394] [jointLog] [info] done
+[2021-06-29 13:36:30.394] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:30.396] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 84,465, hits per frag:  0.192804[2021-06-29 13:36:31.772] [jointLog] [info] Automatically detected most likely library type as IU
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:33.320] [jointLog] [info] Computed 3,408 rich equivalence classes for further processing
+[2021-06-29 13:36:33.320] [jointLog] [info] Counted 166,696 total reads in the equivalence classes 
+[2021-06-29 13:36:33.341] [jointLog] [warning] 1.47831% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:33.341] [jointLog] [info] Number of mappings discarded because of alignment score : 54,684
+[2021-06-29 13:36:33.341] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 9,046
+[2021-06-29 13:36:33.341] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:33.341] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,161
+[2021-06-29 13:36:33.343] [jointLog] [warning] Only 166696 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:33.343] [jointLog] [info] Mapping rate = 16.8475%
+
+[2021-06-29 13:36:33.343] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:33.344] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:33.347] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:33.348] [jointLog] [info] iteration = 0 | max rel diff. = 42.0114
+[2021-06-29 13:36:33.384] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-06-29 13:36:33.384] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:33.384] [jointLog] [info] writing output 
+
+20190716-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC1-AM-BOTTOM/logs
+[2021-06-29 13:36:34.505] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:34.505] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:34.505] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:34.506] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:34.506] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:34.506] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:34.662] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:34.662] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2297 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 446.81 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 25.304 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.602 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.55 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.467 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.87 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.27 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 55.8 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:34.977] [jointLog] [info] done
+[2021-06-29 13:36:34.977] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:34.979] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 62,053, hits per frag:  0.14641[2021-06-29 13:36:36.945] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 123,613, hits per frag:  0.147415
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:38.801] [jointLog] [info] Computed 3,332 rich equivalence classes for further processing
+[2021-06-29 13:36:38.801] [jointLog] [info] Counted 141,467 total reads in the equivalence classes 
+[2021-06-29 13:36:38.821] [jointLog] [warning] 1.01331% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:38.821] [jointLog] [info] Number of mappings discarded because of alignment score : 96,500
+[2021-06-29 13:36:38.821] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 10,377
+[2021-06-29 13:36:38.821] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:38.821] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,305
+[2021-06-29 13:36:38.822] [jointLog] [warning] Only 141467 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:38.822] [jointLog] [info] Mapping rate = 12.3343%
+
+[2021-06-29 13:36:38.822] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:38.823] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:38.826] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:38.827] [jointLog] [info] iteration = 0 | max rel diff. = 2685.92
+[2021-06-29 13:36:38.860] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-06-29 13:36:38.860] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:38.860] [jointLog] [info] writing output 
+
+20190723-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC2-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC2-AM-BOTTOM/logs
+[2021-06-29 13:36:40.071] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:40.071] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:40.071] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:40.071] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:40.071] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:40.071] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:40.210] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:40.211] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2924 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 457.66 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 29.288 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.857 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.68 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.522 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 144.56 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.407 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 51.843 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:40.528] [jointLog] [info] done
+[2021-06-29 13:36:40.528] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:40.530] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 81,263, hits per frag:  0.226869[2021-06-29 13:36:42.321] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 162,309, hits per frag:  0.207626[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 242,889, hits per frag:  0.170689
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:45.935] [jointLog] [info] Computed 3,469 rich equivalence classes for further processing
+[2021-06-29 13:36:45.935] [jointLog] [info] Counted 284,813 total reads in the equivalence classes 
+[2021-06-29 13:36:45.958] [jointLog] [warning] 1.18175% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:45.958] [jointLog] [info] Number of mappings discarded because of alignment score : 134,635
+[2021-06-29 13:36:45.958] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 18,513
+[2021-06-29 13:36:45.958] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:45.958] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 2,129
+[2021-06-29 13:36:45.960] [jointLog] [warning] Only 284813 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:45.960] [jointLog] [info] Mapping rate = 16.1699%
+
+[2021-06-29 13:36:45.960] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:45.961] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:45.964] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:45.965] [jointLog] [info] iteration = 0 | max rel diff. = 74.4212
+[2021-06-29 13:36:45.997] [jointLog] [info] iteration = 100 | max rel diff. = 0.000186972
+[2021-06-29 13:36:45.997] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:45.997] [jointLog] [info] writing output 
+
+20190723-RC2-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC7-AM-BOTTOM/logs
+[2021-06-29 13:36:47.140] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:47.140] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:47.140] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:47.140] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:47.140] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:47.140] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.2606 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 436.45 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 24.362 us
+-----------------------------------------
+[2021-06-29 13:36:47.273] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:47.273] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 25.554 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.57 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.406 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.54 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.243 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 50.114 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:47.588] [jointLog] [info] done
+[2021-06-29 13:36:47.588] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:47.590] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 71,074, hits per frag:  0.19232[2021-06-29 13:36:49.580] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 142,371, hits per frag:  0.181294[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 213,964, hits per frag:  0.175237[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 285,085, hits per frag:  0.160239
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:36:54.847] [jointLog] [info] Computed 3,527 rich equivalence classes for further processing
+[2021-06-29 13:36:54.847] [jointLog] [info] Counted 348,458 total reads in the equivalence classes 
+[2021-06-29 13:36:54.877] [jointLog] [warning] 1.37179% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:36:54.877] [jointLog] [info] Number of mappings discarded because of alignment score : 355,204
+[2021-06-29 13:36:54.877] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 22,601
+[2021-06-29 13:36:54.877] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:36:54.877] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 3,117
+[2021-06-29 13:36:54.879] [jointLog] [warning] Only 348458 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:36:54.879] [jointLog] [info] Mapping rate = 14.2358%
+
+[2021-06-29 13:36:54.879] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:36:54.880] [jointLog] [info] Starting optimizer
+[2021-06-29 13:36:54.883] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:36:54.884] [jointLog] [info] iteration = 0 | max rel diff. = 4027.24
+[2021-06-29 13:36:54.916] [jointLog] [info] iteration = 100 | max rel diff. = 0.000184069
+[2021-06-29 13:36:54.916] [jointLog] [info] Finished optimizer
+[2021-06-29 13:36:54.916] [jointLog] [info] writing output 
+
+20190723-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190723-RC9-AM-BOTTOM/logs
+[2021-06-29 13:36:55.516] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:36:55.516] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:36:55.516] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:36:55.516] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:36:55.516] [jointLog] [info] parsing read library format
+[2021-06-29 13:36:55.517] [jointLog] [info] There is 1 library.
+[2021-06-29 13:36:55.693] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:36:55.693] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2668 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 455.09 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 26.278 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.506 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.62 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.245 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.11 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.198 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 47.32 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:36:56.007] [jointLog] [info] done
+[2021-06-29 13:36:56.007] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:36:56.009] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 70,018, hits per frag:  0.142641[2021-06-29 13:36:57.930] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 140,396, hits per frag:  0.173217[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 210,756, hits per frag:  0.158652[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 280,016, hits per frag:  0.145417
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:37:02.301] [jointLog] [info] Computed 3,527 rich equivalence classes for further processing
+[2021-06-29 13:37:02.301] [jointLog] [info] Counted 303,262 total reads in the equivalence classes 
+[2021-06-29 13:37:02.322] [jointLog] [warning] 1.22862% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:37:02.322] [jointLog] [info] Number of mappings discarded because of alignment score : 417,881
+[2021-06-29 13:37:02.322] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 20,647
+[2021-06-29 13:37:02.322] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:02.322] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 3,051
+[2021-06-29 13:37:02.323] [jointLog] [warning] Only 303262 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:37:02.323] [jointLog] [info] Mapping rate = 13.9947%
+
+[2021-06-29 13:37:02.323] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:02.324] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:02.328] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:02.328] [jointLog] [info] iteration = 0 | max rel diff. = 387.466
+[2021-06-29 13:37:02.361] [jointLog] [info] iteration = 100 | max rel diff. = 0.000288532
+[2021-06-29 13:37:02.361] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:02.361] [jointLog] [info] writing output 
+
+20190723-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC1-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC1-AM-BOTTOM/logs
+[2021-06-29 13:37:03.595] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:03.595] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:03.595] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:03.595] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:03.595] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:03.595] [jointLog] [info] There is 1 library.
+[2021-06-29 13:37:03.734] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:03.735] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2352 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 453.5 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 22.267 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 24.837 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.53 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.287 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.13 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.26 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 57.676 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:04.048] [jointLog] [info] done
+[2021-06-29 13:37:04.048] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:04.050] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 52,115, hits per frag:  0.107545[2021-06-29 13:37:05.884] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 103,852, hits per frag:  0.114042
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:37:08.353] [jointLog] [info] Computed 3,365 rich equivalence classes for further processing
+[2021-06-29 13:37:08.354] [jointLog] [info] Counted 153,589 total reads in the equivalence classes 
+[2021-06-29 13:37:08.372] [jointLog] [warning] 1.09801% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:37:08.372] [jointLog] [info] Number of mappings discarded because of alignment score : 172,195
+[2021-06-29 13:37:08.372] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 11,693
+[2021-06-29 13:37:08.372] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:08.372] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,911
+[2021-06-29 13:37:08.373] [jointLog] [warning] Only 153589 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:37:08.373] [jointLog] [info] Mapping rate = 10.3544%
+
+[2021-06-29 13:37:08.373] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:08.374] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:08.378] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:08.378] [jointLog] [info] iteration = 0 | max rel diff. = 143.901
+[2021-06-29 13:37:08.410] [jointLog] [info] iteration = 100 | max rel diff. = 7.30833e-05
+[2021-06-29 13:37:08.410] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:08.410] [jointLog] [info] writing output 
+
+20190730-RC1-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC2-AM-BOTTOM-BUOY }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC2-AM-BOTTOM-BUOY/logs
+[2021-06-29 13:37:09.616] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:09.616] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:09.616] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:09.616] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:09.616] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:09.616] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.2316 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 444.71 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 25.774 us
+-----------------------------------------
+[2021-06-29 13:37:09.789] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:09.790] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 25.393 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.56 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.385 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 141.12 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.208 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 52.055 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:10.102] [jointLog] [info] done
+[2021-06-29 13:37:10.102] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:10.104] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 49,185, hits per frag:  0.11615[2021-06-29 13:37:11.932] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 97,977, hits per frag:  0.117456[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 146,767, hits per frag:  0.107126
+
+
+
+[2021-06-29 13:37:14.899] [jointLog] [info] Computed 3,364 rich equivalence classes for further processing
+[2021-06-29 13:37:14.899] [jointLog] [info] Counted 165,922 total reads in the equivalence classes 
+
+
+
+
+
+
+[2021-06-29 13:37:14.940] [jointLog] [warning] 1.57178% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:37:14.940] [jointLog] [info] Number of mappings discarded because of alignment score : 161,893
+[2021-06-29 13:37:14.940] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 12,287
+[2021-06-29 13:37:14.940] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:14.940] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 2,017
+[2021-06-29 13:37:14.941] [jointLog] [warning] Only 165922 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:37:14.941] [jointLog] [info] Mapping rate = 9.75545%
+
+[2021-06-29 13:37:14.941] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:14.942] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:14.946] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:14.946] [jointLog] [info] iteration = 0 | max rel diff. = 1935.64
+[2021-06-29 13:37:14.982] [jointLog] [info] iteration = 100 | max rel diff. = 2.65548e-07
+[2021-06-29 13:37:14.982] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:14.982] [jointLog] [info] writing output 
+
+20190730-RC2-AM-BOTTOM-BUOY processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC7-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC7-AM-BOTTOM/logs
+[2021-06-29 13:37:15.521] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:15.521] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:15.521] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:15.521] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:15.521] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:15.521] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.3241 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 434.23 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 25.236 us
+-----------------------------------------
+[2021-06-29 13:37:15.673] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:15.673] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 25.53 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.43 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.16 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 141.97 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.193 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 53.732 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:15.986] [jointLog] [info] done
+[2021-06-29 13:37:15.987] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:15.988] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 65,397, hits per frag:  0.178617[2021-06-29 13:37:18.015] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 130,623, hits per frag:  0.137487[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 195,876, hits per frag:  0.140046[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 261,203, hits per frag:  0.139116
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:37:22.853] [jointLog] [info] Computed 3,486 rich equivalence classes for further processing
+[2021-06-29 13:37:22.853] [jointLog] [info] Counted 303,956 total reads in the equivalence classes 
+[2021-06-29 13:37:22.872] [jointLog] [warning] 1.12227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:37:22.872] [jointLog] [info] Number of mappings discarded because of alignment score : 181,828
+[2021-06-29 13:37:22.872] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 17,239
+[2021-06-29 13:37:22.872] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:22.872] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 2,700
+[2021-06-29 13:37:22.874] [jointLog] [warning] Only 303956 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:37:22.874] [jointLog] [info] Mapping rate = 13.0065%
+
+[2021-06-29 13:37:22.874] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:22.875] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:22.878] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:22.879] [jointLog] [info] iteration = 0 | max rel diff. = 2983.32
+[2021-06-29 13:37:22.916] [jointLog] [info] iteration = 100 | max rel diff. = 0.00509176
+[2021-06-29 13:37:22.916] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:22.916] [jointLog] [info] writing output 
+
+20190730-RC7-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC9-AM-BOTTOM }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/20190730-RC9-AM-BOTTOM/logs
+[2021-06-29 13:37:24.098] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:24.098] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:24.098] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:24.098] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:24.098] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:24.098] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 4.2732 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 448.96 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 25.78 us
+-----------------------------------------
+[2021-06-29 13:37:24.242] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:24.242] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading mphf table | Time = 25.763 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.54 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.38 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 142.13 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.237 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 49.304 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:24.556] [jointLog] [info] done
+[2021-06-29 13:37:24.556] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:24.558] [jointLog] [info] Number of decoys : 0
+[A[32mprocessed[31m 500,003 [32mfragments[0m
+hits: 67,649, hits per frag:  0.172178[2021-06-29 13:37:26.185] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 135,455, hits per frag:  0.166547[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 202,660, hits per frag:  0.145397
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:37:29.409] [jointLog] [info] Computed 3,438 rich equivalence classes for further processing
+[2021-06-29 13:37:29.409] [jointLog] [info] Counted 222,041 total reads in the equivalence classes 
+[2021-06-29 13:37:29.450] [jointLog] [warning] 1.02397% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-29 13:37:29.450] [jointLog] [info] Number of mappings discarded because of alignment score : 97,915
+[2021-06-29 13:37:29.450] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 13,307
+[2021-06-29 13:37:29.450] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:29.450] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,716
+[2021-06-29 13:37:29.452] [jointLog] [warning] Only 222041 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:37:29.452] [jointLog] [info] Mapping rate = 13.4591%
+
+[2021-06-29 13:37:29.452] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:29.453] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:29.456] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:29.457] [jointLog] [info] iteration = 0 | max rel diff. = 4066.87
+[2021-06-29 13:37:29.489] [jointLog] [info] iteration = 100 | max rel diff. = 0.015299
+[2021-06-29 13:37:29.504] [jointLog] [info] iteration = 150 | max rel diff. = 8.02741e-05
+[2021-06-29 13:37:29.504] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:29.504] [jointLog] [info] writing output 
+
+20190730-RC9-AM-BOTTOM processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-cellular }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-cellular/logs
+[2021-06-29 13:37:30.642] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:30.642] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:30.642] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:30.642] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:30.642] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:30.642] [jointLog] [info] There is 1 library.
+[2021-06-29 13:37:30.842] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:30.842] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.2617 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 450.18 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 21.626 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 25.597 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.63 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 11.355 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 141.73 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 11.211 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 51.313 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:31.156] [jointLog] [info] done
+[2021-06-29 13:37:31.156] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:31.158] [jointLog] [info] Number of decoys : 0
+[2021-06-29 13:37:32.243] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 441,884, hits per frag:  2.43638[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 883,570, hits per frag:  0.96055[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,325,172, hits per frag:  0.909627[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 2,208,392, hits per frag:  0.917211[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 2,650,752, hits per frag:  1.0411[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 3,092,582, hits per frag:  0.891895[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 3,534,395, hits per frag:  0.897239[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 3,975,658, hits per frag:  0.89423[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 4,417,362, hits per frag:  0.996764[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 4,858,909, hits per frag:  0.925808[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 5,299,967, hits per frag:  0.901312[A[32mprocessed[31m 6,500,001 [32mfragments[0m
+hits: 5,741,750, hits per frag:  0.889588[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 6,183,601, hits per frag:  0.89012[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 6,625,021, hits per frag:  0.924622
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:37:52.301] [jointLog] [info] Computed 959 rich equivalence classes for further processing
+[2021-06-29 13:37:52.301] [jointLog] [info] Counted 6,705,102 total reads in the equivalence classes 
+[2021-06-29 13:37:52.350] [jointLog] [warning] 0.0370844% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-06-29 13:37:52.350] [jointLog] [info] Number of mappings discarded because of alignment score : 178,333
+[2021-06-29 13:37:52.350] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 92,913
+[2021-06-29 13:37:52.350] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:37:52.350] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 18,142
+[2021-06-29 13:37:52.350] [jointLog] [info] Mapping rate = 88.0506%
+
+[2021-06-29 13:37:52.350] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:37:52.352] [jointLog] [info] Starting optimizer
+[2021-06-29 13:37:52.356] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:37:52.357] [jointLog] [info] iteration = 0 | max rel diff. = 8610.37
+[2021-06-29 13:37:52.383] [jointLog] [info] iteration = 100 | max rel diff. = 3.77919e-16
+[2021-06-29 13:37:52.383] [jointLog] [info] Finished optimizer
+[2021-06-29 13:37:52.383] [jointLog] [info] writing output 
+
+zymo-cellular processed
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/assembly_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-dna }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/QUANT_BINS_salmon1.5.1/quants/zymo-dna/logs
+[2021-06-29 13:37:53.384] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-06-29 13:37:53.384] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-29 13:37:53.384] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-29 13:37:53.384] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-29 13:37:53.384] [jointLog] [info] parsing read library format
+[2021-06-29 13:37:53.384] [jointLog] [info] There is 1 library.
+[2021-06-29 13:37:53.541] [jointLog] [info] Loading pufferfish index
+[2021-06-29 13:37:53.542] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 4.272 ms
+-----------------------------------------
+size = 27698
+-----------------------------------------
+| Loading contig offsets | Time = 500.13 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 27.37 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 24.209 ms
+-----------------------------------------
+size = 57360400
+Number of ones: 27697
+Number of ones per inventory item: 512
+Inventory entries filled: 55
+-----------------------------------------
+| Loading contig boundaries | Time = 116.2 ms
+-----------------------------------------
+size = 57360400
+-----------------------------------------
+| Loading sequence | Time = 10.788 ms
+-----------------------------------------
+size = 56529490
+-----------------------------------------
+| Loading positions | Time = 126.25 ms
+-----------------------------------------
+size = 56867119
+-----------------------------------------
+| Loading reference sequence | Time = 10.189 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 50.368 us
+-----------------------------------------
+
+
+
+
+[2021-06-29 13:37:53.836] [jointLog] [info] done
+[2021-06-29 13:37:53.836] [jointLog] [info] Index contained 3,863 targets
+[2021-06-29 13:37:53.838] [jointLog] [info] Number of decoys : 0
+[2021-06-29 13:37:54.963] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 450,938, hits per frag:  0.988483[A[32mprocessed[31m 500,108 [32mfragments[0m
+hits: 451,016, hits per frag:  1.18654[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 902,009, hits per frag:  0.940186[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,352,973, hits per frag:  0.953755[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 1,803,930, hits per frag:  0.964983
+
+
+
+
+
+
+
+
+
+[2021-06-29 13:38:01.327] [jointLog] [info] Computed 813 rich equivalence classes for further processing
+[2021-06-29 13:38:01.327] [jointLog] [info] Counted 2,052,079 total reads in the equivalence classes 
+[2021-06-29 13:38:01.423] [jointLog] [warning] 0.060137% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-06-29 13:38:01.423] [jointLog] [info] Number of mappings discarded because of alignment score : 49,629
+[2021-06-29 13:38:01.423] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 28,715
+[2021-06-29 13:38:01.423] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-06-29 13:38:01.423] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 5,015
+[2021-06-29 13:38:01.425] [jointLog] [warning] Only 2052079 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-29 13:38:01.425] [jointLog] [info] Mapping rate = 90.0116%
+
+[2021-06-29 13:38:01.425] [jointLog] [info] finished quantifyLibrary()
+[2021-06-29 13:38:01.426] [jointLog] [info] Starting optimizer
+[2021-06-29 13:38:01.429] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-29 13:38:01.429] [jointLog] [info] iteration = 0 | max rel diff. = 7434.64
+[2021-06-29 13:38:01.456] [jointLog] [info] iteration = 100 | max rel diff. = 4.34179e-16
+[2021-06-29 13:38:01.456] [jointLog] [info] Finished optimizer
+[2021-06-29 13:38:01.456] [jointLog] [info] writing output 
+
+zymo-dna processed

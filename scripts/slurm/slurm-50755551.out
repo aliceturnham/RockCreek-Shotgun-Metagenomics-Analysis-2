@@ -1,0 +1,390 @@
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.81/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.81/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 4.02 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=803779872, availableWord=68556752
+[BWTIncConstructFromPacked] 10 iterations done. 100000000 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 196924448 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 283437632 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 360326784 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 428662048 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 489394592 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 543369824 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 591339120 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 633970336 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 671857040 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 705526800 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 735448560 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 762039040 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 785668720 characters processed.
+[bwt_gen] Finished constructing BWT in 149 iterations.
+[bwa_index] 307.22 seconds elapse.
+[bwa_index] Update BWT... 2.40 sec
+[bwa_index] Pack forward-only FASTA... 2.89 sec
+[bwa_index] Construct SA from BWT and Occ... 155.34 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81/work_files/assembly.fa
+[main] Real time: 472.371 sec; CPU: 471.887 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	7m54.988s
+user	7m47.143s
+sys	0m5.756s
+MI_crop_0.81 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.87/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.87/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.91 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=771621026, availableWord=66294036
+[BWTIncConstructFromPacked] 10 iterations done. 99993954 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 193711170 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 277003250 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 351029474 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 416820178 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 475291074 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 527256162 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 573438834 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 614482098 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 650957426 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 683372770 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 712179570 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 737779106 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 760528002 characters processed.
+[bwt_gen] Finished constructing BWT in 146 iterations.
+[bwa_index] 283.77 seconds elapse.
+[bwa_index] Update BWT... 2.29 sec
+[bwa_index] Pack forward-only FASTA... 2.76 sec
+[bwa_index] Construct SA from BWT and Occ... 123.97 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87/work_files/assembly.fa
+[main] Real time: 418.122 sec; CPU: 416.706 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	7m0.101s
+user	6m52.761s
+sys	0m4.882s
+MI_crop_0.87 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.95/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.95/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.32 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=683041338, availableWord=60061176
+[BWTIncConstructFromPacked] 10 iterations done. 94974010 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 179392362 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 254419610 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 321100010 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 380361706 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 433029642 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 479837018 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 521435498 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 558404314 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 591258266 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 620454906 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 646400938 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 669457770 characters processed.
+[bwt_gen] Finished constructing BWT in 137 iterations.
+[bwa_index] 245.07 seconds elapse.
+[bwa_index] Update BWT... 2.03 sec
+[bwa_index] Pack forward-only FASTA... 2.45 sec
+[bwa_index] Construct SA from BWT and Occ... 107.99 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95/work_files/assembly.fa
+[main] Real time: 362.803 sec; CPU: 360.871 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	6m3.996s
+user	5m57.567s
+sys	0m4.166s
+MI_crop_0.95 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_24/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_24/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 4.17 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=850937806, availableWord=71875092
+[BWTIncConstructFromPacked] 10 iterations done. 99999998 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199609070 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 291071598 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 372359726 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 444604814 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 508812414 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 565876318 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 616590830 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 661661966 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 701717294 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 737314542 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 768949454 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 797062622 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 822045630 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 844246558 characters processed.
+[bwt_gen] Finished constructing BWT in 154 iterations.
+[bwa_index] 316.84 seconds elapse.
+[bwa_index] Update BWT... 2.54 sec
+[bwa_index] Pack forward-only FASTA... 3.02 sec
+[bwa_index] Construct SA from BWT and Occ... 137.41 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24/work_files/assembly.fa
+[main] Real time: 466.007 sec; CPU: 464.007 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	7m47.926s
+user	7m40.004s
+sys	0m4.988s
+SW_24 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.90 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=779436024, availableWord=66843524
+[BWTIncConstructFromPacked] 10 iterations done. 99999992 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 194585528 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 278649400 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 353361576 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 419761928 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 478774712 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 531221432 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 577832200 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 619255912 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 656069416 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 688785304 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 717859240 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 743696232 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 766656152 characters processed.
+[bwt_gen] Finished constructing BWT in 147 iterations.
+[bwa_index] 283.48 seconds elapse.
+[bwa_index] Update BWT... 2.29 sec
+[bwa_index] Pack forward-only FASTA... 2.76 sec
+[bwa_index] Construct SA from BWT and Occ... 134.66 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28/work_files/assembly.fa
+[main] Real time: 428.300 sec; CPU: 427.109 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	7m9.835s
+user	7m2.988s
+sys	0m5.047s
+SW_28 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_32/scaffolds.fasta --metabat2 --maxbin2 --concoct all_1.fastq all_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32 already exists.
+rm: cannot remove ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32/*checkm’: No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_32/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.34 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=671164414, availableWord=59225556
+[BWTIncConstructFromPacked] 10 iterations done. 93777774 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 177007614 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 250978542 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 316720078 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 375147326 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 427073582 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 473221726 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 514234318 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 550682382 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 583073470 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 611858734 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 637439102 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 660170974 characters processed.
+[bwt_gen] Finished constructing BWT in 136 iterations.
+[bwa_index] 237.87 seconds elapse.
+[bwa_index] Update BWT... 1.97 sec
+[bwa_index] Pack forward-only FASTA... 2.38 sec
+[bwa_index] Construct SA from BWT and Occ... 108.00 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32/work_files/assembly.fa
+[main] Real time: 354.660 sec; CPU: 353.570 sec
+
+************************************************************************************************************************
+*****                                    all_1.fastq does not exist. Exiting...                                    *****
+************************************************************************************************************************
+
+
+real	5m56.144s
+user	5m50.309s
+sys	0m4.100s
+SW_32 done

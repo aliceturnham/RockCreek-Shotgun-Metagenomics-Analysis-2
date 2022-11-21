@@ -1,0 +1,1694 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=339553] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.81 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Approx 100% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.83 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.85 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.87 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.89 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.91 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.93 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.95 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.97 done
+Started analysis of all_rawreads_1.fastq
+Approx 5% complete for all_rawreads_1.fastq
+Approx 10% complete for all_rawreads_1.fastq
+Approx 15% complete for all_rawreads_1.fastq
+Approx 20% complete for all_rawreads_1.fastq
+Approx 25% complete for all_rawreads_1.fastq
+Approx 30% complete for all_rawreads_1.fastq
+Approx 35% complete for all_rawreads_1.fastq
+Approx 40% complete for all_rawreads_1.fastq
+Approx 45% complete for all_rawreads_1.fastq
+Approx 50% complete for all_rawreads_1.fastq
+Approx 55% complete for all_rawreads_1.fastq
+Approx 60% complete for all_rawreads_1.fastq
+Approx 65% complete for all_rawreads_1.fastq
+Approx 70% complete for all_rawreads_1.fastq
+Approx 75% complete for all_rawreads_1.fastq
+Approx 80% complete for all_rawreads_1.fastq
+Approx 85% complete for all_rawreads_1.fastq
+Approx 90% complete for all_rawreads_1.fastq
+Approx 95% complete for all_rawreads_1.fastq
+Analysis complete for all_rawreads_1.fastq
+Started analysis of all_rawreads_2.fastq
+Approx 5% complete for all_rawreads_2.fastq
+Approx 10% complete for all_rawreads_2.fastq
+Approx 15% complete for all_rawreads_2.fastq
+Approx 20% complete for all_rawreads_2.fastq
+Approx 25% complete for all_rawreads_2.fastq
+Approx 30% complete for all_rawreads_2.fastq
+Approx 35% complete for all_rawreads_2.fastq
+Approx 40% complete for all_rawreads_2.fastq
+Approx 45% complete for all_rawreads_2.fastq
+Approx 50% complete for all_rawreads_2.fastq
+Approx 55% complete for all_rawreads_2.fastq
+Approx 60% complete for all_rawreads_2.fastq
+Approx 65% complete for all_rawreads_2.fastq
+Approx 70% complete for all_rawreads_2.fastq
+Approx 75% complete for all_rawreads_2.fastq
+Approx 80% complete for all_rawreads_2.fastq
+Approx 85% complete for all_rawreads_2.fastq
+Approx 90% complete for all_rawreads_2.fastq
+Approx 95% complete for all_rawreads_2.fastq
+Analysis complete for all_rawreads_2.fastq
+Started analysis of all_rawreads_s1.fastq
+Approx 5% complete for all_rawreads_s1.fastq
+Approx 10% complete for all_rawreads_s1.fastq
+Approx 15% complete for all_rawreads_s1.fastq
+Approx 20% complete for all_rawreads_s1.fastq
+Approx 25% complete for all_rawreads_s1.fastq
+Approx 30% complete for all_rawreads_s1.fastq
+Approx 35% complete for all_rawreads_s1.fastq
+Approx 40% complete for all_rawreads_s1.fastq
+Approx 45% complete for all_rawreads_s1.fastq
+Approx 50% complete for all_rawreads_s1.fastq
+Approx 55% complete for all_rawreads_s1.fastq
+Approx 60% complete for all_rawreads_s1.fastq
+Approx 65% complete for all_rawreads_s1.fastq
+Approx 70% complete for all_rawreads_s1.fastq
+Approx 75% complete for all_rawreads_s1.fastq
+Approx 80% complete for all_rawreads_s1.fastq
+Approx 85% complete for all_rawreads_s1.fastq
+Approx 90% complete for all_rawreads_s1.fastq
+Approx 95% complete for all_rawreads_s1.fastq
+Analysis complete for all_rawreads_s1.fastq
+Started analysis of all_rawreads_s2.fastq
+Approx 5% complete for all_rawreads_s2.fastq
+Approx 10% complete for all_rawreads_s2.fastq
+Approx 15% complete for all_rawreads_s2.fastq
+Approx 20% complete for all_rawreads_s2.fastq
+Approx 25% complete for all_rawreads_s2.fastq
+Approx 30% complete for all_rawreads_s2.fastq
+Approx 35% complete for all_rawreads_s2.fastq
+Approx 40% complete for all_rawreads_s2.fastq
+Approx 45% complete for all_rawreads_s2.fastq
+Approx 50% complete for all_rawreads_s2.fastq
+Approx 55% complete for all_rawreads_s2.fastq
+Approx 60% complete for all_rawreads_s2.fastq
+Approx 65% complete for all_rawreads_s2.fastq
+Approx 70% complete for all_rawreads_s2.fastq
+Approx 75% complete for all_rawreads_s2.fastq
+Approx 80% complete for all_rawreads_s2.fastq
+Approx 85% complete for all_rawreads_s2.fastq
+Approx 90% complete for all_rawreads_s2.fastq
+Approx 95% complete for all_rawreads_s2.fastq
+Analysis complete for all_rawreads_s2.fastq
+Started analysis of zymo_1.fastq
+Approx 5% complete for zymo_1.fastq
+Approx 10% complete for zymo_1.fastq
+Approx 15% complete for zymo_1.fastq
+Approx 20% complete for zymo_1.fastq
+Approx 25% complete for zymo_1.fastq
+Approx 30% complete for zymo_1.fastq
+Approx 35% complete for zymo_1.fastq
+Approx 40% complete for zymo_1.fastq
+Approx 45% complete for zymo_1.fastq
+Approx 50% complete for zymo_1.fastq
+Approx 55% complete for zymo_1.fastq
+Approx 60% complete for zymo_1.fastq
+Approx 65% complete for zymo_1.fastq
+Approx 70% complete for zymo_1.fastq
+Approx 75% complete for zymo_1.fastq
+Approx 80% complete for zymo_1.fastq
+Approx 85% complete for zymo_1.fastq
+Approx 90% complete for zymo_1.fastq
+Approx 95% complete for zymo_1.fastq
+Analysis complete for zymo_1.fastq
+Started analysis of zymo_2.fastq
+Approx 5% complete for zymo_2.fastq
+Approx 10% complete for zymo_2.fastq
+Approx 15% complete for zymo_2.fastq
+Approx 20% complete for zymo_2.fastq
+Approx 25% complete for zymo_2.fastq
+Approx 30% complete for zymo_2.fastq
+Approx 35% complete for zymo_2.fastq
+Approx 40% complete for zymo_2.fastq
+Approx 45% complete for zymo_2.fastq
+Approx 50% complete for zymo_2.fastq
+Approx 55% complete for zymo_2.fastq
+Approx 60% complete for zymo_2.fastq
+Approx 65% complete for zymo_2.fastq
+Approx 70% complete for zymo_2.fastq
+Approx 75% complete for zymo_2.fastq
+Approx 80% complete for zymo_2.fastq
+Approx 85% complete for zymo_2.fastq
+Approx 90% complete for zymo_2.fastq
+Approx 95% complete for zymo_2.fastq
+Analysis complete for zymo_2.fastq
+Started analysis of zymo_s1.fastq
+Approx 5% complete for zymo_s1.fastq
+Approx 10% complete for zymo_s1.fastq
+Approx 15% complete for zymo_s1.fastq
+Approx 20% complete for zymo_s1.fastq
+Approx 25% complete for zymo_s1.fastq
+Approx 30% complete for zymo_s1.fastq
+Approx 35% complete for zymo_s1.fastq
+Approx 40% complete for zymo_s1.fastq
+Approx 45% complete for zymo_s1.fastq
+Approx 50% complete for zymo_s1.fastq
+Approx 55% complete for zymo_s1.fastq
+Approx 60% complete for zymo_s1.fastq
+Approx 65% complete for zymo_s1.fastq
+Approx 70% complete for zymo_s1.fastq
+Approx 75% complete for zymo_s1.fastq
+Approx 80% complete for zymo_s1.fastq
+Approx 85% complete for zymo_s1.fastq
+Approx 90% complete for zymo_s1.fastq
+Approx 95% complete for zymo_s1.fastq
+Analysis complete for zymo_s1.fastq
+Started analysis of zymo_s2.fastq
+Approx 5% complete for zymo_s2.fastq
+Approx 10% complete for zymo_s2.fastq
+Approx 15% complete for zymo_s2.fastq
+Approx 20% complete for zymo_s2.fastq
+Approx 25% complete for zymo_s2.fastq
+Approx 30% complete for zymo_s2.fastq
+Approx 35% complete for zymo_s2.fastq
+Approx 40% complete for zymo_s2.fastq
+Approx 45% complete for zymo_s2.fastq
+Approx 50% complete for zymo_s2.fastq
+Approx 55% complete for zymo_s2.fastq
+Approx 60% complete for zymo_s2.fastq
+Approx 65% complete for zymo_s2.fastq
+Approx 70% complete for zymo_s2.fastq
+Approx 75% complete for zymo_s2.fastq
+Approx 80% complete for zymo_s2.fastq
+Approx 85% complete for zymo_s2.fastq
+Approx 90% complete for zymo_s2.fastq
+Approx 95% complete for zymo_s2.fastq
+Analysis complete for zymo_s2.fastq
+MI_crop_0.99 done

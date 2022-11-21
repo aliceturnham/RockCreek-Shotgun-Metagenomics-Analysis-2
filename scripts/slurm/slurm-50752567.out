@@ -1,0 +1,626 @@
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.81/scaffolds.fasta --metabat2 --maxbin2 --concoct MI_crop_0.81/all-pe-and-se_1.fastq MI_crop_0.81/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.81/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 4.02 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=803779872, availableWord=68556752
+[BWTIncConstructFromPacked] 10 iterations done. 100000000 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 196924448 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 283437632 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 360326784 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 428662048 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 489394592 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 543369824 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 591339120 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 633970336 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 671857040 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 705526800 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 735448560 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 762039040 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 785668720 characters processed.
+[bwt_gen] Finished constructing BWT in 149 iterations.
+[bwa_index] 291.83 seconds elapse.
+[bwa_index] Update BWT... 2.38 sec
+[bwa_index] Pack forward-only FASTA... 2.88 sec
+[bwa_index] Construct SA from BWT and Occ... 129.15 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.81/work_files/assembly.fa
+[main] Real time: 445.408 sec; CPU: 430.280 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----            Aligning MI_crop_0.81/all-pe-and-se_1.fastq and MI_crop_0.81/all-pe-and-se_2.fastq back           -----
+-----                                                 to assembly                                                  -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (108, 214, 451)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1137)
+[M::mem_pestat] mean and std.dev: (254.59, 221.51)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1480)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (267, 290, 327)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (147, 447)
+[M::mem_pestat] mean and std.dev: (298.56, 44.37)
+[M::mem_pestat] low and high boundaries for proper pairs: (87, 507)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (47, 109, 247)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 647)
+[M::mem_pestat] mean and std.dev: (137.05, 132.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 847)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (119, 278, 507)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1283)
+[M::mem_pestat] mean and std.dev: (299.77, 245.24)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1671)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (268, 293, 331)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (142, 457)
+[M::mem_pestat] mean and std.dev: (301.10, 46.52)
+[M::mem_pestat] low and high boundaries for proper pairs: (79, 520)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (77, 134, 345)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 881)
+[M::mem_pestat] mean and std.dev: (199.62, 192.08)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1149)
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation RF
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:17036:1195", "M00776:345:000000000-JGHV3:1:1102:4271:10159"
+
+
+************************************************************************************************************************
+*****                   Something went wrong with aligning MI_crop_0.81/all-pe-and-se_1.fastq and                  *****
+*****                      MI_crop_0.81/all-pe-and-se_2.fastq reads to the assembly. Exiting                       *****
+************************************************************************************************************************
+
+
+real	8m22.886s
+user	25m41.493s
+sys	2m17.641s
+MI_crop_0.81 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.87/scaffolds.fasta --metabat2 --maxbin2 --concoct MI_crop_0.87/all-pe-and-se_1.fastq MI_crop_0.87/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.87/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.76 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=771621026, availableWord=66294036
+[BWTIncConstructFromPacked] 10 iterations done. 99993954 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 193711170 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 277003250 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 351029474 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 416820178 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 475291074 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 527256162 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 573438834 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 614482098 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 650957426 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 683372770 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 712179570 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 737779106 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 760528002 characters processed.
+[bwt_gen] Finished constructing BWT in 146 iterations.
+[bwa_index] 284.50 seconds elapse.
+[bwa_index] Update BWT... 2.27 sec
+[bwa_index] Pack forward-only FASTA... 2.76 sec
+[bwa_index] Construct SA from BWT and Occ... 124.95 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.87/work_files/assembly.fa
+[main] Real time: 419.188 sec; CPU: 418.254 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----            Aligning MI_crop_0.87/all-pe-and-se_1.fastq and MI_crop_0.87/all-pe-and-se_2.fastq back           -----
+-----                                                 to assembly                                                  -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (102, 214, 451)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1149)
+[M::mem_pestat] mean and std.dev: (266.52, 248.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1498)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (267, 290, 327)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (147, 447)
+[M::mem_pestat] mean and std.dev: (298.35, 44.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (87, 507)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (47, 106, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 620)
+[M::mem_pestat] mean and std.dev: (138.80, 133.48)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 811)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (120, 247, 485)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1215)
+[M::mem_pestat] mean and std.dev: (287.68, 239.72)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1580)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:14806:1183", "M00776:345:000000000-JGHV3:1:1101:7329:23547"
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:20984:1136", "M00776:345:000000000-JGHV3:1:1101:16874:4449"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:19669:1177", "M00776:345:000000000-JGHV3:1:1101:16548:21387"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:17637:1188", "M00776:345:000000000-JGHV3:1:1102:12728:3741"
+
+
+************************************************************************************************************************
+*****                   Something went wrong with aligning MI_crop_0.87/all-pe-and-se_1.fastq and                  *****
+*****                      MI_crop_0.87/all-pe-and-se_2.fastq reads to the assembly. Exiting                       *****
+************************************************************************************************************************
+
+
+real	7m40.797s
+user	16m58.560s
+sys	1m53.246s
+MI_crop_0.87 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.95/scaffolds.fasta --metabat2 --maxbin2 --concoct MI_crop_0.95/all-pe-and-se_1.fastq MI_crop_0.95/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.95/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.39 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=683041338, availableWord=60061176
+[BWTIncConstructFromPacked] 10 iterations done. 94974010 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 179392362 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 254419610 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 321100010 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 380361706 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 433029642 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 479837018 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 521435498 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 558404314 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 591258266 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 620454906 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 646400938 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 669457770 characters processed.
+[bwt_gen] Finished constructing BWT in 137 iterations.
+[bwa_index] 251.14 seconds elapse.
+[bwa_index] Update BWT... 1.98 sec
+[bwa_index] Pack forward-only FASTA... 2.40 sec
+[bwa_index] Construct SA from BWT and Occ... 109.42 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/MI_crop_0.95/work_files/assembly.fa
+[main] Real time: 368.830 sec; CPU: 368.341 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----            Aligning MI_crop_0.95/all-pe-and-se_1.fastq and MI_crop_0.95/all-pe-and-se_2.fastq back           -----
+-----                                                 to assembly                                                  -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (108, 214, 381)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 927)
+[M::mem_pestat] mean and std.dev: (233.25, 182.69)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1200)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (266, 288, 325)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (148, 443)
+[M::mem_pestat] mean and std.dev: (297.05, 44.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (89, 502)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (48, 112, 263)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 693)
+[M::mem_pestat] mean and std.dev: (151.58, 146.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 908)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (95, 218, 414)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1052)
+[M::mem_pestat] mean and std.dev: (259.47, 230.33)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1371)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[mem_sam_pe] [mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:15660:1180", "M00776:345:000000000-JGHV3:1:1101:19207:17319"
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:15384:1162", "M00776:345:000000000-JGHV3:1:1101:3631:8603"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:16439:1168", "M00776:345:000000000-JGHV3:1:1101:22796:12961"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:11563:1175", "M00776:345:000000000-JGHV3:1:1101:28714:16256"
+
+
+************************************************************************************************************************
+*****                   Something went wrong with aligning MI_crop_0.95/all-pe-and-se_1.fastq and                  *****
+*****                      MI_crop_0.95/all-pe-and-se_2.fastq reads to the assembly. Exiting                       *****
+************************************************************************************************************************
+
+
+real	6m47.490s
+user	16m6.571s
+sys	1m32.293s
+MI_crop_0.95 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_24/scaffolds.fasta --metabat2 --maxbin2 --concoct SW_24/all-pe-and-se_1.fastq SW_24/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_24/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 4.27 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=850937806, availableWord=71875092
+[BWTIncConstructFromPacked] 10 iterations done. 99999998 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199609070 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 291071598 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 372359726 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 444604814 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 508812414 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 565876318 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 616590830 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 661661966 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 701717294 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 737314542 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 768949454 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 797062622 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 822045630 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 844246558 characters processed.
+[bwt_gen] Finished constructing BWT in 154 iterations.
+[bwa_index] 314.15 seconds elapse.
+[bwa_index] Update BWT... 2.45 sec
+[bwa_index] Pack forward-only FASTA... 3.07 sec
+[bwa_index] Construct SA from BWT and Occ... 158.79 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_24/work_files/assembly.fa
+[main] Real time: 484.258 sec; CPU: 482.736 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----             Aligning SW_24/all-pe-and-se_1.fastq and SW_24/all-pe-and-se_2.fastq back to assembly            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (74, 193, 372)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 968)
+[M::mem_pestat] mean and std.dev: (230.54, 203.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1266)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (267, 291, 328)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (145, 450)
+[M::mem_pestat] mean and std.dev: (299.19, 44.47)
+[M::mem_pestat] low and high boundaries for proper pairs: (84, 511)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (42, 96, 248)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 660)
+[M::mem_pestat] mean and std.dev: (142.71, 142.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 866)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (141, 282, 513)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1257)
+[M::mem_pestat] mean and std.dev: (310.97, 241.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1629)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (268, 294, 332)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (140, 460)
+[M::mem_pestat] mean and std.dev: (301.80, 46.74)
+[M::mem_pestat] low and high boundaries for proper pairs: (76, 524)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (63, 207, 669)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1881)
+[M::mem_pestat] mean and std.dev: (304.11, 404.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2487)
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation RF
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:11276:1165", "M00776:345:000000000-JGHV3:1:1101:10917:20386"
+
+
+************************************************************************************************************************
+*****                      Something went wrong with aligning SW_24/all-pe-and-se_1.fastq and                      *****
+*****                          SW_24/all-pe-and-se_2.fastq reads to the assembly. Exiting                          *****
+************************************************************************************************************************
+
+
+real	9m4.645s
+user	26m35.762s
+sys	2m32.487s
+SW_24 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/scaffolds.fasta --metabat2 --maxbin2 --concoct SW_28/all-pe-and-se_1.fastq SW_28/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.75 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=779436024, availableWord=66843524
+[BWTIncConstructFromPacked] 10 iterations done. 99999992 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 194585528 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 278649400 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 353361576 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 419761928 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 478774712 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 531221432 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 577832200 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 619255912 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 656069416 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 688785304 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 717859240 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 743696232 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 766656152 characters processed.
+[bwt_gen] Finished constructing BWT in 147 iterations.
+[bwa_index] 283.55 seconds elapse.
+[bwa_index] Update BWT... 2.25 sec
+[bwa_index] Pack forward-only FASTA... 2.74 sec
+[bwa_index] Construct SA from BWT and Occ... 125.60 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_28/work_files/assembly.fa
+[main] Real time: 419.045 sec; CPU: 417.898 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----             Aligning SW_28/all-pe-and-se_1.fastq and SW_28/all-pe-and-se_2.fastq back to assembly            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (108, 227, 539)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1401)
+[M::mem_pestat] mean and std.dev: (319.81, 303.52)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1832)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (267, 290, 326)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (149, 444)
+[M::mem_pestat] mean and std.dev: (298.01, 43.44)
+[M::mem_pestat] low and high boundaries for proper pairs: (90, 503)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (46, 105, 226)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 586)
+[M::mem_pestat] mean and std.dev: (130.99, 120.88)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 766)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (120, 274, 521)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1323)
+[M::mem_pestat] mean and std.dev: (304.69, 262.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1724)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:17526:1161", "M00776:345:000000000-JGHV3:1:1101:13097:9940"
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:20301:1163", "M00776:345:000000000-JGHV3:1:1101:27474:11537"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:9359:1199", "M00776:345:000000000-JGHV3:1:1102:17092:10919"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:12033:1197", "M00776:345:000000000-JGHV3:1:1102:4271:10159"
+
+
+
+************************************************************************************************************************
+*****                      Something went wrong with aligning SW_28/all-pe-and-se_1.fastq and                      *****
+*****                          SW_28/all-pe-and-se_2.fastq reads to the assembly. Exiting                          *****
+************************************************************************************************************************
+
+
+real	7m40.527s
+user	16m54.571s
+sys	1m53.559s
+SW_28 done
+metawrap binning -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32 -t 48 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_32/scaffolds.fasta --metabat2 --maxbin2 --concoct SW_32/all-pe-and-se_1.fastq SW_32/all-pe-and-se_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32 already exists.
+rm: cannot remove '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_32/scaffolds.fasta-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 3.20 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=671164414, availableWord=59225556
+[BWTIncConstructFromPacked] 10 iterations done. 93777774 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 177007614 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 250978542 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 316720078 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 375147326 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 427073582 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 473221726 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 514234318 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 550682382 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 583073470 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 611858734 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 637439102 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 660170974 characters processed.
+[bwt_gen] Finished constructing BWT in 136 iterations.
+[bwa_index] 236.44 seconds elapse.
+[bwa_index] Update BWT... 1.93 sec
+[bwa_index] Pack forward-only FASTA... 2.35 sec
+[bwa_index] Construct SA from BWT and Occ... 106.17 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BINNING/SW_32/work_files/assembly.fa
+[main] Real time: 351.652 sec; CPU: 350.103 sec
+
+------------------------------------------------------------------------------------------------------------------------
+-----             Aligning SW_32/all-pe-and-se_1.fastq and SW_32/all-pe-and-se_2.fastq back to assembly            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (95, 214, 339)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 827)
+[M::mem_pestat] mean and std.dev: (209.40, 165.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1071)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (266, 288, 323)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (152, 437)
+[M::mem_pestat] mean and std.dev: (296.22, 42.24)
+[M::mem_pestat] low and high boundaries for proper pairs: (95, 494)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (55, 131, 290)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 760)
+[M::mem_pestat] mean and std.dev: (157.55, 153.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 995)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (120, 226, 400)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 960)
+[M::mem_pestat] mean and std.dev: (247.04, 191.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1240)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:16803:1193", "M00776:345:000000000-JGHV3:1:1101:23955:21765"
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:18112:1198", "M00776:345:000000000-JGHV3:1:1101:15984:22368"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:12033:1197", "M00776:345:000000000-JGHV3:1:1101:24600:22282"
+
+[mem_sam_pe] paired reads have different names: "M00776:345:000000000-JGHV3:1:1101:9975:1205", "M00776:345:000000000-JGHV3:1:1101:11265:25052"
+
+[mem_sam_pe] 
+************************************************************************************************************************
+*****                      Something went wrong with aligning SW_32/all-pe-and-se_1.fastq and                      *****
+*****                          SW_32/all-pe-and-se_2.fastq reads to the assembly. Exiting                          *****
+************************************************************************************************************************
+
+
+real	6m30.306s
+user	15m23.224s
+sys	1m37.421s
+SW_32 done

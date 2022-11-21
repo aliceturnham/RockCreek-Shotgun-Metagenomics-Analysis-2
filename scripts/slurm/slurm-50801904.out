@@ -1,0 +1,27 @@
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+metawrap assembly -1 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq -2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq -m 1000 -t 48 --use-metaspades -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/ASSEMBLY
+getopt: unrecognized option '--use-metaspades'
+
+Usage: metaWRAP assembly [options] -1 reads_1.fastq -2 reads_2.fastq -o output_dir
+Options:
+
+	-1 STR          forward fastq reads
+	-2 STR          reverse fastq reads
+	-o STR          output directory
+	-m INT          memory in GB (default=24)
+	-t INT          number of threads (defualt=1)
+	-l INT		minimum length of assembled contigs (default=1000)
+
+	--megahit	assemble with megahit (default)
+	--metaspades	assemble with metaspades instead of megahit (better results but slower and higher memory requirement)
+
+
+real	0m0.084s
+user	0m0.004s
+sys	0m0.005s

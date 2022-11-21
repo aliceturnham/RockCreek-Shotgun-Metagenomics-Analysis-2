@@ -1,0 +1,1574 @@
+metawrap quant_bins -b /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BIN_REFINEMENT/MI_crop_0.95/metawrap_70_5_bins -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95 -a /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/MI_crop_0.95/scaffolds.fasta /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                 17 forward and 17 reverse read files detected                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                    SETTING UP OUTPUT AND INDEXING ASSEMBLY                                   #####
+########################################################################################################################
+
+mkdir: cannot create directory ‘/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95’: File exists
+
+------------------------------------------------------------------------------------------------------------------------
+-----                            Indexing assembly file with salmon. Ignore any warnings                           -----
+------------------------------------------------------------------------------------------------------------------------
+
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+index ["/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index"] did not previously exist  . . . creating it
+[2021-06-24 14:04:43.617] [jLog] [info] building index
+[2021-06-24 14:04:43.788] [jointLog] [info] [Step 1 of 4] : counting k-mers
+[2021-06-24 14:04:44.055] [jointLog] [warning] Entry with header [NODE_1_length_780762_cov_15.042198] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.074] [jointLog] [warning] Entry with header [NODE_2_length_768444_cov_32.023001] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.088] [jointLog] [warning] Entry with header [NODE_3_length_551133_cov_28.892073] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.099] [jointLog] [warning] Entry with header [NODE_4_length_422907_cov_14.919359] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.109] [jointLog] [warning] Entry with header [NODE_5_length_395480_cov_26.759745] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.119] [jointLog] [warning] Entry with header [NODE_6_length_349449_cov_29.535825] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.126] [jointLog] [warning] Entry with header [NODE_7_length_315046_cov_28.153785] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.134] [jointLog] [warning] Entry with header [NODE_8_length_303847_cov_11.866708] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.141] [jointLog] [warning] Entry with header [NODE_9_length_294377_cov_27.515503] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.150] [jointLog] [warning] Entry with header [NODE_10_length_278162_cov_15.893757] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.157] [jointLog] [warning] Entry with header [NODE_11_length_272209_cov_27.004497] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.163] [jointLog] [warning] Entry with header [NODE_12_length_268477_cov_27.820976] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.170] [jointLog] [warning] Entry with header [NODE_13_length_263192_cov_28.717193] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.176] [jointLog] [warning] Entry with header [NODE_14_length_260103_cov_16.384921] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.182] [jointLog] [warning] Entry with header [NODE_15_length_256983_cov_29.339406] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.188] [jointLog] [warning] Entry with header [NODE_16_length_252233_cov_25.733815] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.199] [jointLog] [warning] Entry with header [NODE_17_length_250157_cov_12.247255] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.205] [jointLog] [warning] Entry with header [NODE_18_length_247247_cov_23.810208] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.211] [jointLog] [warning] Entry with header [NODE_19_length_243339_cov_10.962612] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.216] [jointLog] [warning] Entry with header [NODE_20_length_238091_cov_15.712888] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.222] [jointLog] [warning] Entry with header [NODE_21_length_236849_cov_9.726129] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.228] [jointLog] [warning] Entry with header [NODE_22_length_232770_cov_16.338680] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.233] [jointLog] [warning] Entry with header [NODE_23_length_226658_cov_31.623332] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.239] [jointLog] [warning] Entry with header [NODE_24_length_223738_cov_26.994841] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.244] [jointLog] [warning] Entry with header [NODE_25_length_217564_cov_23.012639] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.249] [jointLog] [warning] Entry with header [NODE_26_length_213759_cov_31.919627] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.254] [jointLog] [warning] Entry with header [NODE_27_length_213593_cov_30.541136] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.259] [jointLog] [warning] Entry with header [NODE_28_length_210559_cov_26.190999] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.264] [jointLog] [warning] Entry with header [NODE_29_length_200620_cov_10.529335] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+[2021-06-24 14:04:44.276] [jointLog] [warning] Entry with header [NODE_30_length_200304_cov_28.011316] was longer than 200000 nucleotides.  Are you certain that we are indexing a transcriptome and not a genome?
+counted k-mers for 10,000 transcriptscounted k-mers for 20,000 transcriptscounted k-mers for 30,000 transcriptscounted k-mers for 40,000 transcriptscounted k-mers for 50,000 transcriptscounted k-mers for 60,000 transcriptscounted k-mers for 70,000 transcriptscounted k-mers for 80,000 transcriptscounted k-mers for 90,000 transcriptscounted k-mers for 100,000 transcriptscounted k-mers for 110,000 transcriptscounted k-mers for 120,000 transcriptscounted k-mers for 130,000 transcriptscounted k-mers for 140,000 transcriptscounted k-mers for 150,000 transcriptscounted k-mers for 160,000 transcriptscounted k-mers for 170,000 transcriptscounted k-mers for 180,000 transcriptscounted k-mers for 190,000 transcriptscounted k-mers for 200,000 transcriptscounted k-mers for 210,000 transcriptscounted k-mers for 220,000 transcriptscounted k-mers for 230,000 transcriptscounted k-mers for 240,000 transcriptscounted k-mers for 250,000 transcriptscounted k-mers for 260,000 transcriptscounted k-mers for 270,000 transcriptscounted k-mers for 280,000 transcriptscounted k-mers for 290,000 transcriptscounted k-mers for 300,000 transcriptscounted k-mers for 310,000 transcriptscounted k-mers for 320,000 transcriptscounted k-mers for 330,000 transcriptscounted k-mers for 340,000 transcriptscounted k-mers for 350,000 transcriptscounted k-mers for 360,000 transcriptscounted k-mers for 370,000 transcriptscounted k-mers for 380,000 transcriptscounted k-mers for 390,000 transcriptscounted k-mers for 400,000 transcriptscounted k-mers for 410,000 transcriptscounted k-mers for 420,000 transcriptscounted k-mers for 430,000 transcriptscounted k-mers for 440,000 transcriptscounted k-mers for 450,000 transcriptscounted k-mers for 460,000 transcriptscounted k-mers for 470,000 transcriptscounted k-mers for 480,000 transcriptscounted k-mers for 490,000 transcriptscounted k-mers for 500,000 transcriptscounted k-mers for 510,000 transcriptscounted k-mers for 520,000 transcriptscounted k-mers for 530,000 transcriptscounted k-mers for 540,000 transcriptscounted k-mers for 550,000 transcriptscounted k-mers for 560,000 transcriptscounted k-mers for 570,000 transcriptscounted k-mers for 580,000 transcriptscounted k-mers for 590,000 transcriptscounted k-mers for 600,000 transcriptscounted k-mers for 610,000 transcriptscounted k-mers for 620,000 transcriptscounted k-mers for 630,000 transcriptscounted k-mers for 640,000 transcriptscounted k-mers for 650,000 transcriptscounted k-mers for 660,000 transcriptscounted k-mers for 670,000 transcriptscounted k-mers for 680,000 transcriptscounted k-mers for 690,000 transcriptscounted k-mers for 700,000 transcriptscounted k-mers for 710,000 transcriptscounted k-mers for 720,000 transcriptscounted k-mers for 730,000 transcriptscounted k-mers for 740,000 transcriptscounted k-mers for 750,000 transcriptscounted k-mers for 760,000 transcriptscounted k-mers for 770,000 transcriptscounted k-mers for 780,000 transcriptscounted k-mers for 790,000 transcriptsElapsed time: 11.5559s
+
+[2021-06-24 14:04:55.346] [jointLog] [info] Replaced 26,250 non-ATCG nucleotides
+[2021-06-24 14:04:55.346] [jointLog] [info] Clipped poly-A tails from 21 transcripts
+[2021-06-24 14:04:55.373] [jointLog] [info] Building rank-select dictionary and saving to disk
+[2021-06-24 14:04:55.440] [jointLog] [info] done
+Elapsed time: 0.067409s
+[2021-06-24 14:04:55.442] [jointLog] [info] Writing sequence data to file . . . 
+[2021-06-24 14:04:56.084] [jointLog] [info] done
+Elapsed time: 0.642475s
+[2021-06-24 14:04:56.138] [jointLog] [info] Building 32-bit suffix array (length of generalized text is 342,315,950)
+[2021-06-24 14:04:56.836] [jointLog] [info] Building suffix array . . . 
+success
+saving to disk . . . done
+Elapsed time: 2.32168s
+done
+Elapsed time: 74.7544s
+processed 0 positionsprocessed 1,000,000 positionsprocessed 2,000,000 positionsprocessed 3,000,000 positionsprocessed 4,000,000 positionsprocessed 5,000,000 positionsprocessed 6,000,000 positionsprocessed 7,000,000 positionsprocessed 8,000,000 positionsprocessed 9,000,000 positionsprocessed 10,000,000 positionsprocessed 11,000,000 positionsprocessed 12,000,000 positionsprocessed 13,000,000 positionsprocessed 14,000,000 positionsprocessed 15,000,000 positionsprocessed 16,000,000 positionsprocessed 17,000,000 positionsprocessed 18,000,000 positionsprocessed 19,000,000 positionsprocessed 20,000,000 positionsprocessed 21,000,000 positionsprocessed 22,000,000 positionsprocessed 23,000,000 positionsprocessed 24,000,000 positionsprocessed 25,000,000 positionsprocessed 26,000,000 positionsprocessed 27,000,000 positionsprocessed 28,000,000 positionsprocessed 29,000,000 positionsprocessed 30,000,000 positionsprocessed 31,000,000 positionsprocessed 32,000,000 positionsprocessed 33,000,000 positionsprocessed 34,000,000 positionsprocessed 35,000,000 positionsprocessed 36,000,000 positionsprocessed 37,000,000 positionsprocessed 38,000,000 positionsprocessed 39,000,000 positionsprocessed 40,000,000 positionsprocessed 41,000,000 positionsprocessed 42,000,000 positionsprocessed 43,000,000 positionsprocessed 44,000,000 positionsprocessed 45,000,000 positionsprocessed 46,000,000 positionsprocessed 47,000,000 positionsprocessed 48,000,000 positionsprocessed 49,000,000 positionsprocessed 50,000,000 positionsprocessed 51,000,000 positionsprocessed 52,000,000 positionsprocessed 53,000,000 positionsprocessed 54,000,000 positionsprocessed 55,000,000 positionsprocessed 56,000,000 positionsprocessed 57,000,000 positionsprocessed 58,000,000 positionsprocessed 59,000,000 positionsprocessed 60,000,000 positionsprocessed 61,000,000 positionsprocessed 62,000,000 positionsprocessed 63,000,000 positionsprocessed 64,000,000 positionsprocessed 65,000,000 positionsprocessed 66,000,000 positionsprocessed 67,000,000 positionsprocessed 68,000,000 positionsprocessed 69,000,000 positionsprocessed 70,000,000 positionsprocessed 71,000,000 positionsprocessed 72,000,000 positionsprocessed 73,000,000 positionsprocessed 74,000,000 positionsprocessed 75,000,000 positionsprocessed 76,000,000 positionsprocessed 77,000,000 positionsprocessed 78,000,000 positionsprocessed 79,000,000 positionsprocessed 80,000,000 positionsprocessed 81,000,000 positionsprocessed 82,000,000 positionsprocessed 83,000,000 positionsprocessed 84,000,000 positionsprocessed 85,000,000 positionsprocessed 86,000,000 positionsprocessed 87,000,000 positionsprocessed 88,000,000 positionsprocessed 89,000,000 positionsprocessed 90,000,000 positionsprocessed 91,000,000 positionsprocessed 92,000,000 positionsprocessed 93,000,000 positionsprocessed 94,000,000 positionsprocessed 95,000,000 positionsprocessed 96,000,000 positionsprocessed 97,000,000 positionsprocessed 98,000,000 positionsprocessed 99,000,000 positionsprocessed 100,000,000 positionsprocessed 101,000,000 positionsprocessed 102,000,000 positionsprocessed 103,000,000 positionsprocessed 104,000,000 positionsprocessed 105,000,000 positionsprocessed 106,000,000 positionsprocessed 107,000,000 positionsprocessed 108,000,000 positionsprocessed 109,000,000 positionsprocessed 110,000,000 positionsprocessed 111,000,000 positionsprocessed 112,000,000 positionsprocessed 113,000,000 positionsprocessed 114,000,000 positionsprocessed 115,000,000 positionsprocessed 116,000,000 positionsprocessed 117,000,000 positionsprocessed 118,000,000 positionsprocessed 119,000,000 positionsprocessed 120,000,000 positionsprocessed 121,000,000 positionsprocessed 122,000,000 positionsprocessed 123,000,000 positionsprocessed 124,000,000 positionsprocessed 125,000,000 positionsprocessed 126,000,000 positionsprocessed 127,000,000 positionsprocessed 128,000,000 positionsprocessed 129,000,000 positionsprocessed 130,000,000 positionsprocessed 131,000,000 positionsprocessed 132,000,000 positionsprocessed 133,000,000 positionsprocessed 134,000,000 positionsprocessed 135,000,000 positionsprocessed 136,000,000 positionsprocessed 137,000,000 positionsprocessed 138,000,000 positionsprocessed 139,000,000 positionsprocessed 140,000,000 positionsprocessed 141,000,000 positionsprocessed 142,000,000 positionsprocessed 143,000,000 positionsprocessed 144,000,000 positionsprocessed 145,000,000 positionsprocessed 146,000,000 positionsprocessed 147,000,000 positionsprocessed 148,000,000 positionsprocessed 149,000,000 positionsprocessed 150,000,000 positionsprocessed 151,000,000 positionsprocessed 152,000,000 positionsprocessed 153,000,000 positionsprocessed 154,000,000 positionsprocessed 155,000,000 positionsprocessed 156,000,000 positionsprocessed 157,000,000 positionsprocessed 158,000,000 positionsprocessed 159,000,000 positionsprocessed 160,000,000 positionsprocessed 161,000,000 positionsprocessed 162,000,000 positionsprocessed 163,000,000 positionsprocessed 164,000,000 positionsprocessed 165,000,000 positionsprocessed 166,000,000 positionsprocessed 167,000,000 positionsprocessed 168,000,000 positionsprocessed 169,000,000 positionsprocessed 170,000,000 positionsprocessed 171,000,000 positionsprocessed 172,000,000 positionsprocessed 173,000,000 positionsprocessed 174,000,000 positionsprocessed 175,000,000 positionsprocessed 176,000,000 positionsprocessed 177,000,000 positionsprocessed 178,000,000 positionsprocessed 179,000,000 positionsprocessed 180,000,000 positionsprocessed 181,000,000 positionsprocessed 182,000,000 positionsprocessed 183,000,000 positionsprocessed 184,000,000 positionsprocessed 185,000,000 positionsprocessed 186,000,000 positionsprocessed 187,000,000 positionsprocessed 188,000,000 positionsprocessed 189,000,000 positionsprocessed 190,000,000 positionsprocessed 191,000,000 positionsprocessed 192,000,000 positionsprocessed 193,000,000 positionsprocessed 194,000,000 positionsprocessed 195,000,000 positionsprocessed 196,000,000 positionsprocessed 197,000,000 positionsprocessed 198,000,000 positionsprocessed 199,000,000 positionsprocessed 200,000,000 positionsprocessed 201,000,000 positionsprocessed 202,000,000 positionsprocessed 203,000,000 positionsprocessed 204,000,000 positionsprocessed 205,000,000 positionsprocessed 206,000,000 positionsprocessed 207,000,000 positionsprocessed 208,000,000 positionsprocessed 209,000,000 positionsprocessed 210,000,000 positionsprocessed 211,000,000 positionsprocessed 212,000,000 positionsprocessed 213,000,000 positionsprocessed 214,000,000 positionsprocessed 215,000,000 positionsprocessed 216,000,000 positionsprocessed 217,000,000 positionsprocessed 218,000,000 positionsprocessed 219,000,000 positionsprocessed 220,000,000 positionsprocessed 221,000,000 positionsprocessed 222,000,000 positionsprocessed 223,000,000 positionsprocessed 224,000,000 positionsprocessed 225,000,000 positionsprocessed 226,000,000 positionsprocessed 227,000,000 positionsprocessed 228,000,000 positionsprocessed 229,000,000 positionsprocessed 230,000,000 positionsprocessed 231,000,000 positionsprocessed 232,000,000 positionsprocessed 233,000,000 positionsprocessed 234,000,000 positionsprocessed 235,000,000 positionsprocessed 236,000,000 positionsprocessed 237,000,000 positionsprocessed 238,000,000 positionsprocessed 239,000,000 positionsprocessed 240,000,000 positionsprocessed 241,000,000 positionsprocessed 242,000,000 positionsprocessed 243,000,000 positionsprocessed 244,000,000 positionsprocessed 245,000,000 positionsprocessed 246,000,000 positionsprocessed 247,000,000 positionsprocessed 248,000,000 positionsprocessed 249,000,000 positionsprocessed 250,000,000 positionsprocessed 251,000,000 positionsprocessed 252,000,000 positionsprocessed 253,000,000 positionsprocessed 254,000,000 positionsprocessed 255,000,000 positionsprocessed 256,000,000 positionsprocessed 257,000,000 positionsprocessed 258,000,000 positionsprocessed 259,000,000 positionsprocessed 260,000,000 positionsprocessed 261,000,000 positionsprocessed 262,000,000 positionsprocessed 263,000,000 positionsprocessed 264,000,000 positionsprocessed 265,000,000 positionsprocessed 266,000,000 positionsprocessed 267,000,000 positionsprocessed 268,000,000 positionsprocessed 269,000,000 positionsprocessed 270,000,000 positionsprocessed 271,000,000 positionsprocessed 272,000,000 positionsprocessed 273,000,000 positionsprocessed 274,000,000 positionsprocessed 275,000,000 positionsprocessed 276,000,000 positionsprocessed 277,000,000 positionsprocessed 278,000,000 positionsprocessed 279,000,000 positionsprocessed 280,000,000 positionsprocessed 281,000,000 positionsprocessed 282,000,000 positionsprocessed 283,000,000 positionsprocessed 284,000,000 positionsprocessed 285,000,000 positionsprocessed 286,000,000 positionsprocessed 287,000,000 positionsprocessed 288,000,000 positionsprocessed 289,000,000 positionsprocessed 290,000,000 positionsprocessed 291,000,000 positionsprocessed 292,000,000 positionsprocessed 293,000,000 positionsprocessed 294,000,000 positionsprocessed 295,000,000 positionsprocessed 296,000,000 positionsprocessed 297,000,000 positionsprocessed 298,000,000 positionsprocessed 299,000,000 positionsprocessed 300,000,000 positionsprocessed 301,000,000 positionsprocessed 302,000,000 positionsprocessed 303,000,000 positionsprocessed 304,000,000 positionsprocessed 305,000,000 positionsprocessed 306,000,000 positionsprocessed 307,000,000 positionsprocessed 308,000,000 positionsprocessed 309,000,000 positionsprocessed 310,000,000 positionsprocessed 311,000,000 positionsprocessed 312,000,000 positionsprocessed 313,000,000 positionsprocessed 314,000,000 positionsprocessed 315,000,000 positionsprocessed 316,000,000 positionsprocessed 317,000,000 positionsprocessed 318,000,000 positionsprocessed 319,000,000 positionsprocessed 320,000,000 positionsprocessed 321,000,000 positionsprocessed 322,000,000 positionsprocessed 323,000,000 positionsprocessed 324,000,000 positionsprocessed 325,000,000 positionsprocessed 326,000,000 positionsprocessed 327,000,000 positionsprocessed 328,000,000 positionsprocessed 329,000,000 positionsprocessed 330,000,000 positionsprocessed 331,000,000 positionsprocessed 332,000,000 positionsprocessed 333,000,000 positionsprocessed 334,000,000 positionsprocessed 335,000,000 positionsprocessed 336,000,000 positionsprocessed 337,000,000 positionsprocessed 338,000,000 positionsprocessed 339,000,000 positionsprocessed 340,000,000 positionsprocessed 341,000,000 positionsprocessed 342,000,000 positions[2021-06-24 14:12:43.965] [jointLog] [info] khash had 315,352,723 keys
+[2021-06-24 14:12:43.967] [jointLog] [info] saving hash to disk . . . 
+[2021-06-24 14:13:56.714] [jointLog] [info] done
+Elapsed time: 72.7474s
+[2021-06-24 14:14:04.198] [jLog] [info] done building index
+
+########################################################################################################################
+#####                           ALIGNING READS FROM ALL SAMPLES BACK TO BINS WITH SALMON                           #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190709-RC1-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC1-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190709-RC1-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190709-RC1-AM-BOTTOM.quant/logs
+[2021-06-24 14:14:05.507] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:14:05.507] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:14:05.507] [jointLog] [info] parsing read library format
+[2021-06-24 14:14:05.507] [jointLog] [info] There is 1 library.
+[2021-06-24 14:14:05.637] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:14:05.638] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:14:05.639] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:14:06.930] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:14:07.379] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:14:07.442] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:14:07.469] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:14:07.471] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:14:32.558] [stderrLog] [info] Done loading index
+[2021-06-24 14:14:32.558] [jointLog] [info] done
+[2021-06-24 14:14:32.558] [jointLog] [info] Index contained 795,542 targets
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:14:50.456] [jointLog] [info] Computed 40,122 rich equivalence classes for further processing
+[2021-06-24 14:14:50.456] [jointLog] [info] Counted 50,041 total reads in the equivalence classes 
+[2021-06-24 14:14:50.458] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 92
+[2021-06-24 14:14:50.575] [jointLog] [warning] Only 50041 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:14:50.575] [jointLog] [info] Mapping rate = 58.5734%
+
+[2021-06-24 14:14:50.575] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:14:50.577] [jointLog] [info] Starting optimizer
+[2021-06-24 14:14:50.838] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:14:50.844] [jointLog] [info] iteration = 0 | max rel diff. = 575.106
+[2021-06-24 14:14:51.186] [jointLog] [info] iteration = 100 | max rel diff. = 0.0447197
+[2021-06-24 14:14:51.237] [jointLog] [info] iteration = 116 | max rel diff. = 0.00182139
+[2021-06-24 14:14:51.286] [jointLog] [info] Finished optimizer
+[2021-06-24 14:14:51.286] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190709-RC7-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190709-RC7-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190709-RC7-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190709-RC7-AM-BOTTOM.quant/logs
+[2021-06-24 14:14:57.377] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:14:57.378] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:14:57.378] [jointLog] [info] parsing read library format
+[2021-06-24 14:14:57.378] [jointLog] [info] There is 1 library.
+[2021-06-24 14:14:57.482] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:14:57.482] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:14:57.483] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:14:58.708] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:14:59.135] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:14:59.192] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:14:59.219] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:14:59.221] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:15:24.450] [jointLog] [info] done
+[2021-06-24 14:15:24.450] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:15:24.450] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:15:50.838] [jointLog] [info] Computed 82,740 rich equivalence classes for further processing
+[2021-06-24 14:15:50.838] [jointLog] [info] Counted 114,336 total reads in the equivalence classes 
+[2021-06-24 14:15:50.840] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 235
+[2021-06-24 14:15:50.985] [jointLog] [warning] Only 114336 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:15:50.985] [jointLog] [info] Mapping rate = 66.8307%
+
+[2021-06-24 14:15:50.985] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:15:50.987] [jointLog] [info] Starting optimizer
+[2021-06-24 14:15:51.289] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:15:51.296] [jointLog] [info] iteration = 0 | max rel diff. = 575.102
+[2021-06-24 14:15:51.765] [jointLog] [info] iteration = 100 | max rel diff. = 0.0177843
+[2021-06-24 14:15:52.235] [jointLog] [info] iteration = 200 | max rel diff. = 0.0198635
+[2021-06-24 14:15:52.374] [jointLog] [info] iteration = 231 | max rel diff. = 0.00685455
+[2021-06-24 14:15:52.394] [jointLog] [info] Finished optimizer
+[2021-06-24 14:15:52.394] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190716-RC1-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC1-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC1-AM-BOTTOM.quant/logs
+[2021-06-24 14:15:58.459] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:15:58.459] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:15:58.459] [jointLog] [info] parsing read library format
+[2021-06-24 14:15:58.459] [jointLog] [info] There is 1 library.
+[2021-06-24 14:15:58.656] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:15:58.656] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:15:58.657] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:15:59.891] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:16:00.319] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:16:00.376] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:16:00.402] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:16:00.405] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:16:25.627] [stderrLog] [info] Done loading index
+[2021-06-24 14:16:25.627] [jointLog] [info] done
+[2021-06-24 14:16:25.627] [jointLog] [info] Index contained 795,542 targets
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:16:36.040] [jointLog] [info] Computed 14,905 rich equivalence classes for further processing
+[2021-06-24 14:16:36.040] [jointLog] [info] Counted 19,916 total reads in the equivalence classes 
+[2021-06-24 14:16:36.041] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 52
+[2021-06-24 14:16:36.164] [jointLog] [warning] Only 19916 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:16:36.164] [jointLog] [info] Mapping rate = 68.2663%
+
+[2021-06-24 14:16:36.164] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:16:36.166] [jointLog] [info] Starting optimizer
+[2021-06-24 14:16:36.420] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:16:36.425] [jointLog] [info] iteration = 0 | max rel diff. = 389.227
+[2021-06-24 14:16:36.681] [jointLog] [info] iteration = 100 | max rel diff. = 0.0431654
+[2021-06-24 14:16:36.701] [jointLog] [info] iteration = 109 | max rel diff. = 0.000423545
+[2021-06-24 14:16:36.718] [jointLog] [info] Finished optimizer
+[2021-06-24 14:16:36.718] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               processing sample 20190716-RC1-AM-TOP with reads                               -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC1-AM-TOP_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC1-AM-TOP.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC1-AM-TOP.quant/logs
+[2021-06-24 14:16:42.109] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:16:42.109] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:16:42.109] [jointLog] [info] parsing read library format
+[2021-06-24 14:16:42.109] [jointLog] [info] There is 1 library.
+[2021-06-24 14:16:42.251] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:16:42.252] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:16:42.251] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:16:43.495] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:16:43.924] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:16:43.982] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:16:44.009] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:16:44.011] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:17:09.279] [jointLog] [info] done
+[2021-06-24 14:17:09.279] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:17:09.279] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:17:25.654] [jointLog] [info] Computed 38,754 rich equivalence classes for further processing
+[2021-06-24 14:17:25.654] [jointLog] [info] Counted 55,602 total reads in the equivalence classes 
+[2021-06-24 14:17:25.656] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 119
+[2021-06-24 14:17:25.789] [jointLog] [warning] Only 55602 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:17:25.789] [jointLog] [info] Mapping rate = 71.0796%
+
+[2021-06-24 14:17:25.789] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:17:25.791] [jointLog] [info] Starting optimizer
+[2021-06-24 14:17:26.058] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:17:26.064] [jointLog] [info] iteration = 0 | max rel diff. = 389.223
+[2021-06-24 14:17:26.399] [jointLog] [info] iteration = 100 | max rel diff. = 0.0416682
+[2021-06-24 14:17:26.435] [jointLog] [info] iteration = 112 | max rel diff. = 0.000451554
+[2021-06-24 14:17:26.453] [jointLog] [info] Finished optimizer
+[2021-06-24 14:17:26.453] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190716-RC2-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC2-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC2-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC2-AM-BOTTOM.quant/logs
+[2021-06-24 14:17:32.165] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:17:32.165] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:17:32.165] [jointLog] [info] parsing read library format
+[2021-06-24 14:17:32.165] [jointLog] [info] There is 1 library.
+[2021-06-24 14:17:32.366] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:17:32.367] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:17:32.367] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:17:33.611] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:17:34.045] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:17:34.102] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:17:34.129] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:17:34.131] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:17:59.427] [jointLog] [info] done
+[2021-06-24 14:17:59.427] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:17:59.427] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:18:18.793] [jointLog] [info] Computed 45,326 rich equivalence classes for further processing
+[2021-06-24 14:18:18.793] [jointLog] [info] Counted 59,058 total reads in the equivalence classes 
+[2021-06-24 14:18:18.795] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 164
+[2021-06-24 14:18:18.929] [jointLog] [warning] Only 59058 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:18:18.929] [jointLog] [info] Mapping rate = 64.1454%
+
+[2021-06-24 14:18:18.929] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:18:18.931] [jointLog] [info] Starting optimizer
+[2021-06-24 14:18:19.215] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:18:19.221] [jointLog] [info] iteration = 0 | max rel diff. = 584.346
+[2021-06-24 14:18:19.583] [jointLog] [info] iteration = 100 | max rel diff. = 0.0500594
+[2021-06-24 14:18:19.945] [jointLog] [info] iteration = 200 | max rel diff. = 0.0178467
+[2021-06-24 14:18:20.307] [jointLog] [info] iteration = 300 | max rel diff. = 0.0135232
+[2021-06-24 14:18:20.379] [jointLog] [info] iteration = 321 | max rel diff. = 0.00865167
+[2021-06-24 14:18:20.397] [jointLog] [info] Finished optimizer
+[2021-06-24 14:18:20.397] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190716-RC7-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC7-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC7-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC7-AM-BOTTOM.quant/logs
+[2021-06-24 14:18:26.926] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:18:26.926] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:18:26.926] [jointLog] [info] parsing read library format
+[2021-06-24 14:18:26.926] [jointLog] [info] There is 1 library.
+[2021-06-24 14:18:27.056] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:18:27.057] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:18:27.057] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:18:28.303] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:18:28.730] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:18:28.788] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:18:28.814] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:18:28.817] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:18:54.125] [jointLog] [info] done
+[2021-06-24 14:18:54.125] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:18:54.125] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:19:06.382] [jointLog] [info] Computed 27,463 rich equivalence classes for further processing
+[2021-06-24 14:19:06.382] [jointLog] [info] Counted 38,508 total reads in the equivalence classes 
+[2021-06-24 14:19:06.383] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 92
+[2021-06-24 14:19:06.496] [jointLog] [warning] Only 38508 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:19:06.496] [jointLog] [info] Mapping rate = 69.7419%
+
+[2021-06-24 14:19:06.496] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:19:06.498] [jointLog] [info] Starting optimizer
+[2021-06-24 14:19:06.736] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:19:06.741] [jointLog] [info] iteration = 0 | max rel diff. = 389.227
+[2021-06-24 14:19:07.037] [jointLog] [info] iteration = 100 | max rel diff. = 0.0432674
+[2021-06-24 14:19:07.330] [jointLog] [info] iteration = 200 | max rel diff. = 0.0226434
+[2021-06-24 14:19:07.409] [jointLog] [info] iteration = 228 | max rel diff. = 0.00219491
+[2021-06-24 14:19:07.425] [jointLog] [info] Finished optimizer
+[2021-06-24 14:19:07.425] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190716-RC9-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190716-RC9-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC9-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190716-RC9-AM-BOTTOM.quant/logs
+[2021-06-24 14:19:13.536] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:19:13.536] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:19:13.536] [jointLog] [info] parsing read library format
+[2021-06-24 14:19:13.536] [jointLog] [info] There is 1 library.
+[2021-06-24 14:19:13.714] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:19:13.728] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:19:13.729] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:19:14.977] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:19:15.408] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:19:15.465] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:19:15.492] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:19:15.494] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:19:40.858] [jointLog] [info] done
+[2021-06-24 14:19:40.858] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:19:40.858] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:19:55.271] [jointLog] [info] Computed 25,589 rich equivalence classes for further processing
+[2021-06-24 14:19:55.271] [jointLog] [info] Counted 35,623 total reads in the equivalence classes 
+[2021-06-24 14:19:55.273] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 62
+[2021-06-24 14:19:55.393] [jointLog] [warning] Only 35623 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:19:55.393] [jointLog] [info] Mapping rate = 71.0669%
+
+[2021-06-24 14:19:55.393] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:19:55.395] [jointLog] [info] Starting optimizer
+[2021-06-24 14:19:55.679] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:19:55.685] [jointLog] [info] iteration = 0 | max rel diff. = 389.226
+[2021-06-24 14:19:55.971] [jointLog] [info] iteration = 100 | max rel diff. = 0.0385114
+[2021-06-24 14:19:56.055] [jointLog] [info] iteration = 130 | max rel diff. = 0.00559783
+[2021-06-24 14:19:56.072] [jointLog] [info] Finished optimizer
+[2021-06-24 14:19:56.072] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190723-RC1-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC1-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC1-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC1-AM-BOTTOM.quant/logs
+[2021-06-24 14:20:01.697] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:20:01.697] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:20:01.697] [jointLog] [info] parsing read library format
+[2021-06-24 14:20:01.697] [jointLog] [info] There is 1 library.
+[2021-06-24 14:20:01.810] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:20:01.811] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:20:01.811] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:20:03.059] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:20:03.501] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:20:03.558] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:20:03.585] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:20:03.587] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:20:28.893] [jointLog] [info] done
+[2021-06-24 14:20:28.893] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:20:28.893] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:20:45.111] [jointLog] [info] Computed 33,382 rich equivalence classes for further processing
+[2021-06-24 14:20:45.111] [jointLog] [info] Counted 43,669 total reads in the equivalence classes 
+[2021-06-24 14:20:45.112] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 58
+[2021-06-24 14:20:45.230] [jointLog] [warning] Only 43669 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:20:45.230] [jointLog] [info] Mapping rate = 68.4864%
+
+[2021-06-24 14:20:45.230] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:20:45.233] [jointLog] [info] Starting optimizer
+[2021-06-24 14:20:45.505] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:20:45.511] [jointLog] [info] iteration = 0 | max rel diff. = 389.227
+[2021-06-24 14:20:45.831] [jointLog] [info] iteration = 100 | max rel diff. = 0.0388026
+[2021-06-24 14:20:46.151] [jointLog] [info] iteration = 200 | max rel diff. = 0.020525
+[2021-06-24 14:20:46.245] [jointLog] [info] iteration = 231 | max rel diff. = 0.000206727
+[2021-06-24 14:20:46.301] [jointLog] [info] Finished optimizer
+[2021-06-24 14:20:46.301] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190723-RC2-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC2-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC2-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC2-AM-BOTTOM.quant/logs
+[2021-06-24 14:20:52.333] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:20:52.333] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:20:52.333] [jointLog] [info] parsing read library format
+[2021-06-24 14:20:52.333] [jointLog] [info] There is 1 library.
+[2021-06-24 14:20:52.435] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:20:52.435] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:20:52.436] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:20:53.670] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:20:54.096] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:20:54.153] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:20:54.179] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:20:54.182] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:21:19.506] [jointLog] [info] done
+[2021-06-24 14:21:19.506] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:21:19.506] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:21:36.291] [jointLog] [info] Computed 48,893 rich equivalence classes for further processing
+[2021-06-24 14:21:36.291] [jointLog] [info] Counted 68,910 total reads in the equivalence classes 
+[2021-06-24 14:21:36.294] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 114
+[2021-06-24 14:21:36.409] [jointLog] [warning] Only 68910 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:21:36.409] [jointLog] [info] Mapping rate = 69.2465%
+
+[2021-06-24 14:21:36.409] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:21:36.411] [jointLog] [info] Starting optimizer
+[2021-06-24 14:21:36.682] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:21:36.688] [jointLog] [info] iteration = 0 | max rel diff. = 389.226
+[2021-06-24 14:21:37.050] [jointLog] [info] iteration = 100 | max rel diff. = 0.0193647
+[2021-06-24 14:21:37.417] [jointLog] [info] iteration = 200 | max rel diff. = 0.0213815
+[2021-06-24 14:21:37.558] [jointLog] [info] iteration = 240 | max rel diff. = 0.000193883
+[2021-06-24 14:21:37.575] [jointLog] [info] Finished optimizer
+[2021-06-24 14:21:37.575] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190723-RC7-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC7-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC7-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC7-AM-BOTTOM.quant/logs
+[2021-06-24 14:21:42.832] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:21:42.832] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:21:42.832] [jointLog] [info] parsing read library format
+[2021-06-24 14:21:42.832] [jointLog] [info] There is 1 library.
+[2021-06-24 14:21:42.946] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:21:42.946] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:21:42.947] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:21:44.182] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:21:44.608] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:21:44.668] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:21:44.694] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:21:44.696] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:22:09.969] [jointLog] [info] done
+[2021-06-24 14:22:09.969] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:22:09.969] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:22:31.577] [jointLog] [info] Computed 63,132 rich equivalence classes for further processing
+[2021-06-24 14:22:31.577] [jointLog] [info] Counted 89,717 total reads in the equivalence classes 
+[2021-06-24 14:22:31.580] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 177
+[2021-06-24 14:22:31.706] [jointLog] [warning] Only 89717 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:22:31.706] [jointLog] [info] Mapping rate = 69.5766%
+
+[2021-06-24 14:22:31.706] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:22:31.709] [jointLog] [info] Starting optimizer
+[2021-06-24 14:22:31.986] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:22:31.992] [jointLog] [info] iteration = 0 | max rel diff. = 389.226
+[2021-06-24 14:22:32.404] [jointLog] [info] iteration = 100 | max rel diff. = 0.0349668
+[2021-06-24 14:22:32.815] [jointLog] [info] iteration = 200 | max rel diff. = 0.0213142
+[2021-06-24 14:22:32.860] [jointLog] [info] iteration = 212 | max rel diff. = 0.00897351
+[2021-06-24 14:22:32.879] [jointLog] [info] Finished optimizer
+[2021-06-24 14:22:32.879] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190723-RC9-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190723-RC9-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC9-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190723-RC9-AM-BOTTOM.quant/logs
+[2021-06-24 14:22:39.150] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:22:39.150] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:22:39.150] [jointLog] [info] parsing read library format
+[2021-06-24 14:22:39.150] [jointLog] [info] There is 1 library.
+[2021-06-24 14:22:39.260] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:22:39.261] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:22:39.261] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:22:40.505] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:22:40.941] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:22:40.998] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:22:41.024] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:22:41.027] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:23:06.309] [jointLog] [info] done
+[2021-06-24 14:23:06.309] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:23:06.309] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:23:27.837] [jointLog] [info] Computed 53,496 rich equivalence classes for further processing
+[2021-06-24 14:23:27.837] [jointLog] [info] Counted 76,576 total reads in the equivalence classes 
+[2021-06-24 14:23:27.842] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 136
+[2021-06-24 14:23:27.966] [jointLog] [warning] Only 76576 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:23:27.966] [jointLog] [info] Mapping rate = 65.6139%
+
+[2021-06-24 14:23:27.966] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:23:27.968] [jointLog] [info] Starting optimizer
+[2021-06-24 14:23:28.261] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:23:28.267] [jointLog] [info] iteration = 0 | max rel diff. = 389.226
+[2021-06-24 14:23:28.651] [jointLog] [info] iteration = 100 | max rel diff. = 0.0343352
+[2021-06-24 14:23:29.029] [jointLog] [info] iteration = 200 | max rel diff. = 0.0253241
+[2021-06-24 14:23:29.052] [jointLog] [info] iteration = 207 | max rel diff. = 0.006637
+[2021-06-24 14:23:29.070] [jointLog] [info] Finished optimizer
+[2021-06-24 14:23:29.071] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190730-RC1-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC1-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC1-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC1-AM-BOTTOM.quant/logs
+[2021-06-24 14:23:34.842] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:23:34.842] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:23:34.842] [jointLog] [info] parsing read library format
+[2021-06-24 14:23:34.842] [jointLog] [info] There is 1 library.
+[2021-06-24 14:23:34.947] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:23:34.947] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:23:34.948] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:23:36.207] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:23:36.635] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:23:36.693] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:23:36.719] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:23:36.722] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:24:02.034] [jointLog] [info] done
+[2021-06-24 14:24:02.034] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:24:02.033] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:24:11.929] [jointLog] [info] Computed 40,930 rich equivalence classes for further processing
+[2021-06-24 14:24:11.929] [jointLog] [info] Counted 53,529 total reads in the equivalence classes 
+[2021-06-24 14:24:11.931] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 167
+[2021-06-24 14:24:12.054] [jointLog] [warning] Only 53529 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:24:12.054] [jointLog] [info] Mapping rate = 65.1847%
+
+[2021-06-24 14:24:12.054] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:24:12.057] [jointLog] [info] Starting optimizer
+[2021-06-24 14:24:12.311] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:24:12.317] [jointLog] [info] iteration = 0 | max rel diff. = 575.103
+[2021-06-24 14:24:12.654] [jointLog] [info] iteration = 100 | max rel diff. = 0.0324262
+[2021-06-24 14:24:12.810] [jointLog] [info] iteration = 148 | max rel diff. = 0.00997412
+[2021-06-24 14:24:12.825] [jointLog] [info] Finished optimizer
+[2021-06-24 14:24:12.825] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                           processing sample 20190730-RC2-AM-BOTTOM-BUOY with reads                           -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC2-AM-BOTTOM-BUOY_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC2-AM-BOTTOM-BUOY.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC2-AM-BOTTOM-BUOY.quant/logs
+[2021-06-24 14:24:17.977] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:24:17.977] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:24:17.977] [jointLog] [info] parsing read library format
+[2021-06-24 14:24:17.977] [jointLog] [info] There is 1 library.
+[2021-06-24 14:24:18.088] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:24:18.089] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:24:18.090] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:24:19.353] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:24:19.784] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:24:19.841] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:24:19.868] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:24:19.870] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:24:45.221] [jointLog] [info] done
+[2021-06-24 14:24:45.221] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:24:45.221] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:25:02.147] [jointLog] [info] Computed 35,474 rich equivalence classes for further processing
+[2021-06-24 14:25:02.147] [jointLog] [info] Counted 45,320 total reads in the equivalence classes 
+[2021-06-24 14:25:02.149] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 107
+[2021-06-24 14:25:02.266] [jointLog] [warning] Only 45320 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:25:02.266] [jointLog] [info] Mapping rate = 64.1154%
+
+[2021-06-24 14:25:02.266] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:25:02.268] [jointLog] [info] Starting optimizer
+[2021-06-24 14:25:02.548] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:25:02.553] [jointLog] [info] iteration = 0 | max rel diff. = 389.229
+[2021-06-24 14:25:02.869] [jointLog] [info] iteration = 100 | max rel diff. = 0.0552638
+[2021-06-24 14:25:03.189] [jointLog] [info] iteration = 200 | max rel diff. = 0.0169877
+[2021-06-24 14:25:03.398] [jointLog] [info] iteration = 266 | max rel diff. = 0.00631226
+[2021-06-24 14:25:03.416] [jointLog] [info] Finished optimizer
+[2021-06-24 14:25:03.416] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190730-RC7-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC7-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC7-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC7-AM-BOTTOM.quant/logs
+[2021-06-24 14:25:09.065] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:25:09.065] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:25:09.065] [jointLog] [info] parsing read library format
+[2021-06-24 14:25:09.065] [jointLog] [info] There is 1 library.
+[2021-06-24 14:25:09.737] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:25:09.736] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:25:09.736] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:25:10.999] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:25:11.447] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:25:11.505] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:25:11.536] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:25:11.539] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:25:36.854] [jointLog] [info] done
+[2021-06-24 14:25:36.854] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:25:36.854] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:25:58.614] [jointLog] [info] Computed 55,155 rich equivalence classes for further processing
+[2021-06-24 14:25:58.614] [jointLog] [info] Counted 78,674 total reads in the equivalence classes 
+[2021-06-24 14:25:58.616] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 195
+[2021-06-24 14:25:58.746] [jointLog] [warning] Only 78674 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:25:58.746] [jointLog] [info] Mapping rate = 65.787%
+
+[2021-06-24 14:25:58.746] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:25:58.749] [jointLog] [info] Starting optimizer
+[2021-06-24 14:25:59.040] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:25:59.047] [jointLog] [info] iteration = 0 | max rel diff. = 584.341
+[2021-06-24 14:25:59.438] [jointLog] [info] iteration = 100 | max rel diff. = 0.0453171
+[2021-06-24 14:25:59.830] [jointLog] [info] iteration = 200 | max rel diff. = 0.0155962
+[2021-06-24 14:25:59.900] [jointLog] [info] iteration = 219 | max rel diff. = 0.000493608
+[2021-06-24 14:25:59.919] [jointLog] [info] Finished optimizer
+[2021-06-24 14:25:59.919] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              processing sample 20190730-RC9-AM-BOTTOM with reads                             -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/20190730-RC9-AM-BOTTOM_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC9-AM-BOTTOM.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/20190730-RC9-AM-BOTTOM.quant/logs
+[2021-06-24 14:26:06.572] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:26:06.572] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:26:06.572] [jointLog] [info] parsing read library format
+[2021-06-24 14:26:06.572] [jointLog] [info] There is 1 library.
+[2021-06-24 14:26:06.709] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:26:06.709] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:26:06.710] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:26:07.961] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:26:08.393] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:26:08.450] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:26:08.477] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:26:08.479] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:26:33.801] [jointLog] [info] done
+[2021-06-24 14:26:33.801] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:26:33.801] [stderrLog] [info] Done loading index
+
+
+
+
+
+
+
+
+
+
+
+
+[2021-06-24 14:26:54.365] [jointLog] [info] Computed 51,565 rich equivalence classes for further processing
+[2021-06-24 14:26:54.365] [jointLog] [info] Counted 71,822 total reads in the equivalence classes 
+[2021-06-24 14:26:54.366] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 142
+[2021-06-24 14:26:54.498] [jointLog] [warning] Only 71822 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:26:54.498] [jointLog] [info] Mapping rate = 68.503%
+
+[2021-06-24 14:26:54.498] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:26:54.500] [jointLog] [info] Starting optimizer
+[2021-06-24 14:26:54.780] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:26:54.786] [jointLog] [info] iteration = 0 | max rel diff. = 575.099
+[2021-06-24 14:26:55.161] [jointLog] [info] iteration = 100 | max rel diff. = 0.037537
+[2021-06-24 14:26:55.335] [jointLog] [info] iteration = 146 | max rel diff. = 0.00407769
+[2021-06-24 14:26:55.354] [jointLog] [info] Finished optimizer
+[2021-06-24 14:26:55.354] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  processing sample zymo-cellular with reads                                  -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-cellular_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/zymo-cellular.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/zymo-cellular.quant/logs
+[2021-06-24 14:27:01.368] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:27:01.368] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:27:01.368] [jointLog] [info] parsing read library format
+[2021-06-24 14:27:01.368] [jointLog] [info] There is 1 library.
+[2021-06-24 14:27:01.486] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:27:01.487] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:27:01.488] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:27:02.753] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:27:03.192] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:27:03.250] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:27:03.281] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:27:03.284] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:27:28.598] [jointLog] [info] done
+[2021-06-24 14:27:28.598] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:27:28.598] [stderrLog] [info] Done loading index
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 489,015, hits per frag:  0.987909
+
+
+
+
+
+
+
+[2021-06-24 14:28:02.375] [jointLog] [info] Computed 15,780 rich equivalence classes for further processing
+[2021-06-24 14:28:02.375] [jointLog] [info] Counted 921,254 total reads in the equivalence classes 
+[2021-06-24 14:28:02.378] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 771
+[2021-06-24 14:28:02.504] [jointLog] [warning] Only 921254 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:28:02.504] [jointLog] [info] Mapping rate = 97.6969%
+
+[2021-06-24 14:28:02.504] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:28:02.506] [jointLog] [info] Starting optimizer
+[2021-06-24 14:28:02.774] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:28:02.780] [jointLog] [info] iteration = 0 | max rel diff. = 779.42
+[2021-06-24 14:28:03.036] [jointLog] [info] iteration = 100 | max rel diff. = 3.87723e-05
+[2021-06-24 14:28:03.053] [jointLog] [info] Finished optimizer
+[2021-06-24 14:28:03.053] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     processing sample zymo-dna with reads                                    -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_2.fastq...-----
+------------------------------------------------------------------------------------------------------------------------
+
+### salmon (mapping-based) v0.13.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/assembly_index }
+### [ libType ] => { IU }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/assembled/MI_crop_0.95/separate_trimming/zymo-dna_2.fastq }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/zymo-dna.quant }
+### [ meta ] => { }
+### [ threads ] => { 1 }
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files/zymo-dna.quant/logs
+[2021-06-24 14:28:09.008] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-24 14:28:09.008] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Mapping validation is planned to become a default option (i.e. turned on by default) in
+the next release of salmon.
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-24 14:28:09.008] [jointLog] [info] parsing read library format
+[2021-06-24 14:28:09.008] [jointLog] [info] There is 1 library.
+[2021-06-24 14:28:09.117] [jointLog] [info] Loading Quasi index
+[2021-06-24 14:28:09.118] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-24 14:28:09.118] [stderrLog] [info] Loading Suffix Array 
+[2021-06-24 14:28:10.362] [stderrLog] [info] Loading Transcript Info 
+[2021-06-24 14:28:10.793] [stderrLog] [info] Loading Rank-Select Bit Array
+[2021-06-24 14:28:10.849] [stderrLog] [info] There were 795,542 set bits in the bit array
+[2021-06-24 14:28:10.876] [stderrLog] [info] Computing transcript lengths
+[2021-06-24 14:28:10.878] [stderrLog] [info] Waiting to finish loading hash
+[2021-06-24 14:28:36.686] [jointLog] [info] done
+[2021-06-24 14:28:36.686] [jointLog] [info] Index contained 795,542 targets
+[2021-06-24 14:28:36.686] [stderrLog] [info] Done loading index
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 488,173, hits per frag:  0.986208
+
+
+
+
+
+
+
+[2021-06-24 14:28:58.113] [jointLog] [info] Computed 16,309 rich equivalence classes for further processing
+[2021-06-24 14:28:58.113] [jointLog] [info] Counted 750,997 total reads in the equivalence classes 
+[2021-06-24 14:28:58.114] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 506
+[2021-06-24 14:28:58.246] [jointLog] [warning] Only 750997 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-24 14:28:58.246] [jointLog] [info] Mapping rate = 97.5531%
+
+[2021-06-24 14:28:58.246] [jointLog] [info] finished quantifyLibrary()
+[2021-06-24 14:28:58.248] [jointLog] [info] Starting optimizer
+[2021-06-24 14:28:58.502] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-24 14:28:58.508] [jointLog] [info] iteration = 0 | max rel diff. = 779.407
+[2021-06-24 14:28:58.771] [jointLog] [info] iteration = 100 | max rel diff. = 0.00796608
+[2021-06-24 14:28:58.787] [jointLog] [info] Finished optimizer
+[2021-06-24 14:28:58.787] [jointLog] [info] writing output 
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           summarize salmon files...                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+Starting in: /scratch/groups/sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/alignment_files
+Loading counts from: ./20190723-RC2-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190730-RC9-AM-BOTTOM.quant quant.sf
+Loading counts from: ./zymo-cellular.quant quant.sf
+Loading counts from: ./20190716-RC1-AM-TOP.quant quant.sf
+Loading counts from: ./20190709-RC1-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190723-RC9-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190730-RC1-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190730-RC2-AM-BOTTOM-BUOY.quant quant.sf
+Loading counts from: ./20190723-RC1-AM-BOTTOM.quant quant.sf
+Loading counts from: ./zymo-dna.quant quant.sf
+Loading counts from: ./20190723-RC7-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190716-RC9-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190716-RC1-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190709-RC7-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190716-RC7-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190730-RC7-AM-BOTTOM.quant quant.sf
+Loading counts from: ./20190716-RC2-AM-BOTTOM.quant quant.sf
+"20190709-RC1-AM-BOTTOM.quant.counts",
+"20190709-RC7-AM-BOTTOM.quant.counts",
+"20190716-RC1-AM-BOTTOM.quant.counts",
+"20190716-RC1-AM-TOP.quant.counts",
+"20190716-RC2-AM-BOTTOM.quant.counts",
+"20190716-RC7-AM-BOTTOM.quant.counts",
+"20190716-RC9-AM-BOTTOM.quant.counts",
+"20190723-RC1-AM-BOTTOM.quant.counts",
+"20190723-RC2-AM-BOTTOM.quant.counts",
+"20190723-RC7-AM-BOTTOM.quant.counts",
+"20190723-RC9-AM-BOTTOM.quant.counts",
+"20190730-RC1-AM-BOTTOM.quant.counts",
+"20190730-RC2-AM-BOTTOM-BUOY.quant.counts",
+"20190730-RC7-AM-BOTTOM.quant.counts",
+"20190730-RC9-AM-BOTTOM.quant.counts",
+"zymo-cellular.quant.counts",
+"zymo-dna.quant.counts"
+
+########################################################################################################################
+#####                                   EXTRACTING AVERAGE ABUNDANCE OF EACH BIN                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                            There were 17 samples detected. Making abundance table!                           -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Average bin abundance table stored in                                    -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/QUANT_BINS/MI_crop_0.95/abundance_table.tab-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                 MAKING GENOME ABUNDANCE HEATMAP WITH SEABORN                                 #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          making heatmap with Seaborn                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+loading libs...
+loading abundance data...
+drawing clustermap...
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                cleaning up...                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                 QUANT_BINS PIPELINE SUCCESSFULLY FINISHED!!!                                 #####
+########################################################################################################################
+
+
+real	25m20.619s
+user	18m36.050s
+sys	7m2.419s

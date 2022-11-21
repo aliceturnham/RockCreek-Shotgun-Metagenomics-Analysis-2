@@ -1,0 +1,20 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=423159] to memory cg '(null)'
+slurmstepd: error: xcgroup_instantiate: unable to create cgroup '/sys/fs/cgroup/memory/slurm/uid_2007' : Cannot allocate memory
+slurmstepd: error: jobacct_gather/cgroup: unable to instanciate user 2007 memory cgroup
+metawrap read_qc -1 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq -2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq -t 24 -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC --skip-bmtagger
+Warning: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawwrap_06222021/READ_QC already exists.
+
+########################################################################################################################
+#####                                             MAKING PRE-QC REPORT                                             #####
+########################################################################################################################
+
+perl: symbol lookup error: /software/centos7/usr/lib64/perl5/vendor_perl/auto/Cwd/Cwd.so: undefined symbol: Perl_xs_apiversion_bootcheck
+
+************************************************************************************************************************
+*****                        Something went wrong with making pre-QC fastqc report. Exiting.                       *****
+************************************************************************************************************************
+
+
+real	0m0.523s
+user	0m0.032s
+sys	0m0.079s
