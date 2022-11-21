@@ -1,0 +1,45 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"bedtool/2.30.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "bedtool/2.30.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Fri Nov 11 15:53:19 EST 2022
+start bedtools
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+/cm/local/apps/slurm/var/spool/job10039320/slurm_script: line 22: bedtools: command not found
+$SBFILE is converted to .bed
+Fri Nov 11 15:53:19 EST 2022

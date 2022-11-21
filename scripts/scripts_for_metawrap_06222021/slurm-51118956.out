@@ -1,0 +1,760 @@
+/software/lmod/lmod/init/sh: line 14: conda: command not found
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+metawrap kraken2 -o /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN -t 48 -s 1000000 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/ASSEMBLY/final_assembly.fasta
+
+########################################################################################################################
+#####                                          RUNNING KRAKEN ON ALL FILES                                         #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC1-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (269.93 Mbp) processed in 7.669s (7823.9 Kseq/m, 2111.92 Mbp/m).
+  138473 sequences classified (13.85%)
+  861527 sequences unclassified (86.15%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC7-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (270.89 Mbp) processed in 5.857s (10243.3 Kseq/m, 2774.80 Mbp/m).
+  136018 sequences classified (13.60%)
+  863982 sequences unclassified (86.40%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+791389 sequences (186.96 Mbp) processed in 3.801s (12492.6 Kseq/m, 2951.28 Mbp/m).
+  97693 sequences classified (12.34%)
+  693696 sequences unclassified (87.66%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-TOP.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (273.96 Mbp) processed in 7.179s (8357.6 Kseq/m, 2289.65 Mbp/m).
+  163993 sequences classified (16.40%)
+  836007 sequences unclassified (83.60%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC2-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (245.31 Mbp) processed in 5.390s (11131.0 Kseq/m, 2730.60 Mbp/m).
+  116152 sequences classified (11.62%)
+  883848 sequences unclassified (88.38%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC7-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (249.28 Mbp) processed in 5.456s (10997.3 Kseq/m, 2741.39 Mbp/m).
+  121419 sequences classified (12.14%)
+  878581 sequences unclassified (87.86%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC9-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+989441 sequences (257.84 Mbp) processed in 6.149s (9655.1 Kseq/m, 2516.06 Mbp/m).
+  133392 sequences classified (13.48%)
+  856049 sequences unclassified (86.52%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC1-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (272.60 Mbp) processed in 7.207s (8325.1 Kseq/m, 2269.45 Mbp/m).
+  145677 sequences classified (14.57%)
+  854323 sequences unclassified (85.43%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC2-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (269.15 Mbp) processed in 6.972s (8605.4 Kseq/m, 2316.15 Mbp/m).
+  158485 sequences classified (15.85%)
+  841515 sequences unclassified (84.15%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC7-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (263.18 Mbp) processed in 6.893s (8705.1 Kseq/m, 2291.01 Mbp/m).
+  146966 sequences classified (14.70%)
+  853034 sequences unclassified (85.30%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC9-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (266.71 Mbp) processed in 7.440s (8064.4 Kseq/m, 2150.86 Mbp/m).
+  143934 sequences classified (14.39%)
+  856066 sequences unclassified (85.61%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC1-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (267.23 Mbp) processed in 5.982s (10030.0 Kseq/m, 2680.28 Mbp/m).
+  116981 sequences classified (11.70%)
+  883019 sequences unclassified (88.30%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC2-AM-BOTTOM-BUOY.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (250.53 Mbp) processed in 4.827s (12431.4 Kseq/m, 3114.46 Mbp/m).
+  111563 sequences classified (11.16%)
+  888437 sequences unclassified (88.84%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC7-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (266.44 Mbp) processed in 6.167s (9729.6 Kseq/m, 2592.38 Mbp/m).
+  128119 sequences classified (12.81%)
+  871881 sequences unclassified (87.19%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC9-AM-BOTTOM.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (273.19 Mbp) processed in 6.394s (9383.2 Kseq/m, 2563.42 Mbp/m).
+  124971 sequences classified (12.50%)
+  875029 sequences unclassified (87.50%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (284.18 Mbp) processed in 5.060s (11856.8 Kseq/m, 3369.52 Mbp/m).
+  362506 sequences classified (36.25%)
+  637494 sequences unclassified (63.75%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all_rawreads.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (263.14 Mbp) processed in 6.642s (9033.9 Kseq/m, 2377.16 Mbp/m).
+  133472 sequences classified (13.35%)
+  866528 sequences unclassified (86.65%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (339.74 Mbp) processed in 4.253s (14108.2 Kseq/m, 4793.09 Mbp/m).
+  961442 sequences classified (96.14%)
+  38558 sequences unclassified (3.86%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-cellular.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (328.02 Mbp) processed in 3.825s (15686.8 Kseq/m, 5145.60 Mbp/m).
+  964556 sequences classified (96.46%)
+  35444 sequences unclassified (3.54%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq-----
+-----                                                     and                                                      -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     subsampling down to 1000000 reads...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Subsampling done. Starting KRAKEN...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --paired --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-dna.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_1.fastq /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/tmp_2.fastq
+Loading database information... done.
+1000000 sequences (378.83 Mbp) processed in 5.211s (11513.1 Kseq/m, 4361.56 Mbp/m).
+  951742 sequences classified (95.17%)
+  48258 sequences unclassified (4.83%)
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                Now processing                                                -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/ASSEMBLY/final_assembly.fasta-----
+-----                                               with 48 threads                                                -----
+------------------------------------------------------------------------------------------------------------------------
+
+kraken2 --use-names --db /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB --threads 48 --output /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/final_assembly.krak2 /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/ASSEMBLY/final_assembly.fasta
+Loading database information... done.
+26890 sequences (110.39 Mbp) processed in 9.939s (162.3 Kseq/m, 666.45 Mbp/m).
+  12395 sequences classified (46.10%)
+  14495 sequences unclassified (53.90%)
+
+########################################################################################################################
+#####                                      RUNNING KRAKEN-TRANSLATE ON OUTPUT                                      #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC1-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC1-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC1-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC1-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC7-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC7-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC7-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190709-RC7-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-TOP.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-TOP.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-TOP.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC1-AM-TOP.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC2-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC2-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC2-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC2-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC7-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC7-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC7-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC7-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC9-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC9-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC9-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190716-RC9-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC1-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC1-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC1-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC1-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC2-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC2-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC2-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC2-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC7-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC7-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC7-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC7-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC9-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC9-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC9-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190723-RC9-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC1-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC1-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC1-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC1-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC2-AM-BOTTOM-BUOY.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC2-AM-BOTTOM-BUOY.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC2-AM-BOTTOM-BUOY.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC2-AM-BOTTOM-BUOY.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC7-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC7-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC7-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC7-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC9-AM-BOTTOM.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC9-AM-BOTTOM.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC9-AM-BOTTOM.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/20190730-RC9-AM-BOTTOM.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all_rawreads.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all_rawreads.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all_rawreads.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/all_rawreads.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/final_assembly.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/final_assembly.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/final_assembly.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/final_assembly.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-cellular.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-cellular.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-cellular.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-cellular.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-dna.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-dna.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-dna.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo-dna.kraken2
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                  Translating                                                 -----
+-----/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo.krak2-----
+------------------------------------------------------------------------------------------------------------------------
+
+Translating kraken2 annotations from /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo.krak2, using metadata from the kraken2 database in /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/MY_KRAKEN2_DB; saving to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo.kraken2
+Translating kraken2 annotations
+Loading NCBI node names
+Loading NCBI taxonomic ranks
+Writing translated taxonomy names to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/zymo.kraken2
+
+########################################################################################################################
+#####                                         MAKING KRONAGRAM OF ALL FILES                                        #####
+########################################################################################################################
+
+Writing /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/kronagram.html...
+   [ WARNING ]  Too many query IDs to store in chart; storing supplemental
+                files in
+                '/home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/KRAKEN/kronagram.html.files'.
+
+########################################################################################################################
+#####                                     FINISHED RUNNING KRAKEN2 PIPELINE!!!                                     #####
+########################################################################################################################
+
+
+real	41m31.580s
+user	43m52.069s
+sys	56m54.930s

@@ -1,0 +1,7 @@
+/var/spool/slurm//job51034243/slurm_script: conda: command not found
+checkm_from_reassemble_bins -o ../../metawrap_06222021/REASSEMBLY -1 ../../metawrap_06222021/CLEAN_READS/all_1.fastq -2 ../../metawrap_06222021/CLEAN_READS/all_2.fastq -t 48 -m 1000 -c 70 -x 5 -b ../../metawrap_06222021/BIN_REFINEMENT/metawrap_70_5_bins
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap: line 92: /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-modules/checkm_from_reassemble_bins.sh: Permission denied
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s

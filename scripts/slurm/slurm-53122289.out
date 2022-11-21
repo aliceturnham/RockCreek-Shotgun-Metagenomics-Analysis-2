@@ -1,0 +1,15 @@
+contig names have been shortened
+prokka module successfully loaded
+[12:53:03] This is prokka 1.14.6
+[12:53:03] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:53:03] Homepage is https://github.com/tseemann/prokka
+[12:53:03] Local time is Mon Jan 10 12:53:03 2022
+[12:53:03] You are yzhan231@jhu.edu
+[12:53:03] Operating system is linux
+[12:53:03] You have BioPerl 1.007002
+[12:53:03] System has 48 cores.
+[12:53:03] Will use maximum of 48 cores.
+[12:53:03] Annotating as >>> Bacteria <<<
+[12:53:03] Generating locus_tag from '../analysis/ASSEMBLY/MI_crop_0.95/scaffolds_short_name.fasta' contents.
+[12:53:04] Setting --locustag CLCHGGBB from MD5 c5c100bb274901b2af6d7477d34ae2fe
+[12:53:04] Folder '../analysis/PROKKA' already exists! Please change --outdir or use --force

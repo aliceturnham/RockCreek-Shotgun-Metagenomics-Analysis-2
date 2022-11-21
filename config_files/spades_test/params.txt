@@ -1,0 +1,37 @@
+Command line: /home-4/yzhan231@jhu.edu/work/yuezhang/lib/SPAdes/SPAdes-3.15.2-Linux/bin/spades.py	--test	
+
+System information:
+  SPAdes version: 3.15.2
+  Python version: 2.7.5
+  OS: Linux-3.10.0-957.1.3.el7_lustre.x86_64-x86_64-with-centos-7.6.1810-Core
+
+Output dir: /scratch/groups/sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/config_files/spades_test
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/scratch/groups/sprehei1/yuezhang/lib/SPAdes/SPAdes-3.15.2-Linux/share/spades/test_dataset/ecoli_1K_1.fq.gz']
+      right reads: ['/scratch/groups/sprehei1/yuezhang/lib/SPAdes/SPAdes-3.15.2-Linux/share/spades/test_dataset/ecoli_1K_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /scratch/groups/sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/config_files/spades_test/tmp
+  Threads: 16
+  Memory limit (in Gb): 92
+

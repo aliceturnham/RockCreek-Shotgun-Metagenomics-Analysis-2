@@ -1,0 +1,19 @@
+prokka/1.14.5 is loaded
+viables are loaded
+Fri Nov 11 18:47:07 EST 2022
+[18:47:07] This is prokka 1.14.6
+[18:47:07] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:47:07] Homepage is https://github.com/tseemann/prokka
+[18:47:07] Local time is Fri Nov 11 18:47:07 2022
+[18:47:07] You are yzhan231
+[18:47:07] Operating system is linux
+[18:47:07] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/prokka line 259.
+[18:47:07] System has 48 cores.
+[18:47:07] Will use maximum of 48 cores.
+[18:47:07] Annotating as >>> Bacteria <<<
+[18:47:07] Generating locus_tag from '/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/contigs.fasta' contents.
+[18:47:09] Setting --locustag NFLDNOFK from MD5 7f5d78f43492c7669bc45e288b348f6c
+[18:47:09] Folder '/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/PROKKA_on_scaffolds' already exists! Please change --outdir or use --force
+prokka is done
+Fri Nov 11 18:47:09 EST 2022

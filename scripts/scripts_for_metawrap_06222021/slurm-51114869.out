@@ -1,0 +1,66 @@
+/var/spool/slurm//job51114869/slurm_script: conda: command not found
+metawrap annotate_bins -o ../../metawrap_06222021/BIN_ANNOTATION -t 48 -b ../../metawrap_06222021/REASSEMBLY/reassembled_bins
+
+########################################################################################################################
+#####                                          BEGIN ANNNOTAION PIPELINE!                                          #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              setting up output folder and copything over bins...                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.10.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.10.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig --prefix bin.10.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig/bin.10.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig/bin.10.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.11.permissive.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       NOW ANNOTATING bin.11.permissive                                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive --prefix bin.11.permissive ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive/bin.11.permissive.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive/bin.11.permissive.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.12.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.12.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.12.orig --prefix bin.12.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Could not read file '../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.12.orig/bin.12.orig.IS.tmp.43285.blast': No such file or directory
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /home-net/home-4/yzhan231@jhu.edu/.conda/envs/Prokka/lib/site_perl/5.26.2/Bio/Root/Root.pm:447
+STACK: Bio::Root::IO::_initialize_io /home-net/home-4/yzhan231@jhu.edu/.conda/envs/Prokka/lib/site_perl/5.26.2/Bio/Root/IO.pm:268
+STACK: Bio::Root::IO::new /home-net/home-4/yzhan231@jhu.edu/.conda/envs/Prokka/lib/site_perl/5.26.2/Bio/Root/IO.pm:163
+STACK: Bio::SearchIO::new /home-net/home-4/yzhan231@jhu.edu/.conda/envs/Prokka/lib/site_perl/5.26.2/Bio/SearchIO.pm:185
+STACK: Bio::SearchIO::new /home-net/home-4/yzhan231@jhu.edu/.conda/envs/Prokka/lib/site_perl/5.26.2/Bio/SearchIO.pm:217
+STACK: /home-4/yzhan231@jhu.edu/.conda/envs/Prokka/bin/prokka:1113
+-----------------------------------------------------------
+
+************************************************************************************************************************
+*****                 Something possibly went wrong with annotating bin.12.orig. Proceeding anyways                *****
+************************************************************************************************************************
+
+
+************************************************************************************************************************
+*****                         Something went wrong with annotating bin.12.orig. Exiting...                         *****
+************************************************************************************************************************
+
+
+real	10m40.818s
+user	8m56.486s
+sys	1m33.483s

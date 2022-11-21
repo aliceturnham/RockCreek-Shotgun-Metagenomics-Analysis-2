@@ -1,0 +1,23 @@
+Startin bowtie2-mapping
+Fri Nov 11 15:14:58 EST 2022
+851818 reads; of these:
+  55427 (6.51%) were paired; of these:
+    18776 (33.88%) aligned concordantly 0 times
+    36327 (65.54%) aligned concordantly exactly 1 time
+    324 (0.58%) aligned concordantly >1 times
+    ----
+    18776 pairs aligned concordantly 0 times; of these:
+      1913 (10.19%) aligned discordantly 1 time
+    ----
+    16863 pairs aligned 0 times concordantly or discordantly; of these:
+      33726 mates make up the pairs; of these:
+        29400 (87.17%) aligned 0 times
+        3896 (11.55%) aligned exactly 1 time
+        430 (1.27%) aligned >1 times
+  796391 (93.49%) were unpaired; of these:
+    454593 (57.08%) aligned 0 times
+    323698 (40.65%) aligned exactly 1 time
+    18100 (2.27%) aligned >1 times
+46.65% overall alignment rate
+Completed bowtie2-build
+Fri Nov 11 15:16:12 EST 2022

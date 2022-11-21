@@ -1,0 +1,27 @@
+Startin bowtie2-build
+Tue Nov  8 14:37:08 EST 2022
+Settings:
+  Output files: "INDEX.*.bt2l"
+  Line rate: 7 (line is 128 bytes)
+  Lines per side: 1 (side is 128 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  CONTIGS
+Error: could not open CONTIGS
+Total time for call to driver() for forward index: 00:00:00
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /data/apps/linux-centos8-cascadelake/gcc-9.3.0/bowtie2-2.4.1-olhlhcsbsqtec57sarerebmkju7azx4q/bin/bowtie2-build-l --wrapper basic-0 CONTIGS INDEX 
+Completed bowtie2-build
+Tue Nov  8 14:37:09 EST 2022

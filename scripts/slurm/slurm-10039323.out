@@ -1,0 +1,5 @@
+copying singularity image to: /home/yzhan231/singularity/samtools.bwa-mem
+Fri Nov 11 15:56:33 EST 2022
+start bedtools
+slurmstepd: error: *** JOB 10039323 ON c121 CANCELLED AT 2022-11-11T18:05:29 ***
+slurmstepd: error: *** JOB 10039323 STEPD TERMINATED ON c121 AT 2022-11-11T18:06:29 DUE TO JOB NOT ENDING WITH SIGNALS ***

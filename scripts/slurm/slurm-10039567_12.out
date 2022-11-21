@@ -1,0 +1,6 @@
+Fri Nov 11 18:06:14 EST 2022
+start bam to bed conversion for $SORTEDBAM
+[E::hts_open_format_impl] Failed to open file 20190730-RC1-AM-BOTTOM.bowtie2.sorted.bam
+Failed to open BAM file 20190730-RC1-AM-BOTTOM.bowtie2.sorted.bam
+$SORTEDBAM is converted to .bed
+Fri Nov 11 18:06:14 EST 2022

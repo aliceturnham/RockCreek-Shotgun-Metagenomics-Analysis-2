@@ -1,0 +1,31 @@
+1 fastas found
+2021-12-06 16:56:01.337053: Annotation started
+0:00:00.189043: Retrieved database locations and descriptions
+0:00:00.189071: Annotating final_assembly
+0:11:04.901627: Turning genes from prodigal to mmseqs2 db
+0:11:10.783152: Getting hits from kofam
+2:15:28.900644: Getting forward best hits from peptidase
+2:18:37.193062: Getting reverse best hits from peptidase
+2:18:57.416271: Getting descriptions of hits from peptidase
+2:19:52.837851: Getting hits from pfam
+2:35:00.556997: Getting hits from dbCAN
+2:37:39.949661: Getting hits from VOGDB
+4:18:19.181412: Merging ORF annotations
+Traceback (most recent call last):
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/bin/DRAM.py", line 153, in <module>
+    args.func(**args_dict)
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/annotate_bins.py", line 967, in annotate_bins_cmd
+    annotate_bins(fasta_locs, output_dir, min_contig_size, prodigal_mode, trans_table, bit_score_threshold,
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/annotate_bins.py", line 1005, in annotate_bins
+    all_annotations = annotate_fastas(fasta_locs, output_dir, db_locs, db_handler, min_contig_size, prodigal_mode,
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/annotate_bins.py", line 923, in annotate_fastas
+    annotations_list.append(annotate_fasta(fasta_loc, fasta_name, fasta_dir, db_locs, db_handler, min_contig_size,
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/annotate_bins.py", line 857, in annotate_fasta
+    trna_table = run_trna_scan(renamed_scaffolds, tmp_dir, fasta_name, threads=threads, verbose=verbose)
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/annotate_bins.py", line 544, in run_trna_scan
+    run_process(['tRNAscan-SE', '-G', '-o', raw_trnas, '--thread', str(threads), fasta], verbose=verbose)
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/site-packages/mag_annotator/utils.py", line 38, in run_process
+    return subprocess.run(command, check=check, shell=shell, stdout=subprocess.PIPE,
+  File "/home-4/yzhan231@jhu.edu/.conda/envs/DRAM/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['tRNAscan-SE', '-G', '-o', '../metawrap_06222021/DRAM/annotation/working_dir/final_assembly/tmp/raw_trnas.txt', '--thread', '10', '../metawrap_06222021/DRAM/annotation/working_dir/final_assembly/scaffolds.annotated.fa']' returned non-zero exit status 255.

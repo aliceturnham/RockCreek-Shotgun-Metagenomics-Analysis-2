@@ -1,0 +1,151 @@
+Variables imported
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC1-AM-BOTTOM_2.fastq
+20190709-RC1-AM-BOTTOM_1.fastq
+20190709-RC1-AM-BOTTOM
+triming 20190709-RC1-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC7-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190709-RC7-AM-BOTTOM_2.fastq
+20190709-RC7-AM-BOTTOM_1.fastq
+20190709-RC7-AM-BOTTOM
+triming 20190709-RC7-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC1-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC1-AM-BOTTOM_2.fastq
+20190716-RC1-AM-BOTTOM_1.fastq
+20190716-RC1-AM-BOTTOM
+triming 20190716-RC1-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC1-AM-TOP_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC1-AM-TOP_2.fastq
+20190716-RC1-AM-TOP_1.fastq
+20190716-RC1-AM-TOP
+triming 20190716-RC1-AM-TOP
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC2-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC2-AM-BOTTOM_2.fastq
+20190716-RC2-AM-BOTTOM_1.fastq
+20190716-RC2-AM-BOTTOM
+triming 20190716-RC2-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC7-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC7-AM-BOTTOM_2.fastq
+20190716-RC7-AM-BOTTOM_1.fastq
+20190716-RC7-AM-BOTTOM
+triming 20190716-RC7-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC9-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190716-RC9-AM-BOTTOM_2.fastq
+20190716-RC9-AM-BOTTOM_1.fastq
+20190716-RC9-AM-BOTTOM
+triming 20190716-RC9-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC1-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC1-AM-BOTTOM_2.fastq
+20190723-RC1-AM-BOTTOM_1.fastq
+20190723-RC1-AM-BOTTOM
+triming 20190723-RC1-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC2-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC2-AM-BOTTOM_2.fastq
+20190723-RC2-AM-BOTTOM_1.fastq
+20190723-RC2-AM-BOTTOM
+triming 20190723-RC2-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC7-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC7-AM-BOTTOM_2.fastq
+20190723-RC7-AM-BOTTOM_1.fastq
+20190723-RC7-AM-BOTTOM
+triming 20190723-RC7-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC9-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190723-RC9-AM-BOTTOM_2.fastq
+20190723-RC9-AM-BOTTOM_1.fastq
+20190723-RC9-AM-BOTTOM
+triming 20190723-RC9-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC1-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC1-AM-BOTTOM_2.fastq
+20190730-RC1-AM-BOTTOM_1.fastq
+20190730-RC1-AM-BOTTOM
+triming 20190730-RC1-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC2-AM-BOTTOM-BUOY_2.fastq
+20190730-RC2-AM-BOTTOM-BUOY_1.fastq
+20190730-RC2-AM-BOTTOM-BUOY
+triming 20190730-RC2-AM-BOTTOM-BUOY
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC7-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC7-AM-BOTTOM_2.fastq
+20190730-RC7-AM-BOTTOM_1.fastq
+20190730-RC7-AM-BOTTOM
+triming 20190730-RC7-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC9-AM-BOTTOM_1.fastq
+/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/FASTQ/20190730-RC9-AM-BOTTOM_2.fastq
+20190730-RC9-AM-BOTTOM_1.fastq
+20190730-RC9-AM-BOTTOM
+triming 20190730-RC9-AM-BOTTOM
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'

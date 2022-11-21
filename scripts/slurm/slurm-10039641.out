@@ -1,0 +1,58 @@
+prokka/1.14.5 is loaded
+viables are loaded
+Fri Nov 11 18:49:34 EST 2022
+[18:49:34] This is prokka 1.14.6
+[18:49:34] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:49:34] Homepage is https://github.com/tseemann/prokka
+[18:49:34] Local time is Fri Nov 11 18:49:34 2022
+[18:49:34] You are yzhan231
+[18:49:34] Operating system is linux
+[18:49:34] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/prokka line 259.
+[18:49:34] System has 48 cores.
+[18:49:34] Will use maximum of 48 cores.
+[18:49:34] Annotating as >>> Bacteria <<<
+[18:49:34] Generating locus_tag from '/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/contigs.fasta' contents.
+[18:49:35] Setting --locustag NFLDNOFK from MD5 7f5d78f43492c7669bc45e288b348f6c
+[18:49:35] Re-using existing --outdir /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/PROKKA_on_scaffolds
+[18:49:35] Using filename prefix: PROKKA_11112022.XXX
+[18:49:35] Setting HMMER_NCPU=1
+[18:49:35] Writing log to: /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/PROKKA_on_scaffolds/PROKKA_11112022.log
+[18:49:35] Command: /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/prokka --cpus 48 --force --outdir /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/PROKKA_on_scaffolds /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/contigs.fasta
+[18:49:35] Appending to PATH: /data/apps/extern/anaconda/envs/prokka/1.14.5/bin
+[18:49:35] Looking for 'aragorn' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/aragorn
+[18:49:35] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[18:49:35] Looking for 'barrnap' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/barrnap
+[18:49:35] Determined barrnap version is 000009 from 'barrnap 0.9'
+[18:49:35] Looking for 'blastp' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/blastp
+[18:49:37] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[18:49:37] Looking for 'cmpress' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/cmpress
+[18:49:37] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:49:37] Looking for 'cmscan' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/cmscan
+[18:49:37] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:49:37] Looking for 'egrep' - found /usr/bin/egrep
+[18:49:37] Looking for 'find' - found /usr/bin/find
+[18:49:37] Looking for 'grep' - found /usr/bin/grep
+[18:49:37] Looking for 'hmmpress' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/hmmpress
+[18:49:37] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:49:37] Looking for 'hmmscan' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/hmmscan
+[18:49:37] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:49:38] Looking for 'java' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/java
+[18:49:38] Looking for 'makeblastdb' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/makeblastdb
+[18:49:38] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[18:49:38] Looking for 'minced' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/minced
+[18:49:38] Determined minced version is 004002 from 'minced 0.4.2'
+[18:49:38] Looking for 'parallel' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/parallel
+[18:49:39] Determined parallel version is 20220522 from 'GNU parallel 20220522'
+[18:49:39] Looking for 'prodigal' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/prodigal
+[18:49:39] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[18:49:39] Looking for 'prokka-genbank_to_fasta_db' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/prokka-genbank_to_fasta_db
+[18:49:39] Looking for 'sed' - found /usr/bin/sed
+[18:49:39] Looking for 'tbl2asn' - found /data/apps/extern/anaconda/envs/prokka/1.14.5/bin/tbl2asn
+[18:49:39] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[18:49:39] Using genetic code table 11.
+[18:49:39] Loading and checking input file: /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/contigs.fasta
+[18:49:47] Contig ID must <= 37 chars long: NODE_125616_length_482_cov_1535.634660
+[18:49:47] Please rename your contigs OR try '--centre X --compliant' to generate clean contig names.
+prokka is done
+Fri Nov 11 18:49:47 EST 2022

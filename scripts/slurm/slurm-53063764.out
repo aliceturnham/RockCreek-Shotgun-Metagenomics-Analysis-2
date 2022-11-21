@@ -1,0 +1,2630 @@
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190709-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190709-RC1-AM-BOTTOM/logs
+[2021-12-30 16:40:38.275] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:40:38.275] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:40:38.276] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:40:38.276] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:40:38.276] [jointLog] [info] parsing read library format
+[2021-12-30 16:40:38.276] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 605.43 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 686.24 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 164.1 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 654.61 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3707 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 466.76 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.1351 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 476.59 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 186.85 us
+-----------------------------------------
+[2021-12-30 16:40:38.363] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:40:38.363] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:40:38.371] [jointLog] [info] done
+[2021-12-30 16:40:38.371] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:40:38.374] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 388, hits per frag:  0.000872753[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 755, hits per frag:  0.000831357[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,116, hits per frag:  0.000945544
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:40:42.938] [jointLog] [info] Computed 261 rich equivalence classes for further processing
+[2021-12-30 16:40:42.938] [jointLog] [info] Counted 1,264 total reads in the equivalence classes 
+[2021-12-30 16:40:42.951] [jointLog] [warning] 0.831388% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:40:42.951] [jointLog] [info] Number of mappings discarded because of alignment score : 422
+[2021-12-30 16:40:42.951] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 383
+[2021-12-30 16:40:42.951] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:40:42.951] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 7
+[2021-12-30 16:40:42.952] [jointLog] [warning] Only 1264 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:40:42.952] [jointLog] [info] Mapping rate = 0.0736939%
+
+[2021-12-30 16:40:42.952] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:40:42.953] [jointLog] [info] Starting optimizer
+[2021-12-30 16:40:42.955] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:40:42.955] [jointLog] [info] iteration = 0 | max rel diff. = 1.67792
+[2021-12-30 16:40:42.956] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:40:42.979] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:40:42.979] [jointLog] [info] processed bias for 8.5% of the transcripts
+[2021-12-30 16:40:42.979] [jointLog] [info] processed bias for 14.0% of the transcripts
+[2021-12-30 16:40:42.979] [jointLog] [info] processed bias for 20.1% of the transcripts
+[2021-12-30 16:40:42.981] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:40:42.982] [jointLog] [info] processed bias for 41.1% of the transcripts
+[2021-12-30 16:40:42.982] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:40:42.983] [jointLog] [info] processed bias for 60.4% of the transcripts
+[2021-12-30 16:40:42.984] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:40:42.985] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:40:42.986] [jointLog] [info] processed bias for 90.3% of the transcripts
+[2021-12-30 16:40:42.989] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:40:42.999] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:40:42.999] [jointLog] [info] Finished optimizer
+[2021-12-30 16:40:42.999] [jointLog] [info] writing output 
+
+20190709-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190709-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190709-RC7-AM-BOTTOM/logs
+[2021-12-30 16:40:43.744] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:40:43.744] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:40:43.744] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:40:43.744] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:40:43.744] [jointLog] [info] parsing read library format
+[2021-12-30 16:40:43.744] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 464.55 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 436.82 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 48.61 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 480.7 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3151 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 442.13 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0597 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 433.37 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 62.199 us
+-----------------------------------------
+[2021-12-30 16:40:43.831] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:40:43.831] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:40:43.838] [jointLog] [info] done
+[2021-12-30 16:40:43.838] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:40:43.841] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 432, hits per frag:  0.00162029[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 856, hits per frag:  0.0010056[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,271, hits per frag:  0.000911942[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,686, hits per frag:  0.000943134[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 2,119, hits per frag:  0.000876083
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:40:51.331] [jointLog] [info] Computed 271 rich equivalence classes for further processing
+[2021-12-30 16:40:51.331] [jointLog] [info] Counted 2,523 total reads in the equivalence classes 
+[2021-12-30 16:40:51.344] [jointLog] [warning] 1.11227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:40:51.344] [jointLog] [info] Number of mappings discarded because of alignment score : 844
+[2021-12-30 16:40:51.344] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 772
+[2021-12-30 16:40:51.344] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:40:51.344] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10
+[2021-12-30 16:40:51.345] [jointLog] [warning] Only 2523 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:40:51.345] [jointLog] [info] Mapping rate = 0.0872567%
+
+[2021-12-30 16:40:51.345] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:40:51.346] [jointLog] [info] Starting optimizer
+[2021-12-30 16:40:51.348] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:40:51.348] [jointLog] [info] iteration = 0 | max rel diff. = 4.34512
+[2021-12-30 16:40:51.348] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:40:51.372] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:40:51.373] [jointLog] [info] processed bias for 23.7% of the transcripts
+[2021-12-30 16:40:51.373] [jointLog] [info] processed bias for 23.7% of the transcripts
+[2021-12-30 16:40:51.373] [jointLog] [info] processed bias for 23.7% of the transcripts
+[2021-12-30 16:40:51.373] [jointLog] [info] processed bias for 30.9% of the transcripts
+[2021-12-30 16:40:51.375] [jointLog] [info] processed bias for 41.3% of the transcripts
+[2021-12-30 16:40:51.376] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:40:51.377] [jointLog] [info] processed bias for 60.2% of the transcripts
+[2021-12-30 16:40:51.378] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:40:51.379] [jointLog] [info] processed bias for 79.9% of the transcripts
+[2021-12-30 16:40:51.380] [jointLog] [info] processed bias for 89.8% of the transcripts
+[2021-12-30 16:40:51.384] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:40:51.393] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:40:51.393] [jointLog] [info] Finished optimizer
+[2021-12-30 16:40:51.393] [jointLog] [info] writing output 
+
+20190709-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC1-AM-BOTTOM/logs
+[2021-12-30 16:40:52.222] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:40:52.222] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:40:52.222] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:40:52.222] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:40:52.222] [jointLog] [info] parsing read library format
+[2021-12-30 16:40:52.222] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 465.32 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 420.29 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.946 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 471.91 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.318 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 436.44 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0769 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 442.4 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 67.246 us
+-----------------------------------------
+[2021-12-30 16:40:52.309] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:40:52.310] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:40:52.316] [jointLog] [info] done
+[2021-12-30 16:40:52.316] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:40:52.319] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 546, hits per frag:  0.00771917
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:40:54.930] [jointLog] [info] Computed 219 rich equivalence classes for further processing
+[2021-12-30 16:40:54.930] [jointLog] [info] Counted 855 total reads in the equivalence classes 
+[2021-12-30 16:40:54.944] [jointLog] [warning] 2.36319% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:40:54.944] [jointLog] [info] Number of mappings discarded because of alignment score : 234
+[2021-12-30 16:40:54.944] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 211
+[2021-12-30 16:40:54.944] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:40:54.944] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 4
+[2021-12-30 16:40:54.945] [jointLog] [warning] Only 855 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:40:54.945] [jointLog] [info] Mapping rate = 0.108038%
+
+[2021-12-30 16:40:54.945] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:40:54.946] [jointLog] [info] Starting optimizer
+[2021-12-30 16:40:54.948] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:40:54.948] [jointLog] [info] iteration = 0 | max rel diff. = 2.64598
+[2021-12-30 16:40:54.948] [jointLog] [info] iteration 4, adjusting effective lengths to account for biases
+[2021-12-30 16:40:54.966] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:40:54.966] [jointLog] [info] processed bias for 25.0% of the transcripts
+[2021-12-30 16:40:54.966] [jointLog] [info] processed bias for 25.0% of the transcripts
+[2021-12-30 16:40:54.966] [jointLog] [info] processed bias for 25.0% of the transcripts
+[2021-12-30 16:40:54.967] [jointLog] [info] processed bias for 31.1% of the transcripts
+[2021-12-30 16:40:54.969] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:40:54.969] [jointLog] [info] processed bias for 50.2% of the transcripts
+[2021-12-30 16:40:54.971] [jointLog] [info] processed bias for 60.8% of the transcripts
+[2021-12-30 16:40:54.972] [jointLog] [info] processed bias for 70.8% of the transcripts
+[2021-12-30 16:40:54.972] [jointLog] [info] processed bias for 80.9% of the transcripts
+[2021-12-30 16:40:54.973] [jointLog] [info] processed bias for 90.5% of the transcripts
+[2021-12-30 16:40:54.979] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:40:54.987] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:40:54.987] [jointLog] [info] Finished optimizer
+[2021-12-30 16:40:54.987] [jointLog] [info] writing output 
+
+20190716-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC1-AM-TOP }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC1-AM-TOP/logs
+[2021-12-30 16:40:55.488] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:40:55.488] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:40:55.488] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:40:55.488] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:40:55.488] [jointLog] [info] parsing read library format
+[2021-12-30 16:40:55.488] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 455.69 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 432.93 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.81 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 476.08 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3157 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 426.29 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0521 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 422.89 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 64.712 us
+-----------------------------------------
+[2021-12-30 16:40:55.575] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:40:55.575] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:40:55.582] [jointLog] [info] done
+[2021-12-30 16:40:55.582] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:40:55.585] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 785, hits per frag:  0.00221872[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 1,493, hits per frag:  0.00177426
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:40:58.892] [jointLog] [info] Computed 267 rich equivalence classes for further processing
+[2021-12-30 16:40:58.892] [jointLog] [info] Counted 1,826 total reads in the equivalence classes 
+[2021-12-30 16:40:58.905] [jointLog] [warning] 1.30818% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:40:58.905] [jointLog] [info] Number of mappings discarded because of alignment score : 600
+[2021-12-30 16:40:58.905] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 536
+[2021-12-30 16:40:58.905] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:40:58.905] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10
+[2021-12-30 16:40:58.906] [jointLog] [warning] Only 1826 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:40:58.906] [jointLog] [info] Mapping rate = 0.15212%
+
+[2021-12-30 16:40:58.906] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:40:58.907] [jointLog] [info] Starting optimizer
+[2021-12-30 16:40:58.909] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:40:58.909] [jointLog] [info] iteration = 0 | max rel diff. = 2.86854
+[2021-12-30 16:40:58.909] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:40:58.953] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:40:58.954] [jointLog] [info] processed bias for 20.3% of the transcripts
+[2021-12-30 16:40:58.954] [jointLog] [info] processed bias for 21.4% of the transcripts
+[2021-12-30 16:40:58.954] [jointLog] [info] processed bias for 21.4% of the transcripts
+[2021-12-30 16:40:58.955] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:40:58.956] [jointLog] [info] processed bias for 40.3% of the transcripts
+[2021-12-30 16:40:58.957] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:40:58.958] [jointLog] [info] processed bias for 60.2% of the transcripts
+[2021-12-30 16:40:58.959] [jointLog] [info] processed bias for 70.3% of the transcripts
+[2021-12-30 16:40:58.960] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:40:58.961] [jointLog] [info] processed bias for 90.7% of the transcripts
+[2021-12-30 16:40:58.971] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:40:58.980] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:40:58.980] [jointLog] [info] Finished optimizer
+[2021-12-30 16:40:58.980] [jointLog] [info] writing output 
+
+[2021-12-30 16:40:58.983] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC1-AM-TOP/lib_format_counts.json for details
+
+20190716-RC1-AM-TOP processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC2-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC2-AM-BOTTOM/logs
+[2021-12-30 16:40:59.966] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:40:59.966] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:40:59.966] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:40:59.966] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:40:59.966] [jointLog] [info] parsing read library format
+[2021-12-30 16:40:59.966] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 480.57 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 420 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 48.619 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 483.6 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3473 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 456.21 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0957 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 439.62 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 71.969 us
+-----------------------------------------
+[2021-12-30 16:41:00.054] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:00.055] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:00.062] [jointLog] [info] done
+[2021-12-30 16:41:00.062] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:00.064] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 404, hits per frag:  404[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 840, hits per frag:  0.000893087[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,257, hits per frag:  0.000872647[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 1,688, hits per frag:  0.000886181
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:07.271] [jointLog] [info] Computed 271 rich equivalence classes for further processing
+[2021-12-30 16:41:07.271] [jointLog] [info] Counted 2,077 total reads in the equivalence classes 
+[2021-12-30 16:41:07.286] [jointLog] [warning] 1.80946% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:07.286] [jointLog] [info] Number of mappings discarded because of alignment score : 580
+[2021-12-30 16:41:07.286] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 524
+[2021-12-30 16:41:07.286] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:07.286] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 6
+[2021-12-30 16:41:07.287] [jointLog] [warning] Only 2077 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:07.287] [jointLog] [info] Mapping rate = 0.0838725%
+
+[2021-12-30 16:41:07.287] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:07.288] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:07.290] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:07.290] [jointLog] [info] iteration = 0 | max rel diff. = 3.40028
+[2021-12-30 16:41:07.290] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:41:07.317] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:07.317] [jointLog] [info] processed bias for 20.1% of the transcripts
+[2021-12-30 16:41:07.317] [jointLog] [info] processed bias for 20.6% of the transcripts
+[2021-12-30 16:41:07.317] [jointLog] [info] processed bias for 21.0% of the transcripts
+[2021-12-30 16:41:07.318] [jointLog] [info] processed bias for 30.7% of the transcripts
+[2021-12-30 16:41:07.319] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:07.320] [jointLog] [info] processed bias for 50.2% of the transcripts
+[2021-12-30 16:41:07.322] [jointLog] [info] processed bias for 60.2% of the transcripts
+[2021-12-30 16:41:07.323] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:41:07.324] [jointLog] [info] processed bias for 80.7% of the transcripts
+[2021-12-30 16:41:07.325] [jointLog] [info] processed bias for 90.5% of the transcripts
+[2021-12-30 16:41:07.328] [jointLog] [info] processed bias for 99.8% of the transcripts
+[2021-12-30 16:41:07.328] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:07.338] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:07.338] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:07.338] [jointLog] [info] writing output 
+
+20190716-RC2-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC7-AM-BOTTOM/logs
+[2021-12-30 16:41:08.456] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:08.456] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:08.456] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:08.456] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:08.456] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:08.456] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 476.39 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 445.75 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.731 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 500.26 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3129 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 433.9 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0352 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 429.86 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 73.961 us
+-----------------------------------------
+[2021-12-30 16:41:08.544] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:08.544] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:08.551] [jointLog] [info] done
+[2021-12-30 16:41:08.551] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:08.554] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 1,046, hits per frag:  0.00141306
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:11.869] [jointLog] [info] Computed 239 rich equivalence classes for further processing
+[2021-12-30 16:41:11.869] [jointLog] [info] Counted 1,324 total reads in the equivalence classes 
+[2021-12-30 16:41:11.883] [jointLog] [warning] 1.68633% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:11.883] [jointLog] [info] Number of mappings discarded because of alignment score : 370
+[2021-12-30 16:41:11.883] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 340
+[2021-12-30 16:41:11.883] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:11.883] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 6
+[2021-12-30 16:41:11.883] [jointLog] [warning] Only 1324 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:11.883] [jointLog] [info] Mapping rate = 0.105615%
+
+[2021-12-30 16:41:11.883] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:11.884] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:11.886] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:11.886] [jointLog] [info] iteration = 0 | max rel diff. = 1.80504
+[2021-12-30 16:41:11.887] [jointLog] [info] iteration 4, adjusting effective lengths to account for biases
+[2021-12-30 16:41:11.915] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:11.916] [jointLog] [info] processed bias for 21.6% of the transcripts
+[2021-12-30 16:41:11.916] [jointLog] [info] processed bias for 26.5% of the transcripts
+[2021-12-30 16:41:11.916] [jointLog] [info] processed bias for 26.5% of the transcripts
+[2021-12-30 16:41:11.916] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2021-12-30 16:41:11.918] [jointLog] [info] processed bias for 41.3% of the transcripts
+[2021-12-30 16:41:11.919] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:41:11.920] [jointLog] [info] processed bias for 60.2% of the transcripts
+[2021-12-30 16:41:11.921] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:41:11.922] [jointLog] [info] processed bias for 80.5% of the transcripts
+[2021-12-30 16:41:11.923] [jointLog] [info] processed bias for 90.9% of the transcripts
+[2021-12-30 16:41:11.929] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:11.937] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:11.937] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:11.937] [jointLog] [info] writing output 
+
+[2021-12-30 16:41:11.940] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC7-AM-BOTTOM/lib_format_counts.json for details
+
+20190716-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190716-RC9-AM-BOTTOM/logs
+[2021-12-30 16:41:12.920] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:12.920] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:12.920] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:12.920] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:12.920] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:12.920] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 458.62 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 416.7 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.246 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 482.14 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3102 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 436.66 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0238 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 450.8 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 64.445 us
+-----------------------------------------
+[2021-12-30 16:41:13.008] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:13.009] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:13.015] [jointLog] [info] done
+[2021-12-30 16:41:13.015] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:13.018] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 520, hits per frag:  0.00139723
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:17.021] [jointLog] [info] Computed 226 rich equivalence classes for further processing
+[2021-12-30 16:41:17.021] [jointLog] [info] Counted 1,083 total reads in the equivalence classes 
+[2021-12-30 16:41:17.036] [jointLog] [warning] 1.47831% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:17.036] [jointLog] [info] Number of mappings discarded because of alignment score : 304
+[2021-12-30 16:41:17.036] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 276
+[2021-12-30 16:41:17.036] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:17.036] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 3
+[2021-12-30 16:41:17.036] [jointLog] [warning] Only 1083 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:17.036] [jointLog] [info] Mapping rate = 0.109456%
+
+[2021-12-30 16:41:17.036] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:17.037] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:17.039] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:17.039] [jointLog] [info] iteration = 0 | max rel diff. = 1.29446
+[2021-12-30 16:41:17.040] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:17.059] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:17.059] [jointLog] [info] processed bias for 22.5% of the transcripts
+[2021-12-30 16:41:17.060] [jointLog] [info] processed bias for 25.2% of the transcripts
+[2021-12-30 16:41:17.060] [jointLog] [info] processed bias for 25.2% of the transcripts
+[2021-12-30 16:41:17.060] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:41:17.062] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:17.063] [jointLog] [info] processed bias for 50.2% of the transcripts
+[2021-12-30 16:41:17.063] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:17.064] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:41:17.065] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:41:17.066] [jointLog] [info] processed bias for 92.4% of the transcripts
+[2021-12-30 16:41:17.069] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:17.078] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:17.078] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:17.078] [jointLog] [info] writing output 
+
+20190716-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC1-AM-BOTTOM/logs
+[2021-12-30 16:41:17.886] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:17.886] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:17.886] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:17.886] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:17.886] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:17.886] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 453.74 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 422.05 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.36 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 479.69 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3054 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 436.49 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0657 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 454.44 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 63.764 us
+-----------------------------------------
+[2021-12-30 16:41:17.972] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:17.972] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:17.979] [jointLog] [info] done
+[2021-12-30 16:41:17.979] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:17.982] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 616, hits per frag:  0.0014945[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 1,246, hits per frag:  0.00130467
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:21.335] [jointLog] [info] Computed 237 rich equivalence classes for further processing
+[2021-12-30 16:41:21.335] [jointLog] [info] Counted 1,465 total reads in the equivalence classes 
+[2021-12-30 16:41:21.348] [jointLog] [warning] 1.01331% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:21.348] [jointLog] [info] Number of mappings discarded because of alignment score : 459
+[2021-12-30 16:41:21.348] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 421
+[2021-12-30 16:41:21.348] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:21.348] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 11
+[2021-12-30 16:41:21.349] [jointLog] [warning] Only 1465 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:21.349] [jointLog] [info] Mapping rate = 0.127731%
+
+[2021-12-30 16:41:21.349] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:21.350] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:21.352] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:21.352] [jointLog] [info] iteration = 0 | max rel diff. = 2.10375
+[2021-12-30 16:41:21.352] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:21.371] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:21.372] [jointLog] [info] processed bias for 19.9% of the transcripts
+[2021-12-30 16:41:21.372] [jointLog] [info] processed bias for 24.2% of the transcripts
+[2021-12-30 16:41:21.372] [jointLog] [info] processed bias for 24.2% of the transcripts
+[2021-12-30 16:41:21.372] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:41:21.374] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:21.375] [jointLog] [info] processed bias for 50.2% of the transcripts
+[2021-12-30 16:41:21.376] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:21.378] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:41:21.379] [jointLog] [info] processed bias for 80.9% of the transcripts
+[2021-12-30 16:41:21.380] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-12-30 16:41:21.384] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:21.394] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:21.394] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:21.394] [jointLog] [info] writing output 
+
+[2021-12-30 16:41:21.399] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC1-AM-BOTTOM/lib_format_counts.json for details
+
+20190723-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC2-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC2-AM-BOTTOM/logs
+[2021-12-30 16:41:22.379] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:22.379] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:22.379] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:22.379] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:22.379] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:22.379] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 460.66 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 410.44 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.392 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 482.34 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3092 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 438.5 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0509 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 424.57 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 72.671 us
+-----------------------------------------
+[2021-12-30 16:41:22.466] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:22.466] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:22.473] [jointLog] [info] done
+[2021-12-30 16:41:22.473] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:22.476] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 539, hits per frag:  0.00174433[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 1,133, hits per frag:  0.00122677[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 1,660, hits per frag:  0.00118526
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:26.724] [jointLog] [info] Computed 278 rich equivalence classes for further processing
+[2021-12-30 16:41:26.724] [jointLog] [info] Counted 1,929 total reads in the equivalence classes 
+[2021-12-30 16:41:26.737] [jointLog] [warning] 1.18175% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:26.737] [jointLog] [info] Number of mappings discarded because of alignment score : 578
+[2021-12-30 16:41:26.737] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 521
+[2021-12-30 16:41:26.737] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:26.737] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 16
+[2021-12-30 16:41:26.738] [jointLog] [warning] Only 1929 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:26.738] [jointLog] [info] Mapping rate = 0.109517%
+
+[2021-12-30 16:41:26.738] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:26.739] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:26.741] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:26.741] [jointLog] [info] iteration = 0 | max rel diff. = 3.08675
+[2021-12-30 16:41:26.742] [jointLog] [info] iteration 4, adjusting effective lengths to account for biases
+[2021-12-30 16:41:26.761] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:26.762] [jointLog] [info] processed bias for 25.6% of the transcripts
+[2021-12-30 16:41:26.762] [jointLog] [info] processed bias for 25.8% of the transcripts
+[2021-12-30 16:41:26.762] [jointLog] [info] processed bias for 25.8% of the transcripts
+[2021-12-30 16:41:26.762] [jointLog] [info] processed bias for 30.7% of the transcripts
+[2021-12-30 16:41:26.763] [jointLog] [info] processed bias for 40.5% of the transcripts
+[2021-12-30 16:41:26.765] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:41:26.766] [jointLog] [info] processed bias for 60.8% of the transcripts
+[2021-12-30 16:41:26.767] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:41:26.768] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:41:26.770] [jointLog] [info] processed bias for 90.7% of the transcripts
+[2021-12-30 16:41:26.774] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:26.783] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:26.783] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:26.783] [jointLog] [info] writing output 
+
+20190723-RC2-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC7-AM-BOTTOM/logs
+[2021-12-30 16:41:27.872] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:27.872] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:27.872] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:27.872] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:27.872] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:27.872] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 463.68 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 424.32 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 51.022 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 472.57 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3228 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 434.13 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0771 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 442.65 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 65.819 us
+-----------------------------------------
+[2021-12-30 16:41:27.961] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:27.962] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:27.968] [jointLog] [info] done
+[2021-12-30 16:41:27.968] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:27.971] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 499, hits per frag:  0.00115918[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 1,018, hits per frag:  0.00104124[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 1,574, hits per frag:  0.0011543[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 2,088, hits per frag:  0.00112187
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:34.155] [jointLog] [info] Computed 297 rich equivalence classes for further processing
+[2021-12-30 16:41:34.155] [jointLog] [info] Counted 2,555 total reads in the equivalence classes 
+[2021-12-30 16:41:34.171] [jointLog] [warning] 1.37179% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:34.171] [jointLog] [info] Number of mappings discarded because of alignment score : 711
+[2021-12-30 16:41:34.171] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 645
+[2021-12-30 16:41:34.171] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:34.171] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 12
+[2021-12-30 16:41:34.172] [jointLog] [warning] Only 2555 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:34.172] [jointLog] [info] Mapping rate = 0.104381%
+
+[2021-12-30 16:41:34.172] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:34.173] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:34.175] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:34.175] [jointLog] [info] iteration = 0 | max rel diff. = 4.41291
+[2021-12-30 16:41:34.175] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:34.197] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:34.197] [jointLog] [info] processed bias for 19.7% of the transcripts
+[2021-12-30 16:41:34.197] [jointLog] [info] processed bias for 19.9% of the transcripts
+[2021-12-30 16:41:34.197] [jointLog] [info] processed bias for 20.1% of the transcripts
+[2021-12-30 16:41:34.199] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:41:34.200] [jointLog] [info] processed bias for 40.7% of the transcripts
+[2021-12-30 16:41:34.201] [jointLog] [info] processed bias for 50.6% of the transcripts
+[2021-12-30 16:41:34.202] [jointLog] [info] processed bias for 60.8% of the transcripts
+[2021-12-30 16:41:34.203] [jointLog] [info] processed bias for 70.3% of the transcripts
+[2021-12-30 16:41:34.204] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:41:34.207] [jointLog] [info] processed bias for 93.4% of the transcripts
+[2021-12-30 16:41:34.210] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:34.219] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:34.220] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:34.220] [jointLog] [info] writing output 
+
+20190723-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC9-AM-BOTTOM/logs
+[2021-12-30 16:41:34.698] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:34.698] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:34.698] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:34.698] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:34.698] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:34.698] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 465.19 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 426.46 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.231 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 487.07 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3218 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 438.3 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0786 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 450.06 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 65.95 us
+-----------------------------------------
+[2021-12-30 16:41:34.786] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:34.787] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:34.793] [jointLog] [info] done
+[2021-12-30 16:41:34.793] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:34.796] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,019 [32mfragments[0m
+hits: 435, hits per frag:  0.00148516[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 878, hits per frag:  0.000934242[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,356, hits per frag:  0.000926298[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,785, hits per frag:  0.000971245
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:41.096] [jointLog] [info] Computed 283 rich equivalence classes for further processing
+[2021-12-30 16:41:41.096] [jointLog] [info] Counted 1,943 total reads in the equivalence classes 
+[2021-12-30 16:41:41.112] [jointLog] [warning] 1.22862% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:41.112] [jointLog] [info] Number of mappings discarded because of alignment score : 624
+[2021-12-30 16:41:41.112] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 568
+[2021-12-30 16:41:41.112] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:41.112] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 9
+[2021-12-30 16:41:41.112] [jointLog] [warning] Only 1943 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:41.112] [jointLog] [info] Mapping rate = 0.0896639%
+
+[2021-12-30 16:41:41.112] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:41.114] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:41.116] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:41.116] [jointLog] [info] iteration = 0 | max rel diff. = 3.1164
+[2021-12-30 16:41:41.116] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:41.138] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:41.139] [jointLog] [info] processed bias for 17.6% of the transcripts
+[2021-12-30 16:41:41.139] [jointLog] [info] processed bias for 19.7% of the transcripts
+[2021-12-30 16:41:41.139] [jointLog] [info] processed bias for 21.4% of the transcripts
+[2021-12-30 16:41:41.140] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:41:41.141] [jointLog] [info] processed bias for 40.7% of the transcripts
+[2021-12-30 16:41:41.142] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:41:41.143] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:41.144] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:41:41.145] [jointLog] [info] processed bias for 80.5% of the transcripts
+[2021-12-30 16:41:41.146] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-12-30 16:41:41.149] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:41.159] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:41.159] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:41.159] [jointLog] [info] writing output 
+
+[2021-12-30 16:41:41.162] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190723-RC9-AM-BOTTOM/lib_format_counts.json for details
+
+20190723-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC1-AM-BOTTOM/logs
+[2021-12-30 16:41:42.188] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:42.188] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:42.188] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:42.188] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:42.188] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:42.188] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 464.19 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 425.22 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.237 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 484.1 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3204 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 433.25 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0665 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 449.7 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 67.154 us
+-----------------------------------------
+[2021-12-30 16:41:42.276] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:42.277] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:42.283] [jointLog] [info] done
+[2021-12-30 16:41:42.283] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:42.286] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,002 [32mfragments[0m
+hits: 413, hits per frag:  0.000968579[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 788, hits per frag:  0.000877349
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:46.010] [jointLog] [info] Computed 238 rich equivalence classes for further processing
+[2021-12-30 16:41:46.010] [jointLog] [info] Counted 1,121 total reads in the equivalence classes 
+[2021-12-30 16:41:46.024] [jointLog] [warning] 1.09801% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:46.024] [jointLog] [info] Number of mappings discarded because of alignment score : 338
+[2021-12-30 16:41:46.024] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 315
+[2021-12-30 16:41:46.024] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:46.024] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 5
+[2021-12-30 16:41:46.024] [jointLog] [warning] Only 1121 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:46.024] [jointLog] [info] Mapping rate = 0.0755738%
+
+[2021-12-30 16:41:46.024] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:46.025] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:46.027] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:46.027] [jointLog] [info] iteration = 0 | max rel diff. = 1.37497
+[2021-12-30 16:41:46.027] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:46.051] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:46.051] [jointLog] [info] processed bias for 23.3% of the transcripts
+[2021-12-30 16:41:46.051] [jointLog] [info] processed bias for 23.3% of the transcripts
+[2021-12-30 16:41:46.051] [jointLog] [info] processed bias for 23.3% of the transcripts
+[2021-12-30 16:41:46.052] [jointLog] [info] processed bias for 30.1% of the transcripts
+[2021-12-30 16:41:46.053] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:46.054] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:41:46.055] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:46.056] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:41:46.057] [jointLog] [info] processed bias for 79.9% of the transcripts
+[2021-12-30 16:41:46.058] [jointLog] [info] processed bias for 89.8% of the transcripts
+[2021-12-30 16:41:46.061] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:46.070] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:46.070] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:46.070] [jointLog] [info] writing output 
+
+20190730-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC2-AM-BOTTOM-BUOY }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC2-AM-BOTTOM-BUOY/logs
+[2021-12-30 16:41:47.187] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:47.187] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:47.187] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:47.187] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:47.187] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:47.187] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 473.43 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 425.65 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.524 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 499.21 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3436 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 444.21 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0234 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 429.11 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 63.767 us
+-----------------------------------------
+[2021-12-30 16:41:47.275] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:47.275] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:47.282] [jointLog] [info] done
+[2021-12-30 16:41:47.282] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:47.285] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,010 [32mfragments[0m
+hits: 400, hits per frag:  0.000880317[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 753, hits per frag:  0.000768377[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 1,144, hits per frag:  0.00106731
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:51.569] [jointLog] [info] Computed 256 rich equivalence classes for further processing
+[2021-12-30 16:41:51.569] [jointLog] [info] Counted 1,291 total reads in the equivalence classes 
+[2021-12-30 16:41:51.582] [jointLog] [warning] 1.57178% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:51.582] [jointLog] [info] Number of mappings discarded because of alignment score : 366
+[2021-12-30 16:41:51.582] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 337
+[2021-12-30 16:41:51.582] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:51.582] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 7
+[2021-12-30 16:41:51.583] [jointLog] [warning] Only 1291 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:51.583] [jointLog] [info] Mapping rate = 0.0759049%
+
+[2021-12-30 16:41:51.583] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:51.584] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:51.586] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:51.586] [jointLog] [info] iteration = 0 | max rel diff. = 1.73512
+[2021-12-30 16:41:51.586] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:51.604] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:51.604] [jointLog] [info] processed bias for 20.3% of the transcripts
+[2021-12-30 16:41:51.604] [jointLog] [info] processed bias for 21.8% of the transcripts
+[2021-12-30 16:41:51.604] [jointLog] [info] processed bias for 21.8% of the transcripts
+[2021-12-30 16:41:51.606] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2021-12-30 16:41:51.607] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:51.608] [jointLog] [info] processed bias for 50.2% of the transcripts
+[2021-12-30 16:41:51.609] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:51.610] [jointLog] [info] processed bias for 71.2% of the transcripts
+[2021-12-30 16:41:51.611] [jointLog] [info] processed bias for 80.5% of the transcripts
+[2021-12-30 16:41:51.612] [jointLog] [info] processed bias for 89.8% of the transcripts
+[2021-12-30 16:41:51.616] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:51.625] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:51.625] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:51.625] [jointLog] [info] writing output 
+
+[2021-12-30 16:41:51.629] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC2-AM-BOTTOM-BUOY/lib_format_counts.json for details
+
+20190730-RC2-AM-BOTTOM-BUOY processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC7-AM-BOTTOM/logs
+[2021-12-30 16:41:52.672] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:52.672] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:52.672] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:52.672] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:52.672] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:52.672] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 458.81 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 423.28 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.386 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 479.82 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3113 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 429.75 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0711 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 436.04 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 63.507 us
+-----------------------------------------
+[2021-12-30 16:41:52.761] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:52.761] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:52.768] [jointLog] [info] done
+[2021-12-30 16:41:52.768] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:52.771] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 447, hits per frag:  0.0010641[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 886, hits per frag:  0.00104939[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,362, hits per frag:  0.00117043[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,755, hits per frag:  0.00089142
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:41:58.943] [jointLog] [info] Computed 280 rich equivalence classes for further processing
+[2021-12-30 16:41:58.943] [jointLog] [info] Counted 2,027 total reads in the equivalence classes 
+[2021-12-30 16:41:58.958] [jointLog] [warning] 1.12227% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:41:58.958] [jointLog] [info] Number of mappings discarded because of alignment score : 599
+[2021-12-30 16:41:58.958] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 536
+[2021-12-30 16:41:58.958] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:41:58.958] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10
+[2021-12-30 16:41:58.959] [jointLog] [warning] Only 2027 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:41:58.959] [jointLog] [info] Mapping rate = 0.0867368%
+
+[2021-12-30 16:41:58.959] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:41:58.960] [jointLog] [info] Starting optimizer
+[2021-12-30 16:41:58.962] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:41:58.962] [jointLog] [info] iteration = 0 | max rel diff. = 3.29436
+[2021-12-30 16:41:58.962] [jointLog] [info] iteration 2, adjusting effective lengths to account for biases
+[2021-12-30 16:41:58.983] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:41:58.984] [jointLog] [info] processed bias for 20.8% of the transcripts
+[2021-12-30 16:41:58.984] [jointLog] [info] processed bias for 20.8% of the transcripts
+[2021-12-30 16:41:58.984] [jointLog] [info] processed bias for 20.8% of the transcripts
+[2021-12-30 16:41:58.985] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2021-12-30 16:41:58.986] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-12-30 16:41:58.987] [jointLog] [info] processed bias for 50.4% of the transcripts
+[2021-12-30 16:41:58.988] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:41:58.990] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:41:58.990] [jointLog] [info] processed bias for 80.3% of the transcripts
+[2021-12-30 16:41:58.992] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-12-30 16:41:58.995] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:41:59.004] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:41:59.004] [jointLog] [info] Finished optimizer
+[2021-12-30 16:41:59.004] [jointLog] [info] writing output 
+
+20190730-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC9-AM-BOTTOM/logs
+[2021-12-30 16:41:59.457] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:41:59.457] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:41:59.457] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:41:59.457] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:41:59.457] [jointLog] [info] parsing read library format
+[2021-12-30 16:41:59.457] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 461.72 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 425.12 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.302 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 477.32 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3261 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 442.34 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0864 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 435.45 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 65.508 us
+-----------------------------------------
+[2021-12-30 16:41:59.545] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:41:59.545] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:41:59.552] [jointLog] [info] done
+[2021-12-30 16:41:59.552] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:41:59.555] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 429, hits per frag:  0.00124898[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 853, hits per frag:  0.00121688[A[32mprocessed[31m 1,500,001 [32mfragments[0m
+hits: 1,319, hits per frag:  0.00093002
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:42:03.940] [jointLog] [info] Computed 247 rich equivalence classes for further processing
+[2021-12-30 16:42:03.940] [jointLog] [info] Counted 1,440 total reads in the equivalence classes 
+[2021-12-30 16:42:03.952] [jointLog] [warning] 1.02397% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:42:03.952] [jointLog] [info] Number of mappings discarded because of alignment score : 427
+[2021-12-30 16:42:03.952] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 393
+[2021-12-30 16:42:03.952] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:42:03.952] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 6
+[2021-12-30 16:42:03.953] [jointLog] [warning] Only 1440 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:42:03.953] [jointLog] [info] Mapping rate = 0.0872859%
+
+[2021-12-30 16:42:03.953] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:42:03.954] [jointLog] [info] Starting optimizer
+[2021-12-30 16:42:03.956] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:42:03.956] [jointLog] [info] iteration = 0 | max rel diff. = 2.05079
+[2021-12-30 16:42:03.956] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:42:03.992] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:42:03.992] [jointLog] [info] processed bias for 25.0% of the transcripts
+[2021-12-30 16:42:03.992] [jointLog] [info] processed bias for 25.2% of the transcripts
+[2021-12-30 16:42:03.992] [jointLog] [info] processed bias for 25.2% of the transcripts
+[2021-12-30 16:42:03.993] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2021-12-30 16:42:03.995] [jointLog] [info] processed bias for 40.7% of the transcripts
+[2021-12-30 16:42:03.996] [jointLog] [info] processed bias for 50.6% of the transcripts
+[2021-12-30 16:42:03.997] [jointLog] [info] processed bias for 60.2% of the transcripts
+[2021-12-30 16:42:03.998] [jointLog] [info] processed bias for 70.8% of the transcripts
+[2021-12-30 16:42:03.999] [jointLog] [info] processed bias for 79.9% of the transcripts
+[2021-12-30 16:42:04.001] [jointLog] [info] processed bias for 90.5% of the transcripts
+[2021-12-30 16:42:04.006] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:42:04.016] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:42:04.016] [jointLog] [info] Finished optimizer
+[2021-12-30 16:42:04.016] [jointLog] [info] writing output 
+
+[2021-12-30 16:42:04.018] [jointLog] [warning] NOTE: Read Lib [[ /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq, /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/20190730-RC9-AM-BOTTOM/lib_format_counts.json for details
+
+20190730-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/all }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/all/logs
+[2021-12-30 16:42:04.928] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:42:04.928] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:42:04.928] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:42:04.928] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:42:04.928] [jointLog] [info] parsing read library format
+[2021-12-30 16:42:04.928] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 473.02 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 433.07 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 52.257 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 490.37 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3263 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 441.26 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0732 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 432.23 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 66.84 us
+-----------------------------------------
+[2021-12-30 16:42:05.018] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:42:05.018] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:42:05.025] [jointLog] [info] done
+[2021-12-30 16:42:05.025] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:42:05.028] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,001 [32mfragments[0m
+hits: 390, hits per frag:  0.000914319[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 753, hits per frag:  0.000890273[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,114, hits per frag:  0.000782814[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 1,507, hits per frag:  0.000768161[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 1,926, hits per frag:  0.000973826[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 2,354, hits per frag:  0.000818832[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 2,788, hits per frag:  0.000800461[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 3,207, hits per frag:  0.00113331[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 3,667, hits per frag:  0.000841832[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 4,209, hits per frag:  0.000847796[A[32mprocessed[31m 5,500,001 [32mfragments[0m
+hits: 4,819, hits per frag:  0.000918766[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 5,588, hits per frag:  0.000982763[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 6,283, hits per frag:  0.000970389[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 6,793, hits per frag:  0.000972683[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 7,216, hits per frag:  0.000988231[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 7,634, hits per frag:  0.000966174[A[32mprocessed[31m 8,500,000 [32mfragments[0m
+hits: 8,083, hits per frag:  0.000979841[A[32mprocessed[31m 9,000,000 [32mfragments[0m
+hits: 8,490, hits per frag:  0.000948822[A[32mprocessed[31m 9,500,000 [32mfragments[0m
+hits: 9,006, hits per frag:  0.000955672[A[32mprocessed[31m 10,000,001 [32mfragments[0m
+hits: 9,525, hits per frag:  0.000952947[A[32mprocessed[31m 10,500,000 [32mfragments[0m
+hits: 10,033, hits per frag:  0.000961431[A[32mprocessed[31m 11,000,000 [32mfragments[0m
+hits: 10,593, hits per frag:  0.00101394[A[32mprocessed[31m 11,500,000 [32mfragments[0m
+hits: 11,183, hits per frag:  0.000988514[A[32mprocessed[31m 12,000,000 [32mfragments[0m
+hits: 11,825, hits per frag:  0.00100158[A[32mprocessed[31m 12,500,000 [32mfragments[0m
+hits: 12,459, hits per frag:  0.00100148[A[32mprocessed[31m 13,000,000 [32mfragments[0m
+hits: 13,012, hits per frag:  0.00100177[A[32mprocessed[31m 13,500,000 [32mfragments[0m
+hits: 13,588, hits per frag:  0.00103179[A[32mprocessed[31m 14,000,000 [32mfragments[0m
+hits: 14,125, hits per frag:  0.00101866[A[32mprocessed[31m 14,500,000 [32mfragments[0m
+hits: 14,638, hits per frag:  0.00102229[A[32mprocessed[31m 15,000,000 [32mfragments[0m
+hits: 15,113, hits per frag:  0.00103264[A[32mprocessed[31m 15,500,001 [32mfragments[0m
+hits: 15,685, hits per frag:  0.00102216[A[32mprocessed[31m 16,000,000 [32mfragments[0m
+hits: 16,214, hits per frag:  0.00103467[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 16,740, hits per frag:  0.00101781[A[32mprocessed[31m 17,000,000 [32mfragments[0m
+hits: 17,218, hits per frag:  0.00101472[A[32mprocessed[31m 17,500,000 [32mfragments[0m
+hits: 17,652, hits per frag:  0.0010101[A[32mprocessed[31m 18,000,000 [32mfragments[0m
+hits: 18,108, hits per frag:  0.00100914[A[32mprocessed[31m 18,500,000 [32mfragments[0m
+hits: 18,551, hits per frag:  0.0010244[A[32mprocessed[31m 19,000,000 [32mfragments[0m
+hits: 18,973, hits per frag:  0.00100187[A[32mprocessed[31m 19,500,000 [32mfragments[0m
+hits: 19,386, hits per frag:  0.000995511[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 19,740, hits per frag:  0.000995743[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 20,107, hits per frag:  0.000983938[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 20,509, hits per frag:  0.000980138[A[32mprocessed[31m 21,500,000 [32mfragments[0m
+hits: 20,875, hits per frag:  0.000972664[A[32mprocessed[31m 22,000,000 [32mfragments[0m
+hits: 21,245, hits per frag:  0.000976267[A[32mprocessed[31m 22,500,000 [32mfragments[0m
+hits: 21,690, hits per frag:  0.00096786[A[32mprocessed[31m 23,000,000 [32mfragments[0m
+hits: 22,133, hits per frag:  0.000971901[A[32mprocessed[31m 23,500,000 [32mfragments[0m
+hits: 22,606, hits per frag:  0.000965672[A[32mprocessed[31m 24,000,001 [32mfragments[0m
+hits: 22,999, hits per frag:  0.000960926[A[32mprocessed[31m 24,500,000 [32mfragments[0m
+hits: 23,419, hits per frag:  0.00096103[A[32mprocessed[31m 25,000,000 [32mfragments[0m
+hits: 23,846, hits per frag:  0.000957197[A[32mprocessed[31m 25,500,001 [32mfragments[0m
+hits: 24,276, hits per frag:  0.000963869[A[32mprocessed[31m 26,000,001 [32mfragments[0m
+hits: 24,737, hits per frag:  0.000974065[A[32mprocessed[31m 26,500,000 [32mfragments[0m
+hits: 27,055, hits per frag:  0.00104667[A[32mprocessed[31m 27,000,001 [32mfragments[0m
+hits: 29,411, hits per frag:  0.00109296[A[32mprocessed[31m 27,500,000 [32mfragments[0m
+hits: 31,815, hits per frag:  0.00115876[A[32mprocessed[31m 28,000,000 [32mfragments[0m
+hits: 34,211, hits per frag:  0.00122694[A[32mprocessed[31m 28,500,000 [32mfragments[0m
+hits: 36,635, hits per frag:  0.00128828[A[32mprocessed[31m 29,000,000 [32mfragments[0m
+hits: 39,003, hits per frag:  0.00134964[A[32mprocessed[31m 29,500,000 [32mfragments[0m
+hits: 41,260, hits per frag:  0.00139918[A[32mprocessed[31m 30,000,000 [32mfragments[0m
+hits: 43,610, hits per frag:  0.00145712[A[32mprocessed[31m 30,500,000 [32mfragments[0m
+hits: 45,861, hits per frag:  0.0015065[A[32mprocessed[31m 31,000,000 [32mfragments[0m
+hits: 48,186, hits per frag:  0.00156229[A[32mprocessed[31m 31,500,000 [32mfragments[0m
+hits: 50,542, hits per frag:  0.00160655[2021-12-30 16:43:23.739] [jointLog] [info] Automatically detected most likely library type as IU
+
+[A[32mprocessed[31m 32,000,001 [32mfragments[0m
+hits: 52,879, hits per frag:  0.00165571[A[32mprocessed[31m 32,500,000 [32mfragments[0m
+hits: 55,260, hits per frag:  0.00170855[A[32mprocessed[31m 33,000,002 [32mfragments[0m
+hits: 57,560, hits per frag:  0.00177384[A[32mprocessed[31m 33,500,000 [32mfragments[0m
+hits: 59,869, hits per frag:  0.00179884[A[32mprocessed[31m 34,000,002 [32mfragments[0m
+hits: 62,116, hits per frag:  0.00184638[A[32mprocessed[31m 34,500,000 [32mfragments[0m
+hits: 64,265, hits per frag:  0.00186948[A[32mprocessed[31m 35,000,000 [32mfragments[0m
+hits: 66,322, hits per frag:  0.00189786[A[32mprocessed[31m 35,500,001 [32mfragments[0m
+hits: 68,502, hits per frag:  0.00193701
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:43:36.716] [jointLog] [info] Computed 507 rich equivalence classes for further processing
+[2021-12-30 16:43:36.716] [jointLog] [info] Counted 69,669 total reads in the equivalence classes 
+[2021-12-30 16:43:36.730] [jointLog] [warning] 0.959088% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:43:36.730] [jointLog] [info] Number of mappings discarded because of alignment score : 16,208
+[2021-12-30 16:43:36.730] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 14,564
+[2021-12-30 16:43:36.730] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:43:36.730] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 177
+[2021-12-30 16:43:36.731] [jointLog] [warning] Only 69669 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:43:36.731] [jointLog] [info] Mapping rate = 0.194028%
+
+[2021-12-30 16:43:36.731] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:43:36.732] [jointLog] [info] Starting optimizer
+[2021-12-30 16:43:36.735] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:43:36.735] [jointLog] [info] iteration = 0 | max rel diff. = 146.4
+[2021-12-30 16:43:36.735] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:43:36.781] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:43:36.781] [jointLog] [info] processed bias for 0.4% of the transcripts
+[2021-12-30 16:43:36.783] [jointLog] [info] processed bias for 10.4% of the transcripts
+[2021-12-30 16:43:36.785] [jointLog] [info] processed bias for 21.0% of the transcripts
+[2021-12-30 16:43:36.787] [jointLog] [info] processed bias for 30.7% of the transcripts
+[2021-12-30 16:43:36.789] [jointLog] [info] processed bias for 40.3% of the transcripts
+[2021-12-30 16:43:36.791] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:43:36.794] [jointLog] [info] processed bias for 60.4% of the transcripts
+[2021-12-30 16:43:36.796] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:43:36.797] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:43:36.800] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-12-30 16:43:36.810] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:43:36.819] [jointLog] [info] iteration = 100 | max rel diff. = 1.80692e-16
+[2021-12-30 16:43:36.820] [jointLog] [info] Finished optimizer
+[2021-12-30 16:43:36.820] [jointLog] [info] writing output 
+
+all processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/all_rawreads }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/all_rawreads/logs
+[2021-12-30 16:43:40.296] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:43:40.296] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:43:40.296] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:43:40.296] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:43:40.296] [jointLog] [info] parsing read library format
+[2021-12-30 16:43:40.296] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 465.32 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 428.82 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 51.037 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 485.29 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3328 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 434.65 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0858 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 453.8 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 67.121 us
+-----------------------------------------
+[2021-12-30 16:43:40.388] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:43:40.389] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:43:40.395] [jointLog] [info] done
+[2021-12-30 16:43:40.395] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:43:40.398] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 393, hits per frag:  0.000897205[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 752, hits per frag:  0.000779246[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 1,117, hits per frag:  0.000787216[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 1,507, hits per frag:  0.00085735[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 1,925, hits per frag:  0.000837992[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 2,355, hits per frag:  0.000806844[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 2,788, hits per frag:  0.000807246[A[32mprocessed[31m 4,000,001 [32mfragments[0m
+hits: 3,210, hits per frag:  0.000805077[A[32mprocessed[31m 4,500,001 [32mfragments[0m
+hits: 3,666, hits per frag:  0.000859494[A[32mprocessed[31m 5,000,001 [32mfragments[0m
+hits: 4,210, hits per frag:  0.000854722[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 4,814, hits per frag:  0.000919474[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 5,588, hits per frag:  0.000945226[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 6,285, hits per frag:  0.000982915[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 6,794, hits per frag:  0.000973861[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 7,215, hits per frag:  0.000983891[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 7,634, hits per frag:  0.00098537[A[32mprocessed[31m 8,500,001 [32mfragments[0m
+hits: 8,084, hits per frag:  0.00108664[A[32mprocessed[31m 9,000,000 [32mfragments[0m
+hits: 8,491, hits per frag:  0.000978054[A[32mprocessed[31m 9,500,001 [32mfragments[0m
+hits: 9,004, hits per frag:  0.000973273[A[32mprocessed[31m 10,000,000 [32mfragments[0m
+hits: 9,525, hits per frag:  0.000966174[A[32mprocessed[31m 10,500,000 [32mfragments[0m
+hits: 10,036, hits per frag:  0.000963084[A[32mprocessed[31m 11,000,000 [32mfragments[0m
+hits: 10,593, hits per frag:  0.000999515[A[32mprocessed[31m 11,500,000 [32mfragments[0m
+hits: 11,184, hits per frag:  0.000973537[A[32mprocessed[31m 12,000,002 [32mfragments[0m
+hits: 11,825, hits per frag:  0.000987971[A[32mprocessed[31m 12,500,002 [32mfragments[0m
+hits: 12,457, hits per frag:  0.00100064[A[32mprocessed[31m 13,000,000 [32mfragments[0m
+hits: 13,016, hits per frag:  0.00100718[A[32mprocessed[31m 13,500,000 [32mfragments[0m
+hits: 13,594, hits per frag:  0.00101007[A[32mprocessed[31m 14,000,000 [32mfragments[0m
+hits: 14,126, hits per frag:  0.00101268[A[32mprocessed[31m 14,500,008 [32mfragments[0m
+hits: 14,637, hits per frag:  0.00106805[A[32mprocessed[31m 15,000,000 [32mfragments[0m
+hits: 15,117, hits per frag:  0.0010173[A[32mprocessed[31m 15,500,000 [32mfragments[0m
+hits: 15,684, hits per frag:  0.00101242[A[32mprocessed[31m 16,000,000 [32mfragments[0m
+hits: 16,217, hits per frag:  0.00101459[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 16,738, hits per frag:  0.0010327[A[32mprocessed[31m 17,000,001 [32mfragments[0m
+hits: 17,220, hits per frag:  0.00101677[A[32mprocessed[31m 17,500,003 [32mfragments[0m
+hits: 17,650, hits per frag:  0.00101484[A[32mprocessed[31m 18,000,000 [32mfragments[0m
+hits: 18,106, hits per frag:  0.00100987[A[32mprocessed[31m 18,500,001 [32mfragments[0m
+hits: 18,551, hits per frag:  0.00100643[A[32mprocessed[31m 19,000,000 [32mfragments[0m
+hits: 18,974, hits per frag:  0.00100208[A[32mprocessed[31m 19,500,000 [32mfragments[0m
+hits: 19,383, hits per frag:  0.0010781[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 19,738, hits per frag:  0.000997339[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 20,107, hits per frag:  0.00100545[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 20,510, hits per frag:  0.00097871[A[32mprocessed[31m 21,500,000 [32mfragments[0m
+hits: 20,879, hits per frag:  0.000980058[A[32mprocessed[31m 22,000,000 [32mfragments[0m
+hits: 21,247, hits per frag:  0.000969914[A[32mprocessed[31m 22,500,000 [32mfragments[0m
+hits: 21,691, hits per frag:  0.00101868[A[32mprocessed[31m 23,000,000 [32mfragments[0m
+hits: 22,130, hits per frag:  0.000967416[A[32mprocessed[31m 23,500,000 [32mfragments[0m
+hits: 22,606, hits per frag:  0.000964974[A[32mprocessed[31m 24,000,000 [32mfragments[0m
+hits: 22,999, hits per frag:  0.00103445[A[32mprocessed[31m 24,500,000 [32mfragments[0m
+hits: 23,418, hits per frag:  0.000960221[A[32mprocessed[31m 25,000,000 [32mfragments[0m
+hits: 23,845, hits per frag:  0.000960801[A[32mprocessed[31m 25,500,000 [32mfragments[0m
+hits: 24,270, hits per frag:  0.000952725[A[32mprocessed[31m 26,000,000 [32mfragments[0m
+hits: 24,726, hits per frag:  0.000969587
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:44:38.356] [jointLog] [info] Computed 365 rich equivalence classes for further processing
+[2021-12-30 16:44:38.356] [jointLog] [info] Counted 24,723 total reads in the equivalence classes 
+[2021-12-30 16:44:38.374] [jointLog] [warning] 1.3078% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-12-30 16:44:38.374] [jointLog] [info] Number of mappings discarded because of alignment score : 7,456
+[2021-12-30 16:44:38.374] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 6,778
+[2021-12-30 16:44:38.374] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:44:38.374] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 122
+[2021-12-30 16:44:38.374] [jointLog] [warning] Only 24723 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:44:38.374] [jointLog] [info] Mapping rate = 0.0950455%
+
+[2021-12-30 16:44:38.374] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:44:38.376] [jointLog] [info] Starting optimizer
+[2021-12-30 16:44:38.378] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:44:38.378] [jointLog] [info] iteration = 0 | max rel diff. = 51.3538
+[2021-12-30 16:44:38.379] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:44:38.405] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:44:38.405] [jointLog] [info] processed bias for 14.8% of the transcripts
+[2021-12-30 16:44:38.405] [jointLog] [info] processed bias for 15.5% of the transcripts
+[2021-12-30 16:44:38.406] [jointLog] [info] processed bias for 20.3% of the transcripts
+[2021-12-30 16:44:38.407] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2021-12-30 16:44:38.409] [jointLog] [info] processed bias for 40.3% of the transcripts
+[2021-12-30 16:44:38.410] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-12-30 16:44:38.412] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-12-30 16:44:38.413] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:44:38.414] [jointLog] [info] processed bias for 80.7% of the transcripts
+[2021-12-30 16:44:38.415] [jointLog] [info] processed bias for 91.5% of the transcripts
+[2021-12-30 16:44:38.420] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:44:38.429] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-12-30 16:44:38.429] [jointLog] [info] Finished optimizer
+[2021-12-30 16:44:38.429] [jointLog] [info] writing output 
+
+all_rawreads processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo/logs
+[2021-12-30 16:44:39.289] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:44:39.289] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:44:39.289] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:44:39.289] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:44:39.289] [jointLog] [info] parsing read library format
+[2021-12-30 16:44:39.289] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 455.9 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 418.89 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 50.086 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 475.07 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.332 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 437.68 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.092 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 445.08 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 65.906 us
+-----------------------------------------
+[2021-12-30 16:44:39.381] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:44:39.381] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:44:39.388] [jointLog] [info] done
+[2021-12-30 16:44:39.388] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:44:39.391] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 2,369, hits per frag:  0.0055702[A[32mprocessed[31m 1,000,001 [32mfragments[0m
+hits: 4,720, hits per frag:  0.00548879[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 7,122, hits per frag:  0.00488688[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 9,543, hits per frag:  0.00514507[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 11,965, hits per frag:  0.00498714[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 14,322, hits per frag:  0.00513161[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 16,591, hits per frag:  0.00495381[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 18,908, hits per frag:  0.00485424[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 21,178, hits per frag:  0.00474654[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 23,516, hits per frag:  0.00520903[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 25,881, hits per frag:  0.00473478[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 28,210, hits per frag:  0.00484283[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 30,591, hits per frag:  0.00493718[A[32mprocessed[31m 7,000,001 [32mfragments[0m
+hits: 32,877, hits per frag:  0.00487592[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 35,202, hits per frag:  0.00474768[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 37,418, hits per frag:  0.00470952[A[32mprocessed[31m 8,500,000 [32mfragments[0m
+hits: 39,595, hits per frag:  0.004736[A[32mprocessed[31m 9,000,000 [32mfragments[0m
+hits: 41,649, hits per frag:  0.00465981[A[32mprocessed[31m 9,500,000 [32mfragments[0m
+hits: 43,800, hits per frag:  0.00476804
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:45:05.411] [jointLog] [info] Computed 149 rich equivalence classes for further processing
+[2021-12-30 16:45:05.411] [jointLog] [info] Counted 44,946 total reads in the equivalence classes 
+[2021-12-30 16:45:05.424] [jointLog] [warning] 0.0423958% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-12-30 16:45:05.424] [jointLog] [info] Number of mappings discarded because of alignment score : 8,752
+[2021-12-30 16:45:05.424] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 7,786
+[2021-12-30 16:45:05.424] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:45:05.424] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 55
+[2021-12-30 16:45:05.425] [jointLog] [warning] Only 44946 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:45:05.425] [jointLog] [info] Mapping rate = 0.454236%
+
+[2021-12-30 16:45:05.425] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:45:05.426] [jointLog] [info] Starting optimizer
+[2021-12-30 16:45:05.428] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:45:05.428] [jointLog] [info] iteration = 0 | max rel diff. = 94.1399
+[2021-12-30 16:45:05.428] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:45:05.453] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:45:05.453] [jointLog] [info] processed bias for 69.3% of the transcripts
+[2021-12-30 16:45:05.453] [jointLog] [info] processed bias for 69.3% of the transcripts
+[2021-12-30 16:45:05.453] [jointLog] [info] processed bias for 69.3% of the transcripts
+[2021-12-30 16:45:05.454] [jointLog] [info] processed bias for 69.3% of the transcripts
+[2021-12-30 16:45:05.454] [jointLog] [info] processed bias for 69.3% of the transcripts
+[2021-12-30 16:45:05.454] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:05.454] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:05.454] [jointLog] [info] processed bias for 70.1% of the transcripts
+[2021-12-30 16:45:05.456] [jointLog] [info] processed bias for 79.9% of the transcripts
+[2021-12-30 16:45:05.459] [jointLog] [info] processed bias for 91.5% of the transcripts
+[2021-12-30 16:45:05.473] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:45:05.482] [jointLog] [info] iteration = 100 | max rel diff. = 2.03436e-16
+[2021-12-30 16:45:05.482] [jointLog] [info] Finished optimizer
+[2021-12-30 16:45:05.482] [jointLog] [info] writing output 
+
+zymo processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo-cellular }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo-cellular/logs
+[2021-12-30 16:45:06.285] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:45:06.285] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:45:06.285] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:45:06.285] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:45:06.285] [jointLog] [info] parsing read library format
+[2021-12-30 16:45:06.285] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 467.35 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 419.62 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.276 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 487.4 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3286 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 428.9 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0055 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 435.88 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 64.174 us
+-----------------------------------------
+[2021-12-30 16:45:06.375] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:45:06.376] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:45:06.382] [jointLog] [info] done
+[2021-12-30 16:45:06.382] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:45:06.385] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 2,371, hits per frag:  0.00597581[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 4,725, hits per frag:  0.00498789[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 7,130, hits per frag:  0.0066865[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 9,542, hits per frag:  0.00666781[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 11,961, hits per frag:  0.00493712[A[32mprocessed[31m 3,000,001 [32mfragments[0m
+hits: 14,329, hits per frag:  0.00505244[A[32mprocessed[31m 3,500,000 [32mfragments[0m
+hits: 16,593, hits per frag:  0.0048588[A[32mprocessed[31m 4,000,001 [32mfragments[0m
+hits: 18,910, hits per frag:  0.00481061[A[32mprocessed[31m 4,500,000 [32mfragments[0m
+hits: 21,175, hits per frag:  0.00472568[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 23,517, hits per frag:  0.00559425[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 25,884, hits per frag:  0.00491797[A[32mprocessed[31m 6,000,000 [32mfragments[0m
+hits: 28,205, hits per frag:  0.0047997[A[32mprocessed[31m 6,500,000 [32mfragments[0m
+hits: 30,588, hits per frag:  0.00483998[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 32,874, hits per frag:  0.00471872[A[32mprocessed[31m 7,500,001 [32mfragments[0m
+hits: 35,199, hits per frag:  0.00499984
+
+
+
+[2021-12-30 16:45:27.082] [jointLog] [info] Computed 133 rich equivalence classes for further processing
+[2021-12-30 16:45:27.082] [jointLog] [info] Counted 35,276 total reads in the equivalence classes 
+
+
+
+
+
+
+[2021-12-30 16:45:27.096] [jointLog] [warning] 0.0370844% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-12-30 16:45:27.096] [jointLog] [info] Number of mappings discarded because of alignment score : 6,389
+[2021-12-30 16:45:27.096] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 5,581
+[2021-12-30 16:45:27.096] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:45:27.096] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 43
+[2021-12-30 16:45:27.096] [jointLog] [warning] Only 35276 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:45:27.096] [jointLog] [info] Mapping rate = 0.46324%
+
+[2021-12-30 16:45:27.096] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:45:27.098] [jointLog] [info] Starting optimizer
+[2021-12-30 16:45:27.099] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:45:27.099] [jointLog] [info] iteration = 0 | max rel diff. = 36.343
+[2021-12-30 16:45:27.100] [jointLog] [info] iteration 3, adjusting effective lengths to account for biases
+[2021-12-30 16:45:27.121] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.3% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.3% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.3% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.5% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.5% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.5% of the transcripts
+[2021-12-30 16:45:27.121] [jointLog] [info] processed bias for 62.5% of the transcripts
+[2021-12-30 16:45:27.122] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:45:27.123] [jointLog] [info] processed bias for 80.5% of the transcripts
+[2021-12-30 16:45:27.126] [jointLog] [info] processed bias for 91.3% of the transcripts
+[2021-12-30 16:45:27.134] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:45:27.144] [jointLog] [info] iteration = 100 | max rel diff. = 1.28442e-16
+[2021-12-30 16:45:27.144] [jointLog] [info] Finished optimizer
+[2021-12-30 16:45:27.144] [jointLog] [info] writing output 
+
+zymo-cellular processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo-dna }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/quants_PE/zymo-dna/logs
+[2021-12-30 16:45:27.573] [jointLog] [info] setting maxHashResizeThreads to 48
+[2021-12-30 16:45:27.573] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-12-30 16:45:27.573] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-12-30 16:45:27.573] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-12-30 16:45:27.573] [jointLog] [info] parsing read library format
+[2021-12-30 16:45:27.574] [jointLog] [info] There is 1 library.
+-----------------------------------------
+| Loading contig table | Time = 475.78 us
+-----------------------------------------
+size = 937
+-----------------------------------------
+| Loading contig offsets | Time = 419.8 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 49.197 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 480.88 us
+-----------------------------------------
+size = 414796
+Number of ones: 936
+Number of ones per inventory item: 512
+Inventory entries filled: 2
+-----------------------------------------
+| Loading contig boundaries | Time = 1.3248 ms
+-----------------------------------------
+size = 414796
+-----------------------------------------
+| Loading sequence | Time = 444.24 us
+-----------------------------------------
+size = 386716
+-----------------------------------------
+| Loading positions | Time = 1.0872 ms
+-----------------------------------------
+size = 403563
+-----------------------------------------
+| Loading reference sequence | Time = 441.73 us
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 67.942 us
+-----------------------------------------
+[2021-12-30 16:45:27.665] [jointLog] [info] Loading pufferfish index
+[2021-12-30 16:45:27.666] [jointLog] [info] Loading dense pufferfish index.
+[2021-12-30 16:45:27.673] [jointLog] [info] done
+[2021-12-30 16:45:27.673] [jointLog] [info] Index contained 472 targets
+[2021-12-30 16:45:27.676] [jointLog] [info] Number of decoys : 0
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 2,156, hits per frag:  0.00481181[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 4,292, hits per frag:  0.00508227[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 6,387, hits per frag:  0.00431145[A[32mprocessed[31m 2,000,001 [32mfragments[0m
+hits: 8,533, hits per frag:  0.00618305
+
+
+
+
+
+
+
+
+
+[2021-12-30 16:45:34.338] [jointLog] [info] Computed 138 rich equivalence classes for further processing
+[2021-12-30 16:45:34.338] [jointLog] [info] Counted 9,670 total reads in the equivalence classes 
+[2021-12-30 16:45:34.353] [jointLog] [warning] 0.060137% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 21.
+
+
+[2021-12-30 16:45:34.353] [jointLog] [info] Number of mappings discarded because of alignment score : 2,363
+[2021-12-30 16:45:34.353] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 2,205
+[2021-12-30 16:45:34.353] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-12-30 16:45:34.353] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 12
+[2021-12-30 16:45:34.353] [jointLog] [warning] Only 9670 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-12-30 16:45:34.353] [jointLog] [info] Mapping rate = 0.424161%
+
+[2021-12-30 16:45:34.353] [jointLog] [info] finished quantifyLibrary()
+[2021-12-30 16:45:34.355] [jointLog] [info] Starting optimizer
+[2021-12-30 16:45:34.356] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-12-30 16:45:34.357] [jointLog] [info] iteration = 0 | max rel diff. = 19.4835
+[2021-12-30 16:45:34.357] [jointLog] [info] iteration 4, adjusting effective lengths to account for biases
+[2021-12-30 16:45:34.394] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.5% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.7% of the transcripts
+[2021-12-30 16:45:34.395] [jointLog] [info] processed bias for 69.9% of the transcripts
+[2021-12-30 16:45:34.397] [jointLog] [info] processed bias for 80.1% of the transcripts
+[2021-12-30 16:45:34.400] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-12-30 16:45:34.412] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-12-30 16:45:34.420] [jointLog] [info] iteration = 100 | max rel diff. = 2.17855e-16
+[2021-12-30 16:45:34.420] [jointLog] [info] Finished optimizer
+[2021-12-30 16:45:34.420] [jointLog] [info] writing output 
+
+zymo-dna processed

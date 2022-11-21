@@ -1,0 +1,103 @@
+metawrap classify_bins -b ../../metawrap_06222021/REASSEMBLY/reassembled_bins -o ../../metawrap_06222021/BIN_CLASSIFICATION -t 48
+
+########################################################################################################################
+#####                                   ALIGN CONTIGS TO DATABASE WITH MEGABLAST                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----            setting up ouput folder ../../metawrap_06222021/BIN_CLASSIFICATION and merging contigs            -----
+-----                                               from all bins...                                               -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                     aligning ../../metawrap_06222021/BIN_CLASSIFICATION/all_contigs.fa to                    -----
+-----              /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/NCBI_nt database with              -----
+-----                 MEGABLAST. This is the longest step - please be patient. You may look at the                 -----
+-----                                          classification progress in                                          -----
+-----                       ../../metawrap_06222021/BIN_CLASSIFICATION/megablast_out.raw.tab                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                  removing unnecessary lines that lead to bad tax IDs (without a proper rank)                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                              making mapping file                                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                              GET TAXONOMY FROM MEGABLAST OUTPUT WITH TAXATOR-TK                              #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                   pulling out classifications with taxator                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                           binning and consolidating classifications for each contig                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+analyzing sample composition by signal counting... done: 2642 nested taxa with total support of 60036101 bp
+noise removal... done: 0 taxa were removed
+binning step...  done
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                 pulling out full taxonomy path with taxknife                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+Could not find node with taxonomic id  in taxonomy, skipping record.
+Could not find node with taxonomic id  in taxonomy, skipping record.
+Could not find node with taxonomic id  in taxonomy, skipping record.
+Could not find node with taxonomic id TaxID in taxonomy, skipping record.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                    finding consensus taxonomy for each bin                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+bin.5.orig.fa	Bacteria;Actinobacteria;Actinomycetia;Candidatus Nanopelagicales;Candidatus Nanopelagicaceae
+bin.18.orig.fa	Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia;Escherichia coli
+bin.1.orig.fa	Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae;Enterococcus;Enterococcus faecalis
+bin.25.orig.fa	Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Limosilactobacillus;Limosilactobacillus fermentum
+bin.16.orig.fa	Bacteria
+bin.9.orig.fa	Bacteria;Proteobacteria;Alphaproteobacteria;Pelagibacterales;Pelagibacteraceae
+bin.6.orig.fa	Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales
+bin.10.orig.fa	Bacteria;Proteobacteria;Betaproteobacteria;Nitrosomonadales
+bin.15.orig.fa	Bacteria;Bacteroidetes
+bin.24.orig.fa	Bacteria;Actinobacteria;Actinomycetia
+bin.13.orig.fa	Bacteria;Actinobacteria;Actinomycetia;Candidatus Nanopelagicales;Candidatus Nanopelagicaceae;Candidatus Nanopelagicus
+bin.19.orig.fa	Bacteria;Proteobacteria;Alphaproteobacteria;Pelagibacterales;Pelagibacteraceae
+bin.8.orig.fa	Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Salmonella;Salmonella enterica
+bin.3.orig.fa	Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas
+bin.12.orig.fa	Bacteria;Cyanobacteria;Synechococcales;Synechococcaceae;Synechococcus;Synechococcus sp. CB0101
+bin.22.orig.fa	Bacteria;Actinobacteria;Actinomycetia;Micrococcales;Microbacteriaceae
+bin.23.orig.fa	Bacteria
+bin.4.orig.fa	Bacteria;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus
+bin.17.orig.fa	Bacteria;Proteobacteria
+bin.2.orig.fa	Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus
+bin.21.orig.fa	Bacteria;Actinobacteria;Actinomycetia
+bin.20.orig.fa	Bacteria;Actinobacteria;Actinomycetia
+bin.14.orig.fa	Bacteria;Firmicutes;Bacilli;Bacillales;Listeriaceae
+bin.7.orig.fa	Bacteria;Actinobacteria
+bin.11.permissive.fa	Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              you will find the consensus taxonomy of each bin in                             -----
+-----                         ../../metawrap_06222021/BIN_CLASSIFICATION/bin_taxonomy.tab                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                             BIN CLASSIFICATION PIPELINE FINISHED SUCCESSFULLY!!!                             #####
+########################################################################################################################
+
+
+real	41m56.634s
+user	760m21.549s
+sys	21m1.157s

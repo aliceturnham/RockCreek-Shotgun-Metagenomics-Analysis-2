@@ -1,0 +1,15 @@
+contig names have been shortened
+prokka module successfully loaded
+[17:19:06] This is prokka 1.14.6
+[17:19:06] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:19:06] Homepage is https://github.com/tseemann/prokka
+[17:19:06] Local time is Mon Dec  6 17:19:06 2021
+[17:19:06] You are yzhan231@jhu.edu
+[17:19:06] Operating system is linux
+[17:19:06] You have BioPerl 1.007002
+[17:19:06] System has 48 cores.
+[17:19:06] Will use maximum of 48 cores.
+[17:19:06] Annotating as >>> Bacteria <<<
+[17:19:06] Generating locus_tag from '../metawrap_06222021/ASSEMBLY/final_assembly_shortname.fasta' contents.
+[17:19:07] Setting --locustag NKONPBBP from MD5 74879bb96b8882897581a47f2b8245c9
+[17:19:07] Folder '../metawrap_06222021/Prokka' already exists! Please change --outdir or use --force

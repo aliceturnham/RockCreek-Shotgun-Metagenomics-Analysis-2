@@ -1,0 +1,39 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+ The Advanced Research Computing at Hopkins (ARCH)
+ SLURM job script for run RStudio into Singularity container
+ Support:  help@rockfish.jhu.edu 
+
+Copying R-Studio-Server singularity :
+from: /data/apps/extern/singularity/r-studio/rstudio_2022.10.6_485.sif 
+
+to  : /home/yzhan231/singularity/r-studio/rstudio.sif 
+
+
+1. SSH tunnel from your workstation using the following command:
+
+   ssh -N -L 50301:c072:50301 yzhan231@login.rockfish.jhu.edu
+
+2. log in to RStudio Server in your web browser using the Rockfish cluster credentials (username and password) at:
+
+   http://localhost:50301
+
+   user: yzhan231
+   password: < Rochkfish password >
+
+3. When done using RStudio Server, terminate the job by:
+
+   a. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
+   b. Issue the following command on the login node:
+
+  scancel -f 10121130
+**Which rsession
+/usr/lib/rstudio-server/bin/rsession
+Launching rsession...
++ exec rsession --r-libs-user /home/yzhan231/R/4.0.4 -u yzhan231 --session-use-secure-cookies 0 --session-root-path / --session-same-site 0 --launcher-token 440A4481 --session-timeout-minutes 0 --r-restore-workspace 2 --r-run-rprofile 2
+**Which rsession
+/usr/lib/rstudio-server/bin/rsession
+Launching rsession...
++ exec rsession --r-libs-user /home/yzhan231/R/4.0.4 -u yzhan231 --session-use-secure-cookies 0 --session-root-path / --session-same-site 0 --launcher-token 440A4481 --session-timeout-minutes 0
+slurmstepd: error: *** JOB 10121130 ON c072 CANCELLED AT 2022-11-16T16:56:07 ***
+slurmstepd: error: Detected 4 oom-kill event(s) in StepId=10121130.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

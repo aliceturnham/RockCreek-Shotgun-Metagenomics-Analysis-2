@@ -1,0 +1,23 @@
+metawrap classify_bins -b ../../metawrap_06222021/REASSEMBLY/reassembled_bins -o ../../metawrap_06222021/BIN_CLASSIFICATION -t 1
+
+########################################################################################################################
+#####                                   ALIGN CONTIGS TO DATABASE WITH MEGABLAST                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----            setting up ouput folder ../../metawrap_06222021/BIN_CLASSIFICATION and merging contigs            -----
+-----                                               from all bins...                                               -----
+------------------------------------------------------------------------------------------------------------------------
+
+Warning: ../../metawrap_06222021/BIN_CLASSIFICATION already exists.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                     aligning ../../metawrap_06222021/BIN_CLASSIFICATION/all_contigs.fa to                    -----
+-----              /home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/database/NCBI_nt database with              -----
+-----                 MEGABLAST. This is the longest step - please be patient. You may look at the                 -----
+-----                                          classification progress in                                          -----
+-----                       ../../metawrap_06222021/BIN_CLASSIFICATION/megablast_out.raw.tab                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+slurmstepd: error: *** JOB 51065462 ON compute0782 CANCELLED AT 2021-07-01T11:00:14 ***

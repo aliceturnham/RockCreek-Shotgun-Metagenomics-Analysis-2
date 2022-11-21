@@ -1,0 +1,21 @@
+/var/spool/slurm//job51115370/slurm_script: conda: command not found
+metawrap annotate_bins -o ../../metawrap_06222021/BIN_ANNOTATION -t 48 -b ../../metawrap_06222021/REASSEMBLY/reassembled_bins
+
+########################################################################################################################
+#####                                          BEGIN ANNNOTAION PIPELINE!                                          #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              setting up output folder and copything over bins...                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+Warning: ../../metawrap_06222021/BIN_ANNOTATION already exists.
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.10.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.10.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig --prefix bin.10.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+slurmstepd: error: *** JOB 51115370 ON bigmem0047 CANCELLED AT 2021-07-02T11:53:09 ***

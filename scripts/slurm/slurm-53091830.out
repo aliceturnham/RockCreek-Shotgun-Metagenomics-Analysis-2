@@ -1,0 +1,675 @@
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190709-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190709-RC1-AM-BOTTOM/logs
+[2022-01-03 11:43:43.529] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:43.529] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:43.529] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:43.529] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:43.529] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:43.530] [jointLog] [info] There is 1 library.
+20190709-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190709-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190709-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190709-RC7-AM-BOTTOM/logs
+[2022-01-03 11:43:43.590] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:43.590] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:43.591] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:43.591] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:43.591] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:43.591] [jointLog] [info] There is 1 library.
+20190709-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC1-AM-BOTTOM/logs
+[2022-01-03 11:43:43.776] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:43.776] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:43.776] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:43.776] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:43.776] [jointLog] [info] parsing read library format
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:43.776] [jointLog] [info] There is 1 library.
+20190716-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC1-AM-TOP_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC1-AM-TOP }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC1-AM-TOP/logs
+[2022-01-03 11:43:43.853] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:43.853] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:43.853] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:43.853] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:43.853] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:43.853] [jointLog] [info] There is 1 library.
+20190716-RC1-AM-TOP processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC2-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC2-AM-BOTTOM/logs
+[2022-01-03 11:43:43.930] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:43.930] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:43.930] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:43.930] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:43.930] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:43.930] [jointLog] [info] There is 1 library.
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+20190716-RC2-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC7-AM-BOTTOM/logs
+[2022-01-03 11:43:44.005] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.005] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.005] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.005] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.005] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.005] [jointLog] [info] There is 1 library.
+20190716-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190716-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190716-RC9-AM-BOTTOM/logs
+[2022-01-03 11:43:44.120] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.120] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.121] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.121] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.121] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.121] [jointLog] [info] There is 1 library.
+20190716-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC1-AM-BOTTOM/logs
+[2022-01-03 11:43:44.266] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.266] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.266] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.266] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.266] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.266] [jointLog] [info] There is 1 library.
+20190723-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC2-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC2-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC2-AM-BOTTOM/logs
+[2022-01-03 11:43:44.343] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.343] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.343] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.343] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.343] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.343] [jointLog] [info] There is 1 library.
+20190723-RC2-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC7-AM-BOTTOM/logs
+[2022-01-03 11:43:44.440] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.441] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.441] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.441] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.441] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.441] [jointLog] [info] There is 1 library.
+20190723-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190723-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190723-RC9-AM-BOTTOM/logs
+[2022-01-03 11:43:44.504] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+20190723-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC1-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC1-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC1-AM-BOTTOM/logs
+[2022-01-03 11:43:44.617] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.617] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.617] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.617] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.617] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.617] [jointLog] [info] There is 1 library.
+20190730-RC1-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC2-AM-BOTTOM-BUOY_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC2-AM-BOTTOM-BUOY }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC2-AM-BOTTOM-BUOY/logs
+[2022-01-03 11:43:44.681] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:44.681] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.681] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.681] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.681] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.681] [jointLog] [info] There is 1 library.
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+20190730-RC2-AM-BOTTOM-BUOY processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC7-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC7-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC7-AM-BOTTOM/logs
+[2022-01-03 11:43:44.806] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:44.806] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.806] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.806] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.806] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.806] [jointLog] [info] There is 1 library.
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+20190730-RC7-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/20190730-RC9-AM-BOTTOM_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC9-AM-BOTTOM }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/20190730-RC9-AM-BOTTOM/logs
+[2022-01-03 11:43:44.898] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:44.898] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.898] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.898] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.898] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.898] [jointLog] [info] There is 1 library.
+20190730-RC9-AM-BOTTOM processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/all }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/all/logs
+[2022-01-03 11:43:44.958] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:44.958] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:44.958] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:44.958] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:44.958] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:44.958] [jointLog] [info] There is 1 library.
+all processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/all_rawreads_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/all_rawreads }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/all_rawreads/logs
+[2022-01-03 11:43:45.047] [jointLog] [info] setting maxHashResizeThreads to 48
+[2022-01-03 11:43:45.047] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:45.047] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:45.047] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:45.047] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:45.047] [jointLog] [info] There is 1 library.
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+all_rawreads processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo/logs
+[2022-01-03 11:43:45.107] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:45.107] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:45.107] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:45.107] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:45.107] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:45.107] [jointLog] [info] There is 1 library.
+zymo processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-cellular_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo-cellular }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo-cellular/logs
+[2022-01-03 11:43:45.201] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:45.201] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:45.201] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:45.201] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:45.201] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:45.201] [jointLog] [info] There is 1 library.
+zymo-cellular processed
+Version Info: ### PLEASE UPGRADE SALMON ###
+### A newer version of salmon with important bug fixes and improvements is available. ####
+###
+The newest version, available at https://github.com/COMBINE-lab/salmon/releases
+contains new features, improvements, and bug fixes; please upgrade at your
+earliest convenience.
+###
+Sign up for the salmon mailing list to hear about new versions, features and updates at:
+https://oceangenomics.com/subscribe
+###### salmon (selective-alignment-based) v1.5.1
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index }
+### [ libType ] => { A }
+### [ mates1 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_1.fastq }
+### [ mates2 ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/CLEAN_READS/zymo-dna_2.fastq }
+### [ threads ] => { 48 }
+### [ validateMappings ] => { }
+### [ output ] => { /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo-dna }
+### [ gcBias ] => { }
+### [ seqBias ] => { }
+Logs will be written to /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/quants_PE/zymo-dna/logs
+[2022-01-03 11:43:45.273] [jointLog] [info] setting maxHashResizeThreads to 48
+Exception : [Error: The index version file /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/metawrap_06222021/SALMON/all_scaffolds/morris_ko_index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2022-01-03 11:43:45.273] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-01-03 11:43:45.273] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-01-03 11:43:45.273] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-01-03 11:43:45.273] [jointLog] [info] parsing read library format
+[2022-01-03 11:43:45.273] [jointLog] [info] There is 1 library.
+zymo-dna processed
+mv: cannot stat ‘20190709-RC1-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190709-RC7-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190716-RC1-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190716-RC1-AM-TOP/quant.sf’: No such file or directory
+mv: cannot stat ‘20190716-RC2-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190716-RC7-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190716-RC9-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190723-RC1-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190723-RC2-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190723-RC7-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190723-RC9-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190730-RC1-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190730-RC2-AM-BOTTOM-BUOY/quant.sf’: No such file or directory
+mv: cannot stat ‘20190730-RC7-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘20190730-RC9-AM-BOTTOM/quant.sf’: No such file or directory
+mv: cannot stat ‘all/quant.sf’: No such file or directory
+mv: cannot stat ‘all_rawreads/quant.sf’: No such file or directory
+mv: cannot stat ‘zymo/quant.sf’: No such file or directory
+mv: cannot stat ‘zymo-cellular/quant.sf’: No such file or directory
+mv: cannot stat ‘zymo-dna/quant.sf’: No such file or directory

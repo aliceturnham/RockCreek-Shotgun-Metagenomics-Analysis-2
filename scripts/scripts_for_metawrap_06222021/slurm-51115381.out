@@ -1,0 +1,368 @@
+/var/spool/slurm//job51115381/slurm_script: conda: command not found
+metawrap annotate_bins -o ../../metawrap_06222021/BIN_ANNOTATION -t 48 -b ../../metawrap_06222021/REASSEMBLY/reassembled_bins
+
+########################################################################################################################
+#####                                          BEGIN ANNNOTAION PIPELINE!                                          #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              setting up output folder and copything over bins...                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.10.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.10.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig --prefix bin.10.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig/bin.10.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.10.orig/bin.10.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.11.permissive.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       NOW ANNOTATING bin.11.permissive                                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive --prefix bin.11.permissive ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive/bin.11.permissive.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.11.permissive/bin.11.permissive.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.12.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.12.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.12.orig --prefix bin.12.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.12.orig/bin.12.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.12.orig/bin.12.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.13.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.13.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.13.orig --prefix bin.13.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.13.orig/bin.13.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.13.orig/bin.13.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.14.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.14.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.14.orig --prefix bin.14.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.14.orig/bin.14.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.14.orig/bin.14.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.15.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.15.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.15.orig --prefix bin.15.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.15.orig/bin.15.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.15.orig/bin.15.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.16.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.16.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.16.orig --prefix bin.16.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.16.orig/bin.16.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.16.orig/bin.16.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.17.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.17.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.17.orig --prefix bin.17.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.17.orig/bin.17.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.17.orig/bin.17.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.18.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.18.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.18.orig --prefix bin.18.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.18.orig/bin.18.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.18.orig/bin.18.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.19.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.19.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.19.orig --prefix bin.19.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.19.orig/bin.19.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.19.orig/bin.19.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.1.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.1.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.1.orig --prefix bin.1.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.1.orig/bin.1.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.1.orig/bin.1.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.20.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.20.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.20.orig --prefix bin.20.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.20.orig/bin.20.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.20.orig/bin.20.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.21.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.21.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.21.orig --prefix bin.21.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.21.orig/bin.21.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.21.orig/bin.21.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.22.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.22.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.22.orig --prefix bin.22.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.22.orig/bin.22.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.22.orig/bin.22.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.23.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.23.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.23.orig --prefix bin.23.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.23.orig/bin.23.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.23.orig/bin.23.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.24.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.24.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.24.orig --prefix bin.24.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.24.orig/bin.24.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.24.orig/bin.24.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.25.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          NOW ANNOTATING bin.25.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.25.orig --prefix bin.25.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.25.orig/bin.25.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.25.orig/bin.25.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.2.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.2.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.2.orig --prefix bin.2.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.2.orig/bin.2.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.2.orig/bin.2.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.3.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.3.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.3.orig --prefix bin.3.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.3.orig/bin.3.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.3.orig/bin.3.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.4.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.4.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.4.orig --prefix bin.4.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.4.orig/bin.4.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.4.orig/bin.4.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.5.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.5.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.5.orig --prefix bin.5.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.5.orig/bin.5.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.5.orig/bin.5.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.6.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.6.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.6.orig --prefix bin.6.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.6.orig/bin.6.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.6.orig/bin.6.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.7.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.7.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.7.orig --prefix bin.7.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.7.orig/bin.7.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.7.orig/bin.7.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.8.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.8.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.8.orig --prefix bin.8.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.8.orig/bin.8.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.8.orig/bin.8.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-scripts/shorten_contig_names.py ../../metawrap_06222021/REASSEMBLY/reassembled_bins/bin.9.orig.fa > ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           NOW ANNOTATING bin.9.orig                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+prokka --quiet --cpus 48 --outdir ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.9.orig --prefix bin.9.orig ../../metawrap_06222021/BIN_ANNOTATION/tmp_bin.fa
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.9.orig/bin.9.orig.gbf
+[tbl2asn-forever] Correcting dates in ../../metawrap_06222021/BIN_ANNOTATION/prokka_out/bin.9.orig/bin.9.orig.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 02-JUL-2021
+/home-4/yzhan231@jhu.edu/work/yuezhang/lib/metaWRAP/bin/metawrap-modules/annotate_bins.sh: line 129: [[: bin.10.orig
+bin.11.permissive
+bin.12.orig
+bin.13.orig
+bin.14.orig
+bin.15.orig
+bin.16.orig
+bin.17.orig
+bin.18.orig
+bin.19.orig
+bin.1.orig
+bin.20.orig
+bin.21.orig
+bin.22.orig
+bin.23.orig
+bin.24.orig
+bin.25.orig
+bin.2.orig
+bin.3.orig
+bin.4.orig
+bin.5.orig
+bin.6.orig
+bin.7.orig
+bin.8.orig
+bin.9.orig: syntax error: invalid arithmetic operator (error token is ".10.orig
+bin.11.permissive
+bin.12.orig
+bin.13.orig
+bin.14.orig
+bin.15.orig
+bin.16.orig
+bin.17.orig
+bin.18.orig
+bin.19.orig
+bin.1.orig
+bin.20.orig
+bin.21.orig
+bin.22.orig
+bin.23.orig
+bin.24.orig
+bin.25.orig
+bin.2.orig
+bin.3.orig
+bin.4.orig
+bin.5.orig
+bin.6.orig
+bin.7.orig
+bin.8.orig
+bin.9.orig")
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                   PROKKA finished annotating all the bins!                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                           FORMATTING ANNNOTAIONS...                                          #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                 You will find the bin annotation gff files in                                -----
+-----                        ../../metawrap_06222021/BIN_ANNOTATION/bin_funct_annotations.                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+************************************************************************************************************************
+*****            Your contigs may be truncated in the annotation because they are too long for PROKKA to           *****
+*****           take as input! Check the final annotation files to see what the contig naming convention           *****
+*****                                                     is.                                                      *****
+************************************************************************************************************************
+
+
+########################################################################################################################
+#####                                ANNOTATE BINS PIPELINE SUCCESSFULLY FINISHED!!!                               #####
+########################################################################################################################
+
+
+real	16m17.211s
+user	142m19.861s
+sys	32m10.735s

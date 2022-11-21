@@ -1,0 +1,11 @@
+Variables imported
+LIB_DIR/2019*_1.fastq
+LIB_DIR/2019*_2.fastq
+2019*_1.fastq
+2019*
+triming 2019*
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 1: $'PK\003\004': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 2: $'\bN[\210N': command not found
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 3: M[àNg·6ÅõMETA-INF/MANIFEST.MFMåΩ: No such file or directory
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: syntax error near unexpected token `)'
+/data/apps/extern/trimmomatic/0.39/trimmomatic-0.39.jar: line 16: `'BY<ñêYÚAUTHORS.jbzip2ÛM,)…H-W“Sp+JÃKŒ,ÊPK'
