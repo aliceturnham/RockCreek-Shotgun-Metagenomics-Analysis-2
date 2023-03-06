@@ -9,8 +9,8 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --partition=defq
 
-CONTIGS=../analysis/ASSEMBLY/SW_28/contigs.fasta
-INDEX=../analysis/BOWTIE/contigs_index
+CONTIGS=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/ASSEMBLY/SW_28/contigs.fasta
+INDEX=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/BOWTIE/contigs_index
 
 module load bowtie2/2.4.1
 echo "Startin bowtie2-build"

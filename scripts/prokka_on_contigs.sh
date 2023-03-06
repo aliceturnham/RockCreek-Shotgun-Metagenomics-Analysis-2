@@ -14,10 +14,10 @@ module load prokka/1.14.5
 echo 'prokka/1.14.5 is loaded'
 
 #load viables
-#python ../../../scripts/shorten_contig_names.py contigs.fasta > contigs_short_names.fasta
-IN_FILE=/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/ASSEMBLY/SW_28/contigs_short_names.fasta
+#python /scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/scripts/shorten_contig_names.py contigs.fasta > contigs_short_names.fasta
+IN_FILE=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/ASSEMBLY/SW_28/contigs_short_names.fasta
 
-OUT_DIR=/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/PROKKA_on_contigs
+OUT_DIR=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/PROKKA_on_contigs
 echo 'viables are loaded'
 
 date

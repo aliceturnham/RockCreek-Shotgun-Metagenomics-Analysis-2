@@ -11,7 +11,7 @@
 
 #load variables
 #choose the fastq files to work on
-ALIGNMENTS=/home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/BOWTIE/alignment
+ALIGNMENTS=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/BOWTIE/alignment
 
 ml samtools/1.10
 

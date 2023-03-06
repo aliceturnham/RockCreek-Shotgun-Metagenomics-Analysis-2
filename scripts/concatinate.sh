@@ -1,10 +1,22 @@
 #!/bin/bash
 
-#concatinate all pair-end R1 trimmed reads
-cat /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/*s1_pe > /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/all_s1_pe.fastq
+#SBATCH
+
+#SBATCH --job-name=concat_trimmed_files
+#SBATCH --time=5:00:00
+#SBATCH --nodes=1
+
+
+SEPARATED=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/Trimmed_FASTQ/assembled/SW_28/separated_trimmedfiles
+MERGED=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/Trimmed_FASTQ/assembled/SW_28/
+
+
+
+#Concatinate all pair-end R1 trimmed reads
+cat $SEPARATED/*_1.fastq > $MERGED/all_1.fastq
 
 #concatinate all pair-end R2 trimmed reads
-cat /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/*s2_pe > /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/all_s2_pe.fastq
+cat $SEPARATED/*_2.fastq > $MERGED/all_2.fastq
 
 #concatinate all single-end trimmed reads (concatinate R1 and R2 together)
-cat /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/*se > /home-4/yzhan231@jhu.edu/work/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/analysis/Trimmed_FASTQ/all_se.fastq
+cat $SEPARATED/*_s*.fastq > $MERGED/all_se.fastq

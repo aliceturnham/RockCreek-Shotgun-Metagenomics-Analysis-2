@@ -13,12 +13,12 @@ ml trimmomatic/0.39_conda
 
 
 #import run specific variables
-source /home/yzhan231/scratch4-sprehei1/yuezhang/RockCreek/yzhan231_rock_creek_shotgun_p1_analysis/yzhan231_rock_creek_shotgun_p1/PreheimLab_metagenomics_SOP/config_files/trimmer_sw.config 
+source /scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/config_files/trimmer_sw.config 
 
-for F in $LIB_DIR/2019*_1.fastq ; do
-     R=${F%_*}_2.fastq
+for F in $LIB_DIR/*_R1_001.fastq ; do
+     R=${F%_R1*}_R2${F##*_R1}
      BASE=${F##*/}
-     SAMPLE=${BASE%_*}
+     SAMPLE=${BASE%_S*}
      echo "$F"
      echo "$R"
      echo "$BASE"
