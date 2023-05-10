@@ -6,12 +6,13 @@
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem-per-cpu=12GB
 #SBATCH --partition=defq
-#SBATCH --mail-type=BEGIN,END
+#SBATCH --mail-type=END
 #SBATCH --mail-user=aturnha1@jhu.edu
 
 
+ml anaconda
+conda activate r_env
 
-ml r/4.0.2
 
 DIR=/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/BOWTIE/alignment
 

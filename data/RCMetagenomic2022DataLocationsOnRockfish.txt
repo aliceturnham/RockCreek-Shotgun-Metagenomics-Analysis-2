@@ -1,0 +1,14 @@
+raw reads:
+/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/FastQ 
+
+trimmed fastq files:
+/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/NewFileTest/Trimmed_FASTQ/assembled/SW_28/separated_trimmedfile
+
+contigs:
+/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/ASSEMBLY/SW_28/contigs.fasta
+
+
+alinged contigs:
+/scratch4/sprehei1/AliceTurnham/RockCreek-Shotgun-Metagenomics-Analysis-2-ATEdits/analysis/BOWTIE/alignment
+
+
